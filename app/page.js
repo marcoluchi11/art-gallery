@@ -1,5 +1,7 @@
+import Carusel from "@/components/Carusel";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+
 export default function Home() {
   return (
     <main className="flex-col px-24 pt-20 bg-gray-100	">
@@ -7,7 +9,7 @@ export default function Home() {
         <div>
           <Navbar />
         </div>
-        <div></div>
+        <Carusel />
       </div>
       <Footer />
     </main>
