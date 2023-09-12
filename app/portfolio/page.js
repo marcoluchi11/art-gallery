@@ -5,12 +5,12 @@ import Link from "next/link";
 
 export default function Portfolio() {
   return (
-    <main className="flex-col px-24 pt-20 bg-gray-100	">
+    <main className="flex-col md:px-24 pt-20 bg-gray-100	">
       <div id="main">
         <div>
           <Navbar />
         </div>
-        <div className="flex my-10">
+        <div className="flex flex-col items-center lg:flex-row my-10 ">
           <Image
             src="/IMG_7248.jpg"
             alt="image of landscape"

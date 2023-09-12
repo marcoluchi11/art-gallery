@@ -14,7 +14,7 @@ export default function Navbar() {
             className="rounded-full"
           />
         </Link>
-        <h1 className="text-8xl  text-center font-thin transition  duration-300 ease-in-out tracking-tight hover:tracking-wide	w-full  ">
+        <h1 className="text-6xl md:text-8xl text-center font-thin	w-full  ">
           Albion Vuart
         </h1>
       </div>

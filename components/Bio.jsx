@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Bio() {
   return (
     <article className="mt-20 w-full flex flex-col md:flex-row">
-      <div className="md:w-1/2 flex justify-center items-center">
+      <div className="md:w-1/2 flex flex-col xl:flex-row justify-center items-center">
         <Image
           className="rounded-md"
           src="/IMG_7248.jpg"
@@ -12,7 +12,7 @@ export default function Bio() {
           height={500}
         />
         <Image
-          className="rounded-md hidden md:block"
+          className="rounded-md hidden lg:block mt-5"
           src="/IMG_7249.jpg"
           alt="lookingCeiling"
           width={300}
