@@ -10,7 +10,7 @@ export default function Portfolio() {
         <div>
           <Navbar />
         </div>
-        <div>
+        <div className="flex my-10">
           <Image
             src="/IMG_7248.jpg"
             alt="image of landscape"
