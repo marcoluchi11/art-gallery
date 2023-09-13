@@ -6,7 +6,7 @@ export default function Footer() {
       <section className="mb-5 md:w-1/2 flex">
         <SocialMedia />
       </section>
-      <section className="text-center text-xs md:text-sm md:w-1/2 font-thin">
+      <section className="text-center text-xs md:text-sm md:w-1/2 font-light">
         <p>
           Copyright 2023 &copy; Albion Vuart All rights reserved - Made by Marco
           Luchi
