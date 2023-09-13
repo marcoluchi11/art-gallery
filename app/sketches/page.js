@@ -8,7 +8,7 @@ export default function Sketches() {
         <div>
           <Navbar />
         </div>
-        <article>HOLIS</article>
+        <article>Under Construction...</article>
       </div>
       <Footer />
     </main>
