@@ -15,21 +15,24 @@ export default function Navbar() {
           />
         </Link>
         <h1 className="text-6xl md:text-8xl text-center font-thin	w-full  ">
-          Albion Vuart
+          ALBION VU
         </h1>
       </div>
       <ul className="flex md:flex-row justify-around font-thin text-blue-500 mt-10">
         <Link href="/" className="tracking-tight hover:tracking-wide">
-          <li className="text-xl">Home</li>
+          <li className="text-xl">HOME</li>
+        </Link>
+        <Link href="/artwork" className="tracking-tight hover:tracking-wide">
+          <li className="text-xl">ARTWORK</li>
+        </Link>
+        <Link href="/sketches" className="tracking-tight hover:tracking-wide">
+          <li className="text-xl">SKETCHES</li>
         </Link>
         <Link href="/about" className="tracking-tight hover:tracking-wide">
-          <li className="text-xl">About</li>
-        </Link>
-        <Link href="/portfolio" className="tracking-tight hover:tracking-wide">
-          <li className="text-xl">Portfolio</li>
+          <li className="text-xl">ABOUT</li>
         </Link>
         <Link href="/contact" className="tracking-tight hover:tracking-wide">
-          <li className="text-xl">Contact</li>
+          <li className="text-xl">CONTACT</li>
         </Link>
       </ul>
     </nav>
