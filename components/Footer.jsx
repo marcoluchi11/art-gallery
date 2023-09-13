@@ -8,7 +8,7 @@ export default function Footer() {
       </section>
       <section className="text-center text-xs md:text-sm md:w-1/2 font-light">
         <p>
-          Copyright 2023 &copy; Albion Vuart All rights reserved - Made by Marco
+          Copyright 2023 &copy; Albion Vu - All rights reserved - Made by Marco
           Luchi
         </p>
       </section>
