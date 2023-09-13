@@ -23,9 +23,7 @@ export default function Contact() {
           </div>
           <div className="flex justify-center mt-5">
             <FaEnvelope className="text-3xl mx-3" />
-            <p className="underline cursor-pointer">
-              albionvuqiterna@gmail.com
-            </p>
+            <p className="underline cursor-pointer">albionvu.art@gmail.com</p>
           </div>
         </div>
       </div>
