@@ -1,50 +1,72 @@
 "use client";
-import Image from "next/image";
+import { useRef } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Carusel() {
+  const videoRef = useRef(null);
+
+  const handlePause = () => {
+    videoRef.current.pause();
+  };
   return (
     <Carousel
-      className=" my-10 rounded-md"
+      // width={1500}
+      stopOnHover={true}
+      className="my-10"
       showThumbs={false}
-      autoPlay
-      showArrows={false}
+      autoPlay={true}
+      showArrows={true}
       infiniteLoop={true}
       dynamicHeight={true}
+      useKeyboardArrows
+      onChange={handlePause}
     >
-      <div className="rounded-md">
-        <Image src="/IMG_7249.jpg" alt="asdasdasd" width={300} height={300} />
-        {/* <p className="legend">Legend 1</p> */}
+      <div className="flex justify-center items-center">
+        <video
+          disablePictureInPicture
+          width="600"
+          height="100"
+          ref={videoRef}
+          muted
+          loop
+          autoplay="true"
+          controls
+          className="rounded-md"
+        >
+          <source src="/video2.MOV" type="video/mp4" />
+        </video>
       </div>
-      <div>
-        <Image src="/IMG_7247.jpg" alt="asdasdasd" width={300} height={300} />
-        {/* <p className="legend">Legend 2</p> */}
+      <div className="flex justify-center items-center">
+        <video
+          loop
+          disablePictureInPicture
+          width="600"
+          height="100"
+          ref={videoRef}
+          muted
+          autoplay="true"
+          controls
+          className="rounded-md"
+        >
+          <source src="/video1.MOV" type="video/mp4" />
+        </video>
       </div>
-      <div>
-        <Image src="/landscape2.jpg" alt="asdasdasd" width={300} height={300} />
-        {/* <p className="legend">Legend 2</p> */}
+      <div className="flex justify-center items-center rounded-md">
+        <video
+          disablePictureInPicture
+          width="600"
+          height="100"
+          ref={videoRef}
+          muted
+          loop
+          autoplay="true"
+          controls
+          className="rounded-md"
+        >
+          <source src="/video3.MOV" type="video/mp4" />
+        </video>
       </div>
-      <div>
-        <Image
-          src="/landscape.jpg"
-          alt="asdasdasd"
-          width={300}
-          height={300}
-          className="rounded-md	"
-        />
-        {/* <p className="legend">Legend 2</p> */}
-      </div>
-      {/* <div>
-        <Image
-          src="/IMG_7248.jpg"
-          alt="asdasdasd"
-          width={200}
-          height={200}
-          className="rounded-md	"
-        />
-        
-      </div> */}
     </Carousel>
   );
 }
