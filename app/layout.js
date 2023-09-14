@@ -1,5 +1,8 @@
+import Navbar from "@/components/Navbar";
+import Navbar2 from "@/components/Navbar2";
 import "./globals.css";
 import { Roboto } from "next/font/google";
+import Footer from "@/components/Footer";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -7,14 +10,18 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Alvion Vuart",
+  title: "ALBION VU",
   description: "Albion Vuqiterna - ArtWork Portfolio",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className}>
+        <Navbar2 />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
