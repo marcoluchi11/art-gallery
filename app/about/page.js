@@ -6,13 +6,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <main className="flex-col md:px-24 pt-20 bg-gray-100	">
-      <div id="main">
-        <div>
-          <Navbar />
-        </div>
-        <Bio />
-      </div>
-      <Footer />
+      <Bio />
     </main>
   );
 }
