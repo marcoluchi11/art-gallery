@@ -5,7 +5,7 @@
 * {
   color: #000;
 }
-#main {
+main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
