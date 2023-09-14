@@ -11,21 +11,25 @@ export default function Obsesion() {
       >
         Click here to inquire about available work and pricing.
       </Link>
-      <div className="flex flex-row flex-wrap justify-center md:flex-row md:flex-wrap mt-[80px] ">
-        <Image
-          className="mr-2"
-          src="/obsession/IMG-7254.jpg"
-          alt="painting"
-          width={200}
-          height={300}
-        />
-        <Image
-          className="mr-2 mb-2"
-          src="/obsession/IMG-7255.jpg"
-          alt="painting"
-          width={200}
-          height={300}
-        />
+      <div className="flex flex-row flex-wrap justify-center md:flex-col md:items-center md:flex-wrap mt-[80px] ">
+        <Link href="/artwork/obsession/IMG-7254">
+          <Image
+            className="mb-20"
+            src="/obsession/IMG-7254.jpg"
+            alt="painting"
+            width={800}
+            height={600}
+          />
+        </Link>
+        <Link href="/artwork/obsession/IMG-7255">
+          <Image
+            className="mr-2 mb-2"
+            src="/obsession/IMG-7255.jpg"
+            alt="painting"
+            width={800}
+            height={600}
+          />
+        </Link>
         <Image
           className="mr-2 mb-2"
           src="/obsession/IMG-7256.jpg"
@@ -47,13 +51,18 @@ export default function Obsesion() {
           width={200}
           height={300}
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/obsession/IMG-7259.jpg"
-          alt="painting"
-          width={200}
-          height={300}
-        />
+        <div className="flex flex-col justify-center items-center">
+          <Image
+            className="mr-2 mb-2"
+            src="/obsession/IMG-7259.jpg"
+            alt="painting"
+            width={200}
+            height={300}
+          />
+          <p className=" text-sm font-thin mt-1 underline">
+            OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS
+          </p>
+        </div>
         <Image
           className="mr-2 mb-2"
           src="/obsession/IMG-7260.jpg"
