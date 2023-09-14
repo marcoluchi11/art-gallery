@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Bio() {
   return (
-    <article className="mt-20 w-full flex flex-col md:flex-row">
+    <article className="mt-[160px] w-full flex flex-col md:flex-row">
       <div className="md:w-1/2 flex flex-col xl:flex-row justify-center items-center">
         <Image
           className="rounded-md"
