@@ -13,15 +13,31 @@ export default function Carusel() {
     <Carousel
       // width={1500}
       stopOnHover={true}
+      showArrows={true}
+      useKeyboardArrows
+      interval={36000}
       className="my-10"
       showThumbs={false}
       autoPlay={true}
-      showArrows={true}
       infiniteLoop={true}
       dynamicHeight={true}
-      useKeyboardArrows
       onChange={handlePause}
     >
+      <div className="flex justify-center items-center">
+        <video
+          loop
+          disablePictureInPicture
+          width="600"
+          height="100"
+          ref={videoRef}
+          muted
+          autoplay="true"
+          controls
+          className="rounded-md w-[200px] md:w-full"
+        >
+          <source src="/video1.MOV" type="video/mp4" />
+        </video>
+      </div>
       <div className="flex justify-center items-center">
         <video
           disablePictureInPicture
@@ -37,21 +53,7 @@ export default function Carusel() {
           <source src="/video2.MOV" type="video/mp4" />
         </video>
       </div>
-      <div className="flex justify-center items-center">
-        <video
-          loop
-          disablePictureInPicture
-          width="600"
-          height="100"
-          ref={videoRef}
-          muted
-          autoplay="true"
-          controls
-          className="rounded-md"
-        >
-          <source src="/video1.MOV" type="video/mp4" />
-        </video>
-      </div>
+
       <div className="flex justify-center items-center rounded-md">
         <video
           disablePictureInPicture
