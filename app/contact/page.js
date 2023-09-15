@@ -1,4 +1,3 @@
-import NewsletterForm from "@/components/NewsletterForm";
 import { FaPhone, FaEnvelope } from "react-icons/fa6";
 export default function Contact() {
   return (
