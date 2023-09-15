@@ -20,7 +20,7 @@ export default function Navbar() {
     setArtWork(!artWork);
   };
   return (
-    <header className="bg-slate-100 text-[CEFF00] w-full ease-in duration-100 fixed top-0 left-0 z-10">
+    <header className="bg-slate-100 text-[CEFF00] w-full ease-in duration-100 fixed top-0 left-0 z-10 md: static">
       <nav className="max-w-[1366px] mx-auto h-[100] flex justify-between items-center p-4">
         <div className="flex flex-col items-center">
           <Link href="/" onClick={handleSmallerNav}>
@@ -47,7 +47,7 @@ export default function Navbar() {
               onClick={artWorkHandle}
               className="flex items-center uppercase mr-4 lg:mr-8  cursor-pointer"
             >
-              <li className="text-xl">artwork</li>
+              <li className="text-xl">art</li>
               <div>
                 {artWork ? (
                   <AiOutlineClose size={25} />
@@ -62,21 +62,24 @@ export default function Navbar() {
               >
                 <Link href="/artwork/obsession">
                   <li className="flex flex-col items-center mr-3 text-sm">
-                    <p>OBSESSION</p>
+                    <p>OBBSESSION</p>
                     <p>COLLECTION</p>
                   </li>
                 </Link>
-
+                <Link href="/artwork/asinjapan">
+                  <li className="flex flex-col items-center mr-3 text-sm">
+                    <p>AS IN JAPAN</p>
+                    <p>COLLECTION</p>
+                  </li>
+                </Link>
+                <Link href="/artwork/movement">
+                  <li className="flex flex-col items-center mr-3 text-sm">
+                    <p>MOVEMENT</p>
+                    <p>COLLECTION</p>
+                  </li>
+                </Link>
                 <li className="flex flex-col items-center mr-3 text-sm">
-                  <p>TRUTH</p>
-                  <p>COLLECTION</p>
-                </li>
-                <li className="flex flex-col items-center mr-3 text-sm">
-                  <p>RESILIENCE</p>
-                  <p>COLLECTION</p>
-                </li>
-                <li className="flex flex-col items-center mr-3 text-sm">
-                  <p>WORTHY</p>
+                  <p>IT&apos;S A MARK</p>
                   <p>COLLECTION</p>
                 </li>
               </div>
@@ -85,7 +88,7 @@ export default function Navbar() {
               <li className="text-xl">sketches</li>
             </Link>
             <Link href="/photography" className="uppercase mr-4 lg:mr-8 ">
-              <li className="text-xl">photography</li>
+              <li className="text-xl">daily capture</li>
             </Link>
             <Link href="/about" className="uppercase mr-4 lg:mr-8 ">
               <li className="text-xl">about</li>
@@ -117,31 +120,39 @@ export default function Navbar() {
               >
                 <Link href="/">Home</Link>
               </li>
-              <li
+              <div
                 onClick={artWorkHandle}
                 className="flex items-center py-4 ml-2  cursor-pointer"
               >
                 {/* <Link href="/artwork">Artwork</Link> */}
                 <p className=" p-0 mr-3">Artwork</p>
-                <div onClick={artWorkHandle} className="flex md:hidden">
+                <li onClick={artWorkHandle} className="flex md:hidden">
                   {artWork ? (
                     <AiOutlineClose size={25} />
                   ) : (
                     <AiFillCaretRight size={25} />
                   )}
-                </div>
+                </li>
                 {/* SMALLER SCREEN */}
                 <div
                   className={`md:hidden ${
                     artWork ? "flex flex-col" : "hidden"
                   }  absolute top-[-100px] bottom-0 left-[100px] right-0 flex justify-center items-center w-full h-screen`}
                 >
-                  <li className="my-3">Collection 1</li>
-                  <li className="my-3">Collection 2</li>
-                  <li className="my-3">Collection 3</li>
-                  <li className="my-3">Collection 4</li>
+                  <li className="text-sm sm:text-md my-3">
+                    Obbsession Collection
+                  </li>
+                  <li className="my-3 text-sm sm:text-md">
+                    Movement Collection
+                  </li>
+                  <li className="my-3 text-sm sm:text-md">
+                    As In Japan Collection
+                  </li>
+                  <li className="my-3 text-sm sm:text-md">
+                    IT&apos;S A MARK Collection
+                  </li>
                 </div>
-              </li>
+              </div>
               <li
                 onClick={handleSmallerNav}
                 className="py-4 ml-2  cursor-pointer"
@@ -152,7 +163,7 @@ export default function Navbar() {
                 onClick={handleSmallerNav}
                 className="py-4 ml-2  cursor-pointer"
               >
-                <Link href="/photography">photography</Link>
+                <Link href="/photography">Daily Capture</Link>
               </li>
               <li
                 onClick={handleSmallerNav}
