@@ -2,12 +2,12 @@
 import { ArtContext } from "@/context/context";
 import Link from "next/link";
 import { useContext } from "react";
-import ModalMain from "./ModalMain";
+
 import ImageClickHover from "./ImageClickHover";
 
 export default function Obsesion() {
   const { showModal } = useContext(ArtContext);
-  if (showModal) return <ModalMain />;
+  // if (showModal) return <ModalMain />;
   return (
     <>
       <Link
