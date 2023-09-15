@@ -2,27 +2,28 @@ import Image from "next/image";
 
 export default function Bio() {
   return (
-    <article className="mt-[160px] w-full flex flex-col md:flex-row">
-      <div className="md:w-1/2 flex flex-col justify-center items-center">
+    <article className="mt-[60px] w-full flex flex-col md:flex-row">
+      <div className="md:w-1/2 flex flex-col justify-center items-center mt-[200px] md:mt-0">
         <Image
           className="rounded-md"
           src="/IMG_7248.jpg"
           alt="portraitImage"
-          width={300}
-          height={500}
+          width={400}
+          height={600}
         />
       </div>
       <div className="md:w-1/2 text-center md:text-justify">
-        <p className="font-light border-solid border-t-2 border-gray-300 ">
-          <span className="font-bold">Albion Vu</span> is an architect, fashion
-          designer and an abstract painter sharing his life between NYC and
-          Martha&apos;s Vineyard. Born and raised in Eastern Europe. Moved to
-          the USA right after he graduated in Architecture and Design. Between
-          all this time he has practiced abstract painting and fashion design
-          and constantly creating pieces that are a mark of his artistic life.
+        <p className="font-light border-solid border-t-2 border-gray-300 text-white ">
+          <span className="font-bold text-white">Albion Vu</span> is an
+          architect, fashion designer and an abstract painter sharing his life
+          between NYC and Martha&apos;s Vineyard. Born and raised in Eastern
+          Europe. Moved to the USA right after he graduated in Architecture and
+          Design. Between all this time he has practiced abstract painting and
+          fashion design and constantly creating pieces that are a mark of his
+          artistic life.
         </p>
 
-        <p className="font-light mt-5">
+        <p className="font-light mt-5 text-white">
           Speaking of that, some of the main sources of his inspiration to make
           art but not only that followed the artist throughout{" "}
           <span className="italic">15 years</span> are COLOR, SHAPES, SILUETES,
@@ -34,7 +35,7 @@ export default function Bio() {
           walls and space with the art he makes.
         </p>
 
-        <p className="font-light mt-5  ">
+        <p className="font-light mt-5 text-white ">
           His painting is abstract, expressive, gestural with some figurative
           resurgences ready to hide or be dissolved. He is inspired by the
           humans, the silhouettes, the crowds, the look, the face, the shadow,
@@ -45,27 +46,18 @@ export default function Bio() {
           and complex. Large scale is his specialty, but he has collected
           numerous pieces on the smaller scale as well
         </p>
-        <div className="flex justify-center items-center">
-          <Image
-            className="md:hidden rounded-md flex mt-5"
-            src="/IMG_7249.jpg"
-            alt="lookingCeiling"
-            width={300}
-            height={500}
-          />
-        </div>
 
-        <p className="font-light mt-5 border-solid border-b-2 border-gray-700">
+        <p className="font-light mt-5 border-solid border-b-2 border-gray-700 text-white">
           His work is held in private collections in the US and Europe. Part of
           the galleries and beautifully curated homes all around. Currently
           sharing his life between NYC and Martha&apos;s Vineyard where he
           operates as an artist.
         </p>
-        <p className="font-light italic mt-5">
+        <p className="font-light italic mt-5 text-white">
           ARTISTS STATEMENT
           <br />
           <br />
-          <p className="font-light">
+          <p className="font-light text-white">
             Color is the essence of beauty and energy that permeates our world.
             It has the remarkable ability to evoke emotions and stir deep
             feelings within us. I have always been captivated by the interplay
@@ -78,7 +70,7 @@ export default function Bio() {
             reflection of admiration for something different. For a difference.
           </p>
         </p>
-        <p className="font-light mt-5">
+        <p className="font-light mt-5 text-white">
           Some of my paintings emerge from spontaneous impulses, where my inner
           emotions take control and guide my paintbrush. They become raw
           expressions of my inner self. Other artworks are journeys of
@@ -88,7 +80,7 @@ export default function Bio() {
           fleeting moments and freeze them in time on the canvas, inviting
           others to share in the experience.
         </p>
-        <p className="font-light mt-5 mb-5">
+        <p className="font-light mt-5 mb-5 text-white">
           Painting allows me to communicate beyond words, to communicate in the
           language of colors, shapes, and emotions. It is a profound and
           intimate means of expression, enabling me to convey the depth of my
@@ -98,7 +90,7 @@ export default function Bio() {
           <br />
           <br />
           <br />
-          <span className="font-light ">
+          <span className="font-light text-white ">
             “It takes me to start painting so I can stop everything around me
             move.”
           </span>
