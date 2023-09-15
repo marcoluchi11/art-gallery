@@ -20,7 +20,7 @@ export default function ImageClickHover({
     <div className="relative cursor-pointer">
       <Image
         quality={100}
-        onClick={() => handleClick()}
+        // onClick={() => handleClick()}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         className={`mb-[200px] ${margin ? "mr-3" : ""} ${
