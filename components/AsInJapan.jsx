@@ -1,223 +1,130 @@
 import Image from "next/image";
 import Link from "next/link";
+import ImageClickHover from "./ImageClickHover";
 
 export default function AsInJapan() {
   return (
     <>
       <Link
-        href="mailto:albionvu.art@gmail.com"
+        href="mailto:albionvu.art@gmail.com?subject=Inquiry%20About%20Pricing&body=Hello%20there%2C%0A%0AI%20am%20interested%20in%20inquiring%20about%20the%20pricing%20of%20a%20specific%20piece%20and%20would%20like%20to%20receive%20a%20full%20catalogue.%0A%0AThank%20you.%0A%0A"
         target="_blank"
-        className="flex justify-center items-center mt-[150px] underline ml-auto mr-auto"
+        className=" flex justify-center items-center mt-[150px] uppercase font-light  "
       >
         Click here to inquire about available work and pricing.
       </Link>
       <div className="flex flex-row flex-wrap justify-center md:flex-row md:flex-wrap mt-[80px] ">
-        <Link href="/artwork/asinjapan/124824">
-          <Image
-            className="mr-2"
-            src="/asinjapan/124824.png"
-            alt="painting"
-            width={200}
-            height={300}
-          />
-        </Link>
-        <Link href="/artwork/asinjapan/124900">
-          <Image
-            className="mr-2 mb-2"
-            src="/asinjapan/124900.png"
-            alt="painting"
-            width={200}
-            height={300}
-          />
-        </Link>
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/124935.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
+          source="/asinjapan/124824.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/124959.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
+          source="/asinjapan/124900.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/125058.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
+          source="/asinjapan/124935.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/125252.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
+          source="/asinjapan/124959.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/125322.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
+          source="/asinjapan/125058.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/130140.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
+          source="/asinjapan/125252.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/130219.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
+          source="/asinjapan/125322.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/130426.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*93 D\ 19x24’ Abstract Art over acrylics"
+          source="/asinjapan/130140.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/130512.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*93 D\ 19x24’ Abstract Art over acrylics"
+          source="/asinjapan/130219.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/130624.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*93 D\ 19x24’ Abstract Art over acrylics"
+          source="/asinjapan/130426.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/130748.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*93 D\ 19x24’ Abstract Art over acrylics"
+          source="/asinjapan/130512.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/130832.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/130624.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/130857.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/130748.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/130924.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*93 D\ 19x24’ Abstract Art over acrylics"
+          source="/asinjapan/130832.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/131038.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/130857.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/131217.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/130924.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/131253.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*93 D\ 60x55’ Large Abstract Art over acrylics"
+          source="/asinjapan/131038.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/131328.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/131217.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/131416.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/131253.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/IMG-7286.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/131328.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/IMG-7287.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/131416.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/IMG-7288.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/IMG-7286.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/IMG-7288.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*93 D\ 19x24’ Abstract Art over acrylics"
+          source="/asinjapan/IMG-7287.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/IMG-7291.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/IMG-7288.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/IMG-7294.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          // missing
+          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          source="/asinjapan/IMG-7291.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/IMG-7295.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/IMG-7294.png"
         />
-        <Image
-          className="mr-2 mb-2"
-          src="/asinjapan/IMG-7298.png"
-          alt="painting"
-          width={200}
-          height={300}
+        <ImageClickHover
+          text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
+          source="/asinjapan/IMG-7295.png"
+        />
+        <ImageClickHover
+          text="Composition 20*93 D\ 19x24’ Abstract Art over acrylics"
+          source="/asinjapan/IMG-7298.png"
         />
       </div>
     </>
