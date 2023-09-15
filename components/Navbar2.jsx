@@ -98,7 +98,7 @@ export default function Navbar() {
               <li className="text-xl text-white">sketches</li>
             </Link>
             <Link
-              href="/photography"
+              href="/dailycapture"
               className="uppercase mr-4 lg:mr-8  text-white"
             >
               <li className="text-xl text-white">daily capture</li>
@@ -179,7 +179,7 @@ export default function Navbar() {
                 onClick={handleSmallerNav}
                 className="py-4 ml-2  cursor-pointer"
               >
-                <Link href="/photography">Daily Capture</Link>
+                <Link href="/dailycapture">Daily Capture</Link>
               </li>
               <li
                 onClick={handleSmallerNav}
