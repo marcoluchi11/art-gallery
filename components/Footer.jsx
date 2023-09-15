@@ -7,7 +7,7 @@ export default function Footer() {
         <SocialMedia />
       </section>
       <section className="text-center text-xs md:text-sm md:w-1/2 font-light">
-        <p>
+        <p className="text-white">
           Copyright 2023 &copy; Albion Vu - All rights reserved - Made by Marco
           Luchi
         </p>
