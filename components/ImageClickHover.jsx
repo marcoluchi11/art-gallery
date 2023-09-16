@@ -33,7 +33,7 @@ export default function ImageClickHover({
         width={sizeW || 700}
         height={sizeH || 500}
       />
-      <p className="flex md:hidden font-light uppercase text-black mb-[200px] justify-center">
+      <p className="flex md:hidden font-light uppercase text-black mb-[200px] justify-center text-center">
         {text}
       </p>
       {hovered && (
