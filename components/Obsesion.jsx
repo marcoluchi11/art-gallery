@@ -53,10 +53,6 @@ export default function Obsesion() {
         />
         <ImageClickHover
           text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
-          source="/obsession/IMG-7261.jpg"
-        />
-        <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7263.jpg"
         />
         <ImageClickHover
