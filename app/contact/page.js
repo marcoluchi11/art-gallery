@@ -1,4 +1,5 @@
-import { FaPhone, FaEnvelope } from "react-icons/fa6";
+import Link from "next/link";
+import { FaPhone, FaEnvelope, FaInstagram } from "react-icons/fa6";
 export default function Contact() {
   return (
     <main className="flex-col md:px-24 pt-20 mt-20 md:pt-0 md:mt-0 ">
@@ -20,6 +21,34 @@ export default function Contact() {
           <FaEnvelope className="text-3xl mx-3" color="white" fill="white" />
           <p className="underline cursor-pointer text-white">
             albionvu.art@gmail.com
+          </p>
+        </div>
+        <div className="flex justify-center mt-5 text-white">
+          <Link
+            href="https://www.instagram.com/vualbion/"
+            target="_blank"
+            className="flex justify-center underline"
+          >
+            <FaInstagram
+              className="text-2xl text-white mx-3"
+              color="white"
+              fill="white"
+            />
+            vualbion
+          </Link>
+        </div>
+        <div className="flex justify-center mt-5">
+          <p className="text-white">
+            MEMBER AT THE CREATIVES REBUILD NEW YORK AND A GRANT WINNER TOP 100
+            ARTIST OF THE YEAR
+            <br />
+            MEMBER AT:
+            <br />
+            SAATCHI ART
+            <br />
+            FINEARTAMERICA
+            <br />
+            SOCIETY6
           </p>
         </div>
       </div>
