@@ -127,7 +127,7 @@ export default function Navbar() {
           className={
             menuIcon
               ? "md:hidden absolute top-[100px] bottom-0 left-0 right-0 flex justify-center items-center w-full h-screen bg-slate-200 text-white ease-in duration-300"
-              : "md:hidden absolute top-[100px] bottom-0 left-[-100%] right-0 flex justify-center items-center w-full h-screen bg-slate-200 text-white text-center ease-in duration-300"
+              : "md:hidden absolute top-[100px] bottom-0 left-[-100%] right-0 flex justify-center items-center w-1/2 h-screen bg-slate-200 text-white text-center ease-in duration-300"
           }
         >
           <div className="w-full">
@@ -140,7 +140,7 @@ export default function Navbar() {
               </li>
               <div
                 onClick={artWorkHandle}
-                className="flex items-center py-4 ml-2  cursor-pointer"
+                className="flex items-center py-4 ml-2 w-1/2  cursor-pointer"
               >
                 {/* <Link href="/artwork">Artwork</Link> */}
                 <p className=" p-0 mr-3">Artwork</p>
@@ -157,23 +157,23 @@ export default function Navbar() {
                     artWork ? "flex flex-col" : "hidden"
                   }  absolute top-[-100px] bottom-0 left-[100px] right-0 flex justify-center items-center w-full h-screen`}
                 >
-                  <Link href="/artwork/obsession">
+                  <Link href="/artwork/obsession" onClick={handleSmallerNav}>
                     <li className="text-sm sm:text-md my-3">
                       Obbsession Collection
                     </li>
                   </Link>
-                  <Link href="/artwork/movement">
+                  <Link href="/artwork/movement" onClick={handleSmallerNav}>
                     <li className="my-3 text-sm sm:text-md">
                       Movement Collection
                     </li>
                   </Link>
 
-                  <Link href="/artwork/asinjapan">
+                  <Link href="/artwork/asinjapan" onClick={handleSmallerNav}>
                     <li className="my-3 text-sm sm:text-md">
                       As In Japan Collection
                     </li>
                   </Link>
-                  <Link href="/artwork/mini">
+                  <Link href="/artwork/mini" onClick={handleSmallerNav}>
                     <li className="my-3 text-sm sm:text-md">Mini Collection</li>
                   </Link>
                 </div>
