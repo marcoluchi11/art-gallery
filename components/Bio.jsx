@@ -31,7 +31,7 @@ export default function Bio() {
           follow you through the entire observation of his art pieces. Albion is
           an artist who his professional creative career has taken him from
           fashion design to abstract painting to sketching to interior design
-          and molding all these together on a piece of canvas or paper curation
+          and molding all these together on a piece of canvas or paper curating
           walls and space with the art he makes.
         </p>
 
