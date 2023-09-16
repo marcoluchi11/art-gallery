@@ -91,6 +91,12 @@ export default function Navbar() {
                     <p className="text-black">COLLECTION</p>
                   </li>
                 </Link>
+                <Link href="/artwork/itsamark">
+                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                    <p className="text-black">IT&apos;S A MARK</p>
+                    <p className="text-black">COLLECTION</p>
+                  </li>
+                </Link>
               </div>
             </div>
             <Link
@@ -175,6 +181,11 @@ export default function Navbar() {
                   </Link>
                   <Link href="/artwork/mini" onClick={handleSmallerNav}>
                     <li className="my-3 text-sm sm:text-md">Mini Collection</li>
+                  </Link>
+                  <Link href="/artwork/itsamark" onClick={handleSmallerNav}>
+                    <li className="my-3 text-sm sm:text-md">
+                      It&apos;s a mark Collection
+                    </li>
                   </Link>
                 </div>
               </div>
