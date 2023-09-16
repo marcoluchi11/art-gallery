@@ -33,6 +33,9 @@ export default function Home() {
             <br />
             SOCIETY6
           </p>
+          <p className="font-bold uppercase text-3xl text-white mx-10 leading-10">
+            THIS WEBSITE IS STILL UNDER CURATION
+          </p>
         </div>
       </div>
       <div className="flex my-4 justify-center">
