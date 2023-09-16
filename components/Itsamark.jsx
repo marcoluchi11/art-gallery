@@ -16,38 +16,31 @@ export default function Itsamark() {
         }  `}
       >
         <ImageClickHover
-          text="ATHENES 11x15
-Acrylics on paper"
+          text="It’s a mark- 19x24 Acrylic on paper with gold"
           source="/itsamark/144241.jpg"
         />
         <ImageClickHover
-          text="ATHENES 11x15
-Acrylics on paper"
+          text="It’s a mark- 19x24 Acrylic on paper with gold"
           source="/itsamark/144321.jpg"
         />
         <ImageClickHover
-          text="ATHENES 11x15
-Acrylics on paper"
+          text="It’s a mark- 19x24 Acrylic on paper with gold"
           source="/itsamark/144419.jpg"
         />
         <ImageClickHover
-          text="ATHENES 11x15
-Acrylics on paper"
+          text="It’s a mark- 19x24 Acrylic on paper with gold"
           source="/itsamark/144450.jpg"
         />
         <ImageClickHover
-          text="ATHENES 11x15
-Acrylics on paper"
+          text="AIt’s a mark- 19x24 Acrylic on paper with gold"
           source="/itsamark/144518.jpg"
         />
         <ImageClickHover
-          text="ATHENES 11x15
-Acrylics on paper"
+          text="It’s a mark- 19x24 Acrylic on paper with gold"
           source="/itsamark/144601.jpg"
         />
         <ImageClickHover
-          text="ATHENES 11x15
-Acrylics on paper"
+          text="It’s a mark- 19x24 Acrylic on paper with gold"
           source="/itsamark/144633.jpg"
         />
         <ImageClickHover
