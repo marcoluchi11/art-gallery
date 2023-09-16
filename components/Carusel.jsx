@@ -48,7 +48,7 @@ export default function Carusel() {
           loop
           autoplay="true"
           controls
-          className="rounded-md"
+          className="rounded-md w-[200px] md:w-full"
         >
           <source src="/video2.MOV" type="video/mp4" />
         </video>
@@ -64,7 +64,7 @@ export default function Carusel() {
           loop
           autoplay="true"
           controls
-          className="rounded-md"
+          className="rounded-md w-[200px] md:w-full"
         >
           <source src="/video3.MOV" type="video/mp4" />
         </video>
