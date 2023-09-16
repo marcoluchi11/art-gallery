@@ -21,19 +21,23 @@ Acrylics on paper"
           source="/mini/141039.jpg"
         />
         <ImageClickHover
-          text="Composition 20*93 D\ 55x50’ Large Abstract Art over acrylics"
+          text="ATHENES 11x15
+Acrylics on paper"
           source="/mini/141124.jpg"
         />
         <ImageClickHover
-          text="Composition 20*93 D\ 52x52’ Large Abstract Art over acrylics"
+          text="ATHENES 11x15
+Acrylics on paper"
           source="/mini/141159.jpg"
         />
         <ImageClickHover
-          text="Composition 20*93 D\ 56x53’ Large Abstract Art over acrylics"
+          text="ATHENES 11x15
+Acrylics on paper"
           source="/mini/141231.jpg"
         />
         <ImageClickHover
-          text="Composition 20*93 D\ 55x53’ Large Abstract Art over acrylics"
+          text="ATHENES 11x15
+Acrylics on paper"
           source="/mini/141256.jpg"
         />
         <ImageClickHover
