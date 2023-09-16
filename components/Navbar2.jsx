@@ -65,30 +65,32 @@ export default function Navbar() {
               <div
                 className={`${
                   artWork ? "flex" : "hidden"
-                } absolute top-[-250px] left-[100px] right-0 bottom-0 flex justify-center items-center w-full h-screen`}
+                } absolute top-[-145px] left-[80px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
               >
                 <Link href="/artwork/obsession">
-                  <li className="flex flex-col items-center mr-3 text-sm text-white">
-                    <p className="text-white">OBBSESSION</p>
-                    <p className="text-white">COLLECTION</p>
+                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                    <p className="text-black">OBBSESSION</p>
+                    <p className="text-black">COLLECTION</p>
                   </li>
                 </Link>
                 <Link href="/artwork/asinjapan">
-                  <li className="flex flex-col items-center mr-3 text-sm text-white">
-                    <p className="text-white">AS IN JAPAN</p>
-                    <p className="text-white">COLLECTION</p>
+                  <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
+                    <p className="text-black">AS IN JAPAN</p>
+                    <p className="text-black">COLLECTION</p>
                   </li>
                 </Link>
                 <Link href="/artwork/movement">
-                  <li className="flex flex-col items-center mr-3 text-sm text-white">
-                    <p className="text-white">MOVEMENT</p>
-                    <p className="text-white">COLLECTION</p>
+                  <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
+                    <p className="text-black">MOVEMENT</p>
+                    <p className="text-black">COLLECTION</p>
                   </li>
                 </Link>
-                <li className="flex flex-col items-center mr-3 text-sm text-white">
-                  <p className="text-white">IT&apos;S A MARK</p>
-                  <p className="text-white">COLLECTION</p>
-                </li>
+                <Link href="/artwork/mini">
+                  <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
+                    <p className="text-black">MINI</p>
+                    <p className="text-black">COLLECTION</p>
+                  </li>
+                </Link>
               </div>
             </div>
             <Link
@@ -155,18 +157,25 @@ export default function Navbar() {
                     artWork ? "flex flex-col" : "hidden"
                   }  absolute top-[-100px] bottom-0 left-[100px] right-0 flex justify-center items-center w-full h-screen`}
                 >
-                  <li className="text-sm sm:text-md my-3">
-                    Obbsession Collection
-                  </li>
-                  <li className="my-3 text-sm sm:text-md">
-                    Movement Collection
-                  </li>
-                  <li className="my-3 text-sm sm:text-md">
-                    As In Japan Collection
-                  </li>
-                  <li className="my-3 text-sm sm:text-md">
-                    IT&apos;S A MARK Collection
-                  </li>
+                  <Link href="/artwork/obsession">
+                    <li className="text-sm sm:text-md my-3">
+                      Obbsession Collection
+                    </li>
+                  </Link>
+                  <Link href="/artwork/movement">
+                    <li className="my-3 text-sm sm:text-md">
+                      Movement Collection
+                    </li>
+                  </Link>
+
+                  <Link href="/artwork/asinjapan">
+                    <li className="my-3 text-sm sm:text-md">
+                      As In Japan Collection
+                    </li>
+                  </Link>
+                  <Link href="/artwork/mini">
+                    <li className="my-3 text-sm sm:text-md">Mini Collection</li>
+                  </Link>
                 </div>
               </div>
               <li
