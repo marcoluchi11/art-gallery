@@ -65,7 +65,7 @@ export default function Navbar() {
               <div
                 className={`${
                   artWork ? "flex" : "hidden"
-                } absolute top-[-145px] left-[80px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
+                } absolute top-[-115px] left-[100px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
               >
                 <Link href="/artwork/obsession">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
