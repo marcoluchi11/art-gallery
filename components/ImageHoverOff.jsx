@@ -1,10 +1,8 @@
 "use client";
 import Image from "next/image";
-import { useContext, useState } from "react";
-import { ArtContext } from "@/context/context";
+import { useState } from "react";
 
 export default function ImageHoverOff({ source, sizeW, sizeH, margin }) {
-  const { setShowModal, showModal } = useContext(ArtContext);
   const [hovered, setHovered] = useState(false);
   // const handleClick = () => {
   //   setShowModal(!showModal);
@@ -13,7 +11,6 @@ export default function ImageHoverOff({ source, sizeW, sizeH, margin }) {
     <div className="relative cursor-pointer flex flex-col  mx-auto md:mr-20">
       <Image
         quality={100}
-        // onClick={() => handleClick()}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         className={`mb-[200px] ${margin ? "mr-3" : ""} ${
