@@ -3,18 +3,12 @@ import Image from "next/image";
 import { useContext, useState } from "react";
 import { ArtContext } from "@/context/context";
 
-export default function ImageHoverOff({
-  text = "",
-  source,
-  sizeW,
-  sizeH,
-  margin,
-}) {
+export default function ImageHoverOff({ source, sizeW, sizeH, margin }) {
   const { setShowModal, showModal } = useContext(ArtContext);
   const [hovered, setHovered] = useState(false);
-  const handleClick = () => {
-    setShowModal(!showModal);
-  };
+  // const handleClick = () => {
+  //   setShowModal(!showModal);
+  // };
   return (
     <div className="relative cursor-pointer flex flex-col  mx-auto md:mr-20">
       <Image
@@ -29,7 +23,7 @@ export default function ImageHoverOff({
         } `}
         src={source}
         alt="painting"
-        width={sizeW || 700}
+        width={sizeW || 500}
         height={sizeH || 500}
       />
     </div>
