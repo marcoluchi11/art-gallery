@@ -1,4 +1,5 @@
 import Image from "next/image";
+// import NewsletterForm from "./NewsletterForm";
 
 export default function Bio() {
   return (
@@ -25,14 +26,14 @@ export default function Bio() {
 
         <p className="font-light mt-5 text-white">
           Speaking of that, some of the main sources of his inspiration to make
-          art but not only that followed the artist throughout{" "}
-          <span className="italic">15 years</span> are COLOR, SHAPES, SILUETES,
-          STRUCTURE, TEXTURE, DEPTH, CAOS, SIMPLICITY. A journey that will
-          follow you through the entire observation of his art pieces. Albion is
-          an artist who his professional creative career has taken him from
-          fashion design to abstract painting to sketching to interior design
-          and molding all these together on a piece of canvas or paper curating
-          walls and space with the art he makes.
+          art but not only that followed the artist since he started to paint
+          from 2013 are COLOR, SHAPES, SILUETES, STRUCTURE, TEXTURE, DEPTH,
+          CAOS, SIMPLICITY. A journey that will follow you through the entire
+          observation of his art pieces. Albion is an artist who his
+          professional creative career has taken him from fashion design to
+          abstract painting to sketching to interior design and molding all
+          these together on a piece of canvas or paper curating walls and space
+          with the art he makes.
         </p>
 
         <p className="font-light mt-5 text-white ">
