@@ -1,242 +1,244 @@
-import Link from "next/link";
 import ImageHoverOff from "./ImageHoverOff";
+import InquirePrints from "./InquirePrints";
 
 export default function DailyCapture() {
   return (
     <>
-      <Link
-        href="mailto:albionvu.art@gmail.com?subject=Inquiry%20About%20Pricing&body=Hello%20there%2C%0A%0AI%20am%20interested%20in%20inquiring%20about%20the%20pricing%20of%20a%20specific%20piece%20and%20would%20like%20to%20receive%20a%20full%20catalogue.%0A%0AThank%20you.%0A%0A"
-        target="-blank"
-        className=" flex justify-center items-center mt-[350px] uppercase font-light  "
-      >
-        Click here to inquire about available work and pricing.
-      </Link>
+      <InquirePrints />
       <div
         className={`flex flex-col md:flex-row flex-wrap justify-center items-center  mt-[80px] 
         }  `}
       >
-        <ImageHoverOff source="/dailycapture/1.jpeg" sizeH={450} sizeW={350} />
-        <ImageHoverOff source="/dailycapture/2.jpeg" sizeH={350} sizeW={250} />
+        <ImageHoverOff
+          source="/dailycapture/1.jpeg"
+          sizeH={500}
+          sizeW={550}
+          className="mx-auto"
+        />
+        <ImageHoverOff source="/dailycapture/2.jpeg" sizeW={450} />
         {/* <ImageHoverOff
           source="/dailycapture/IMG-0988.jpg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         /> */}
         <ImageHoverOff
           source="/dailycapture/IMG-2845.jpg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
-        <ImageHoverOff source="/dailycapture/3.jpg" sizeH={350} sizeW={250} />
+        <ImageHoverOff source="/dailycapture/3.jpg" sizeH={450} sizeW={450} />
         <ImageHoverOff
           source="/dailycapture/IMG-7591.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-0102.jpg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-0106.jpg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
 
         <ImageHoverOff
           source="/dailycapture/IMG-0401.jpg"
           sizeH={450}
-          sizeW={350}
+          sizeW={450}
         />
 
         <ImageHoverOff
           source="/dailycapture/IMG-0037.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1424.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1433.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1434.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1437.jpg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1457.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1458.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1459.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1460.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1461.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1462.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1463.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1464.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1465.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1466.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1475.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1476.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1461.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1477.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1478.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1479.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-1480.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
 
         <ImageHoverOff
           source="/dailycapture/IMG-1838.jpg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
 
         <ImageHoverOff
           source="/dailycapture/IMG-3048.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
 
         <ImageHoverOff
           source="/dailycapture/IMG-3050.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-3051.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-3052.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
 
         <ImageHoverOff
           source="/dailycapture/IMG-4874.jpg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
 
         <ImageHoverOff
           source="/dailycapture/IMG-5649.jpg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-6086.jpg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
 
         <ImageHoverOff
           source="/dailycapture/IMG-7530.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-7531.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
 
         <ImageHoverOff
           source="/dailycapture/IMG-7598.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-7600.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-7624.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
         <ImageHoverOff
           source="/dailycapture/IMG-9944.jpeg"
-          sizeH={350}
-          sizeW={250}
+          sizeH={450}
+          sizeW={450}
         />
+        <h1 className="uppercase text-center text-3xl my-3">
+          prints available
+        </h1>
       </div>
     </>
   );
