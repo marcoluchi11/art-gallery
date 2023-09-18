@@ -65,7 +65,7 @@ export default function Navbar() {
               <div
                 className={`${
                   artWork ? "flex" : "hidden"
-                } absolute top-[-115px] left-[100px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
+                } absolute top-[-100px] left-[30px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
               >
                 <Link href="/artwork/obsession">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
@@ -114,6 +114,9 @@ export default function Navbar() {
             <Link href="/about" className="uppercase mr-4 lg:mr-8  text-white">
               <li className="text-xl text-white">about</li>
             </Link>
+            <Link href="/press" className="uppercase mr-4 lg:mr-8  text-white">
+              <li className="text-xl text-white">press</li>
+            </Link>
             <Link
               href="/contact"
               className=" uppercase mr-4 lg:mr-8 text-white "
@@ -148,8 +151,7 @@ export default function Navbar() {
                 onClick={artWorkHandle}
                 className="flex items-center py-4 ml-2 w-1/2  cursor-pointer"
               >
-                {/* <Link href="/artwork">Artwork</Link> */}
-                <p className=" p-0 mr-3">Artwork</p>
+                <p className=" p-0 mr-3">Art</p>
                 <li onClick={artWorkHandle} className="flex md:hidden">
                   {artWork ? (
                     <AiOutlineClose size={25} />
@@ -189,12 +191,7 @@ export default function Navbar() {
                   </Link>
                 </div>
               </div>
-              <li
-                onClick={handleSmallerNav}
-                className="py-4 ml-2  cursor-pointer"
-              >
-                <Link href="/about">About</Link>
-              </li>
+
               <li
                 onClick={handleSmallerNav}
                 className="py-4 ml-2  cursor-pointer"
@@ -206,6 +203,18 @@ export default function Navbar() {
                 className="py-4 ml-2  cursor-pointer"
               >
                 <Link href="/sketches">sketches</Link>
+              </li>
+              <li
+                onClick={handleSmallerNav}
+                className="py-4 ml-2  cursor-pointer"
+              >
+                <Link href="/about">About</Link>
+              </li>
+              <li
+                onClick={handleSmallerNav}
+                className="py-4 ml-2  cursor-pointer"
+              >
+                <Link href="/press">Press</Link>
               </li>
               <li
                 onClick={handleSmallerNav}
