@@ -32,7 +32,6 @@ export default function Carusel() {
           ref={videoRef}
           muted
           autoplay="true"
-          controls
           className="rounded-md w-[200px] md:w-full"
         >
           <source src="/video1.MOV" type="video/mp4" />
@@ -47,7 +46,6 @@ export default function Carusel() {
           muted
           loop
           autoplay="true"
-          controls
           className="rounded-md w-[200px] md:w-full"
         >
           <source src="/video2.MOV" type="video/mp4" />
@@ -63,7 +61,6 @@ export default function Carusel() {
           muted
           loop
           autoplay="true"
-          controls
           className="rounded-md w-[200px] md:w-full"
         >
           <source src="/video3.MOV" type="video/mp4" />
