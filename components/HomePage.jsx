@@ -9,9 +9,6 @@ export default function Homepage() {
           <Carusel />
         </div>
         <div className="flex flex-col justify-center">
-          <h1 className="uppercase text-white text-center text-3xl my-3">
-            prints available
-          </h1>
           <p className="text-xl text-white font-light mx-10 leading-10 mt-10">
             Color is the essence of beauty and energy that permeates our world.
             It has the remarkable ability to evoke emotions and stir deep
@@ -39,6 +36,9 @@ export default function Homepage() {
           <p className="font-bold uppercase text-3xl text-white mx-10 leading-10">
             THIS WEBSITE IS STILL UNDER CURATION
           </p>
+          <h1 className="uppercase text-white text-3xl my-3 mx-10">
+            prints available
+          </h1>
         </div>
       </div>
       <div className="flex my-4 justify-center">
