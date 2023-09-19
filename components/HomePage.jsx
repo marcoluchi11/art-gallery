@@ -6,7 +6,12 @@ export default function Homepage() {
     <>
       <div className="flex flex-col md:flex-row">
         <div className="md:flex">
-          <Carusel />
+          <div className="hidden md:flex">
+            <Carusel arrows={true} />
+          </div>
+          <div className="flex md:hidden">
+            <Carusel arrows={false} />
+          </div>
         </div>
         <div className="flex flex-col justify-center">
           <p className="text-xl text-white font-light mx-10 leading-10 mt-10">
@@ -36,17 +41,25 @@ export default function Homepage() {
           <p className="font-bold uppercase text-3xl text-white mx-10 leading-10">
             THIS WEBSITE IS STILL UNDER CURATION
           </p>
-          <h1 className="uppercase text-white text-3xl my-3 mx-10">
+          <h1 className="uppercase text-white text-center md:text-justify text-3xl my-3 mx-10">
             prints available
           </h1>
         </div>
       </div>
       <div className="flex my-4 justify-center">
         <Image
+          className="hidden md:flex"
           src="/posterexhibiton.jpeg"
           alt="poster exhibition"
           width={600}
           height={800}
+        />
+        <Image
+          className="flex md:hidden"
+          src="/posterexhibiton.jpeg"
+          alt="poster exhibition"
+          width={300}
+          height={500}
         />
       </div>
       <h1 className="uppercase text-center text-white text-3xl my-3">
