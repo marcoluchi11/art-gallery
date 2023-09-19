@@ -2,7 +2,7 @@
 import { ArtContext } from "@/context/context";
 import Image from "next/image";
 import Link from "next/link";
-import { useContext, useState, useEffect } from "react";
+import { useContext, useState } from "react";
 import {
   AiOutlineClose,
   AiOutlineMenu,
@@ -13,18 +13,23 @@ export default function Navbar() {
   const { showModal } = useContext(ArtContext);
   const [menuIcon, setIcon] = useState(false);
   const [artWork, setArtWork] = useState(false);
+  const [dailyCapture, setDailyCapture] = useState(false);
   const handleSmallerNav = () => {
     setIcon(!menuIcon);
   };
   const artWorkHandle = () => {
+    if (dailyCapture) setDailyCapture(false);
     setArtWork(!artWork);
   };
-
+  const dailyCaptureHandle = () => {
+    if (artWork) setArtWork(false);
+    setDailyCapture(!dailyCapture);
+  };
   return (
     <header
       className={` text-[CEFF00] w-full ease-in duration-100 ${
         showModal ? "static" : "fixed"
-      } top-0 left-0 z-10 md:static bg-black md:bg-transparent`}
+      } top-0 left-0 z-10 md:static bg-black lg:bg-transparent`}
     >
       <nav
         className={`max-w-[1366px] mx-auto h-[100] flex justify-between items-center p-4`}
@@ -44,7 +49,7 @@ export default function Navbar() {
           </h1>
         </div>
         <div>
-          <ul className="hidden md:flex uppercase font-light text-1xl lg: text-[20px] text-slate-800">
+          <ul className="hidden lg:flex uppercase font-light text-1xl lg:text-[20px] text-slate-800">
             <Link href="/" className="uppercase mr-4 lg:mr-8 ">
               <li className="text-xl text-white">home</li>
             </Link>
@@ -52,7 +57,7 @@ export default function Navbar() {
               // href="/artwork"
               // BIG SCREEN
               onClick={artWorkHandle}
-              className="flex items-center uppercase mr-4 lg:mr-8  cursor-pointer"
+              className="flex items-center uppercase mr-4 lg:mr-8  cursor-pointer z-50 relative"
             >
               <li className="text-xl text-white">art</li>
               <div>
@@ -65,7 +70,7 @@ export default function Navbar() {
               <div
                 className={`${
                   artWork ? "flex" : "hidden"
-                } absolute top-[-100px] left-[30px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
+                } absolute top-[-75px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
               >
                 <Link href="/artwork/obsession">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
@@ -97,6 +102,18 @@ export default function Navbar() {
                     <p className="text-black">COLLECTION</p>
                   </li>
                 </Link>
+                <Link href="/artwork/itsatouch">
+                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                    <p className="text-black">IT&apos;S A TOUCH</p>
+                    <p className="text-black">COLLECTION</p>
+                  </li>
+                </Link>
+                <Link href="/artwork/walkingline">
+                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                    <p className="text-black">WALKING THROUGH THE LINE</p>
+                    <p className="text-black">COLLECTION</p>
+                  </li>
+                </Link>
               </div>
             </div>
             <Link
@@ -105,12 +122,53 @@ export default function Navbar() {
             >
               <li className="text-xl text-white">sketches</li>
             </Link>
-            <Link
-              href="/dailycapture"
-              className="uppercase mr-4 lg:mr-8  text-white"
+            <li
+              className="uppercase mr-4 lg:mr-8 flex flex-row  text-white relative cursor-pointer "
+              onClick={dailyCaptureHandle}
             >
               <li className="text-xl text-white">daily capture</li>
-            </Link>
+
+              <div>
+                {dailyCapture ? (
+                  <AiOutlineClose size={25} color="white" fill="white" />
+                ) : (
+                  <AiFillCaretDown size={25} color="white" fill="white" />
+                )}
+              </div>
+              <div
+                className={`${
+                  dailyCapture ? "flex" : "hidden"
+                } absolute top-[-220px] left-[60px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
+              >
+                <Link href="/dailycapture/beach" className="w-20">
+                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md uppercase">
+                    <p className="text-black">Beach</p>
+                    <p className="text-black">Days</p>
+                  </li>
+                </Link>
+                <Link href="/dailycapture/building" className="w-20">
+                  <li
+                    className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase"
+                    w-50
+                  >
+                    <p className="text-black">Daily</p>
+                    <p className="text-black">Walk</p>
+                  </li>
+                </Link>
+                <Link href="/dailycapture/b&w" className="w-20">
+                  <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
+                    <p className="text-black">b&w</p>
+                    <p className="text-black">Capture</p>
+                  </li>
+                </Link>
+                <Link href="/dailycapture/mountain" className="w-20">
+                  <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
+                    <p className="text-black">Mountain</p>
+                    <p className="text-black">Pics</p>
+                  </li>
+                </Link>
+              </div>
+            </li>
             <Link href="/about" className="uppercase mr-4 lg:mr-8  text-white">
               <li className="text-xl text-white">about</li>
             </Link>
@@ -125,7 +183,8 @@ export default function Navbar() {
             </Link>
           </ul>
         </div>
-        <div onClick={handleSmallerNav} className="flex md:hidden">
+        {/* ACA CAMBIE LO DEL MENU */}
+        <div onClick={handleSmallerNav} className="flex lg:hidden">
           {menuIcon ? (
             <AiOutlineClose size={25} color="white" fill="white" />
           ) : (
@@ -135,8 +194,8 @@ export default function Navbar() {
         <div
           className={
             menuIcon
-              ? "md:hidden absolute top-[100px] bottom-0 left-0 right-0 flex justify-center items-center w-full h-screen bg-slate-200 text-white ease-in duration-300"
-              : "md:hidden absolute top-[100px] bottom-0 left-[-100%] right-0 flex justify-center items-center w-1/2 h-screen bg-slate-200 text-white text-center ease-in duration-300"
+              ? "lg:hidden absolute top-[100px] bottom-0 left-0 right-0 flex justify-center items-center w-full h-screen bg-slate-200 text-white ease-in duration-300 z-10"
+              : "lg:hidden absolute top-[100px] bottom-0 left-[-100%] right-0 flex justify-center items-center w-1/2 h-screen bg-slate-200 text-white text-center ease-in duration-300 z-10"
           }
         >
           <div className="w-full">
@@ -152,7 +211,7 @@ export default function Navbar() {
                 className="flex items-center py-4 ml-2 w-1/2  cursor-pointer"
               >
                 <p className=" p-0 mr-3">Art</p>
-                <li onClick={artWorkHandle} className="flex md:hidden">
+                <li onClick={artWorkHandle} className="flex lg:hidden">
                   {artWork ? (
                     <AiOutlineClose size={25} />
                   ) : (
@@ -161,9 +220,9 @@ export default function Navbar() {
                 </li>
                 {/* SMALLER SCREEN */}
                 <div
-                  className={`md:hidden ${
+                  className={`lg:hidden ${
                     artWork ? "flex flex-col" : "hidden"
-                  }  absolute top-[-100px] bottom-0 left-[100px] right-0 flex justify-center items-center w-full h-screen`}
+                  }  absolute top-[-110px] bottom-0 left-[100px] right-0 flex justify-center items-center w-full h-screen z-10`}
                 >
                   <Link href="/artwork/obsession" onClick={handleSmallerNav}>
                     <li className="text-sm sm:text-md my-3">
@@ -189,15 +248,61 @@ export default function Navbar() {
                       It&apos;s a mark Collection
                     </li>
                   </Link>
+                  <Link href="/artwork/itsatouch" onClick={handleSmallerNav}>
+                    <li className="my-3 text-sm sm:text-md">
+                      It&apos;s a touch Collection
+                    </li>
+                  </Link>
+                  <Link href="/artwork/walkingline" onClick={handleSmallerNav}>
+                    <li className="my-3 text-sm sm:text-md">
+                      walking through the line Collection
+                    </li>
+                  </Link>
                 </div>
               </div>
 
-              <li
-                onClick={handleSmallerNav}
-                className="py-4 ml-2  cursor-pointer"
+              <div
+                onClick={dailyCaptureHandle}
+                className="flex items-center py-4 ml-2 w-1/2  cursor-pointer"
               >
-                <Link href="/dailycapture">Daily Capture</Link>
-              </li>
+                <li onClick={handleSmallerNav} className="py-4  cursor-pointer">
+                  <li>Daily Capture</li>
+                </li>
+                <li onClick={dailyCaptureHandle} className="flex lg:hidden">
+                  {dailyCapture ? (
+                    <AiOutlineClose size={25} />
+                  ) : (
+                    <AiFillCaretRight size={25} />
+                  )}
+                </li>
+                {/* SMALLER SCREEN */}
+                <div
+                  className={`lg:hidden ${
+                    dailyCapture ? "flex flex-col" : "hidden"
+                  }  absolute top-[-49px] bottom-0 left-[100px] right-0 flex justify-center items-center w-full h-screen`}
+                >
+                  <Link href="/dailycapture/beach" onClick={handleSmallerNav}>
+                    <li className="text-sm sm:text-md my-3">Beach Days</li>
+                  </Link>
+                  <Link
+                    href="/dailycapture/building"
+                    onClick={handleSmallerNav}
+                  >
+                    <li className="text-sm sm:text-md my-3">Daily Walk</li>
+                  </Link>
+
+                  <Link href="/dailycapture/b&w" onClick={handleSmallerNav}>
+                    <li className="text-sm sm:text-md my-3">B&W Capture</li>
+                  </Link>
+                  <Link
+                    href="/dailycapture/mountain"
+                    onClick={handleSmallerNav}
+                  >
+                    <li className="text-sm sm:text-md my-3">Mountain Pics</li>
+                  </Link>
+                </div>
+              </div>
+
               <li
                 onClick={handleSmallerNav}
                 className="py-4 ml-2  cursor-pointer"
