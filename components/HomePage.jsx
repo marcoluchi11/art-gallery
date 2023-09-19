@@ -4,12 +4,12 @@ import Carusel from "./Carusel";
 export default function Homepage() {
   return (
     <>
-      <div className="flex flex-col md:flex-row">
-        <div className="md:flex">
-          <div className="hidden md:flex">
+      <div className="flex flex-col lg:flex-row">
+        <div className="lg:flex">
+          <div className="hidden lg:flex">
             <Carusel arrows={true} />
           </div>
-          <div className="flex md:hidden">
+          <div className="flex lg:hidden">
             <Carusel arrows={false} />
           </div>
         </div>
