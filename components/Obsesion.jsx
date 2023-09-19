@@ -11,7 +11,7 @@ export default function Obsesion() {
         }  `}
       >
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7254.jpg"
         />
         <ImageClickHover
@@ -31,59 +31,59 @@ export default function Obsesion() {
           source="/obsession/IMG-7258.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7259.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7260.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7263.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7264.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7265.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7266.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7267.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7269.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7270.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7271.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7272.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7274.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7278.jpg"
         />
         <ImageClickHover
-          text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7279.jpg"
         />
         <h1 className="uppercase text-center text-3xl my-3">
