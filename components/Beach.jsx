@@ -164,7 +164,72 @@ export default function Beach() {
           sizeW={400}
         />
         <ImageHoverOff
-          source="/dailycapture/beach/IMG-7624.jpg"
+          source="/dailycapture/beach/IMG-7537.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7541.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7544.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7550.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7551.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7555.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7575.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7090.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7589.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7590.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7635.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7730.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7731.jpg"
+          sizeH={400}
+          sizeW={400}
+        />
+        <ImageHoverOff
+          source="/dailycapture/beach/IMG-7732.jpg"
           sizeH={400}
           sizeW={400}
         />
