@@ -80,21 +80,26 @@ Acrylics on paper"
 Acrylics on paper"
           source="/mini/141650.jpg"
         />
-        <ImageClickHover
-          text="ATHENES 11x15
+        <div className="flex">
+          <ImageClickHover
+            gap={true}
+            text="ATHENES 11x15
 Acrylics on paper"
-          source="/mini/141711.jpg"
-        />
-        <ImageClickHover
-          text="ATHENES 11x15
+            source="/mini/141711.jpg"
+          />
+          <ImageClickHover
+            gap={true}
+            text="ATHENES 11x15
 Acrylics on paper"
-          source="/mini/141738.jpg"
-        />
-        <ImageClickHover
-          text="ATHENES 11x15
+            source="/mini/141738.jpg"
+          />
+          <ImageClickHover
+            gap={true}
+            text="ATHENES 11x15
 Acrylics on paper"
-          source="/mini/141817.jpg"
-        />
+            source="/mini/141817.jpg"
+          />
+        </div>
         <ImageClickHover
           text="ATHENES 11x15
 Acrylics on paper"
@@ -120,25 +125,31 @@ Acrylics on paper"
 Acrylics on paper"
           source="/mini/142034.jpg"
         />
-        <ImageClickHover
-          text="ATHENES 11x15
+        <div className="flex">
+          <ImageClickHover
+            gap={true}
+            text="ATHENES 11x15
 Acrylics on paper"
-          source="/mini/142319.jpg"
-        />
-        <ImageClickHover
-          text="ATHENES 11x15
+            source="/mini/142319.jpg"
+          />
+          <ImageClickHover
+            gap={true}
+            text="ATHENES 11x15
 Acrylics on paper"
-          source="/mini/142335.jpg"
-        />
+            source="/mini/142335.jpg"
+          />
+          <ImageClickHover
+            gap={true}
+            text="ATHENES 11x15
+Acrylics on paper"
+            source="/mini/142357.jpg"
+          />
+        </div>
+
         <ImageClickHover
           text="ATHENES 11x15
 Acrylics on paper"
           source="/mini/141904.jpg"
-        />
-        <ImageClickHover
-          text="ATHENES 11x15
-Acrylics on paper"
-          source="/mini/142357.jpg"
         />
         <h1 className="uppercase text-center text-3xl my-3">
           prints available
