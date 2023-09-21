@@ -9,13 +9,12 @@ export default function Homepage() {
           <div className="flex justify-center items-center">
             <Image
               src="/homepage.jpg"
-              className="w-[600px] md:w-[1000px]"
+              className="w-[600px] mb-[200px] md:mb-[300px] md:w-[1000px]"
               alt="homepage painting"
               width={800}
               height={800}
             />
           </div>
-
           <p className="text-xl text-white font-light mx-10 leading-10 mt-10">
             Color is the essence of beauty and energy that permeates our world.
             It has the remarkable ability to evoke emotions and stir deep
