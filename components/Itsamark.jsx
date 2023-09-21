@@ -41,10 +41,12 @@ export default function Itsamark() {
         <ImageClickHover
           text="Composition 20*93 D\ 19x24’ Abstract Art over acrylics"
           source="/itsamark/IMG-7299.jpg"
+          sold={true}
         />
         <ImageClickHover
           text="Composition 20*93 D\ 19x24’ Abstract Art over acrylics"
           source="/itsamark/IMG-7300.jpg"
+          sold={true}
         />
         <h1 className="uppercase text-center text-3xl my-3">
           prints available

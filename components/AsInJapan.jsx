@@ -29,6 +29,7 @@ export default function AsInJapan() {
           sizeW="400"
           text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
           source="/asinjapan/124959.png"
+          sold={true}
         />
         <ImageClickHover
           sizeH="400"
@@ -155,6 +156,7 @@ export default function AsInJapan() {
           sizeW="400"
           text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
           source="/asinjapan/IMG-7288.png"
+          sold={true}
         />
         <ImageClickHover
           // missing
@@ -162,6 +164,7 @@ export default function AsInJapan() {
           sizeW="400"
           text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/asinjapan/IMG-7291.png"
+          sold={true}
         />
 
         <ImageClickHover

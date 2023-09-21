@@ -38,21 +38,27 @@ export default function Obsesion() {
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7260.jpg"
         />
-        <ImageClickHover
-          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
-          source="/obsession/IMG-7263.jpg"
-        />
+        <div className="flex">
+          <ImageClickHover
+            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            source="/obsession/IMG-7263.jpg"
+            sold={true}
+          />
+        </div>
         <ImageClickHover
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7264.jpg"
+          sold={true}
         />
         <ImageClickHover
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7265.jpg"
+          sold={true}
         />
         <ImageClickHover
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7266.jpg"
+          sold={true}
         />
         <ImageClickHover
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
@@ -69,14 +75,17 @@ export default function Obsesion() {
         <ImageClickHover
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7271.jpg"
+          sold={true}
         />
         <ImageClickHover
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7272.jpg"
+          sold={true}
         />
         <ImageClickHover
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7274.jpg"
+          sold={true}
         />
         <ImageClickHover
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
@@ -86,6 +95,11 @@ export default function Obsesion() {
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           source="/obsession/IMG-7279.jpg"
         />
+        <ImageClickHover
+          source="/walkingline/IMG-6400.png"
+          text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+        />
+        <ImageClickHover source="/walkingline/IMG-7333.png" />
         <h1 className="uppercase text-center text-3xl my-3">
           prints available
         </h1>
