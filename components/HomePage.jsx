@@ -5,15 +5,17 @@ export default function Homepage() {
   return (
     <>
       <div className="flex flex-col lg:flex-row">
-        <div className="lg:flex">
-          <div className="hidden lg:flex">
-            <Carusel arrows={true} />
-          </div>
-          <div className="flex lg:hidden">
-            <Carusel arrows={false} />
-          </div>
-        </div>
         <div className="flex flex-col justify-center">
+          <div className="flex justify-center items-center">
+            <Image
+              src="/homepage.jpg"
+              className="w-[600px] md:w-[1000px]"
+              alt="homepage painting"
+              width={800}
+              height={800}
+            />
+          </div>
+
           <p className="text-xl text-white font-light mx-10 leading-10 mt-10">
             Color is the essence of beauty and energy that permeates our world.
             It has the remarkable ability to evoke emotions and stir deep
