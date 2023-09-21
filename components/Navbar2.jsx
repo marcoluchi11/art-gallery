@@ -102,12 +102,6 @@ export default function Navbar() {
                     <p className="text-black">COLLECTION</p>
                   </li>
                 </Link>
-                <Link href="/artwork/itsatouch">
-                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
-                    <p className="text-black">IT&apos;S A TOUCH</p>
-                    <p className="text-black">COLLECTION</p>
-                  </li>
-                </Link>
                 <Link href="/artwork/walkingline">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
                     <p className="text-black">WALKING THROUGH THE LINE</p>
@@ -116,12 +110,7 @@ export default function Navbar() {
                 </Link>
               </div>
             </div>
-            <Link
-              href="/sketches"
-              className="uppercase mr-4 lg:mr-8 text-white "
-            >
-              <li className="text-xl text-white">sketches</li>
-            </Link>
+
             <li
               className="uppercase mr-4 lg:mr-8 flex flex-row  text-white relative cursor-pointer "
               onClick={dailyCaptureHandle}
@@ -248,11 +237,6 @@ export default function Navbar() {
                       It&apos;s a mark Collection
                     </li>
                   </Link>
-                  <Link href="/artwork/itsatouch" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">
-                      It&apos;s a touch Collection
-                    </li>
-                  </Link>
                   <Link href="/artwork/walkingline" onClick={handleSmallerNav}>
                     <li className="my-3 text-sm sm:text-md">
                       walking through the line Collection
@@ -303,12 +287,6 @@ export default function Navbar() {
                 </div>
               </div>
 
-              <li
-                onClick={handleSmallerNav}
-                className="py-4 ml-2  cursor-pointer"
-              >
-                <Link href="/sketches">sketches</Link>
-              </li>
               <li
                 onClick={handleSmallerNav}
                 className="py-4 ml-2  cursor-pointer"
