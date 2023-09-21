@@ -11,6 +11,7 @@ export default function Bio() {
           alt="portraitImage"
           width={400}
           height={600}
+          priority
         />
       </div>
       <div className="md:w-1/2 text-center md:text-justify">
