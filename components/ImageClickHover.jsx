@@ -10,6 +10,8 @@ export default function ImageClickHover({
   sizeW,
   sizeH,
   margin,
+  sold = false,
+  gap = false,
 }) {
   const { setShowModal, showModal } = useContext(ArtContext);
   const [hovered, setHovered] = useState(false);
@@ -23,19 +25,29 @@ export default function ImageClickHover({
         // onClick={() => handleClick()}
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
-        className={`md:mb-[200px] ${margin ? "mr-3" : ""} ${
+        className={`] ${margin ? "mr-3" : ""} ${
           hovered
             ? "transition-opacity opacity-40"
             : " transition-opacity bg-opacity-100"
-        } `}
+        } ${sold ? "" : "md:mb-[200px]"}  ${gap ? "mr-3" : ""}`}
         src={source}
         alt="painting"
         width={sizeW || 700}
         height={sizeH || 500}
       />
-      <p className="flex md:hidden font-light uppercase text-black mb-[200px] justify-center text-center">
+
+      <p
+        className={`flex md:hidden font-light ${
+          sold ? "" : "mb-[200px]"
+        } uppercase text-black justify-center text-center`}
+      >
         {text}
       </p>
+      {sold && (
+        <p className="text-center font-light mb-[200px] text-red-500 text-3xl">
+          SOLD
+        </p>
+      )}
       {hovered && (
         <p
           onMouseEnter={() => setHovered(true)}
