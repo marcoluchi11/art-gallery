@@ -46,6 +46,7 @@ export default function Movement() {
             sizeW="400"
             text="MOVEMENT 2020:19X24’ ABSTRACT PAINTING ON ACRYLICS"
             source="/movement/133717.png"
+            sold={true}
           />
         </div>
         {/* SEGUNDA DE 3 JUNTAS */}
@@ -56,6 +57,7 @@ export default function Movement() {
             sizeW="400"
             text="MOVEMENT 2020:19X22’ ABSTRACT PAINTING ON ACRYLICS"
             source="/movement/133801.png"
+            sold={true}
           />
           <ImageClickHover
             margin="3"
@@ -63,6 +65,7 @@ export default function Movement() {
             sizeW="400"
             text="MOVEMENT 2020:19X22’ ABSTRACT PAINTING ON ACRYLICS"
             source="/movement/133842.png"
+            sold={true}
           />
           <ImageClickHover
             margin="3"
@@ -70,6 +73,7 @@ export default function Movement() {
             sizeW="400"
             text="MOVEMENT 2020:19X22’ ABSTRACT PAINTING ON ACRYLICS"
             source="/movement/133927.png"
+            sold={true}
           />
         </div>
         <h1 className="uppercase text-center text-3xl my-3">
