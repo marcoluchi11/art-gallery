@@ -9,7 +9,7 @@ import {
   AiFillCaretRight,
   AiFillCaretDown,
 } from "react-icons/ai";
-export default function Navbar() {
+export default function Navbar({ font }) {
   const { showModal } = useContext(ArtContext);
   const [menuIcon, setIcon] = useState(false);
   const [artWork, setArtWork] = useState(false);
@@ -49,7 +49,9 @@ export default function Navbar() {
           </h1>
         </div>
         <div>
-          <ul className="hidden lg:flex uppercase font-light text-1xl lg:text-[20px] text-slate-800">
+          <ul
+            className={`hidden lg:flex uppercase font-light text-1xl lg:text-[20px] text-slate-800`}
+          >
             <Link href="/" className="uppercase mr-4 lg:mr-8 ">
               <li className="text-xl text-white">home</li>
             </Link>
@@ -59,7 +61,9 @@ export default function Navbar() {
               onClick={artWorkHandle}
               className="flex items-center uppercase mr-4 lg:mr-8  cursor-pointer z-50 relative"
             >
-              <li className="text-xl text-white">art</li>
+              <li className="text-xl text-white">
+                art {artWork ? "Collection" : ""}
+              </li>
               <div>
                 {artWork ? (
                   <AiOutlineClose size={25} color="white" fill="white" />
@@ -68,44 +72,48 @@ export default function Navbar() {
                 )}
               </div>
               <div
-                className={`${
+                className={` ${
                   artWork ? "flex" : "hidden"
-                } absolute top-[-75px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
+                } absolute top-[-135px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
               >
                 <Link href="/artwork/obsession">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
-                    <p className="text-black">OBBSESSION</p>
-                    <p className="text-black">COLLECTION</p>
+                    <p className="text-black w-28 text-center">OBBSESSION</p>
+                    {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/asinjapan">
                   <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
-                    <p className="text-black">AS IN JAPAN</p>
-                    <p className="text-black">COLLECTION</p>
+                    <p className="text-black w-28 text-center">AS IN JAPAN</p>
+                    {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/movement">
                   <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
-                    <p className="text-black">MOVEMENT</p>
-                    <p className="text-black">COLLECTION</p>
+                    <p className="text-black w-28 text-center">MOVEMENT</p>
+                    {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/mini">
                   <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
-                    <p className="text-black">MINI</p>
-                    <p className="text-black">COLLECTION</p>
+                    <p className="text-black w-28 text-center">MINI</p>
+                    {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/itsamark">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
-                    <p className="text-black">IT&apos;S A MARK</p>
-                    <p className="text-black">COLLECTION</p>
+                    <p className="text-black w-28 text-center">
+                      IT&apos;S A MARK
+                    </p>
+                    {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/walkingline">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
-                    <p className="text-black">WALKING THROUGH THE LINE</p>
-                    <p className="text-black">COLLECTION</p>
+                    <p className="text-black w-28 text-center">
+                      WALKING THROUGH THE LINE
+                    </p>
+                    {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
               </div>
@@ -127,7 +135,7 @@ export default function Navbar() {
               <div
                 className={`${
                   dailyCapture ? "flex" : "hidden"
-                } absolute top-[-220px] left-[60px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
+                } absolute top-[-155px] left-[60px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
               >
                 <Link href="/dailycapture/beach" className="w-20">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md uppercase">
@@ -199,7 +207,7 @@ export default function Navbar() {
                 onClick={artWorkHandle}
                 className="flex items-center py-4 ml-2 w-1/2  cursor-pointer"
               >
-                <p className=" p-0 mr-3">Art</p>
+                <p className=" p-0 mr-3">Art {artWork ? "Collection" : ""}</p>
                 <li onClick={artWorkHandle} className="flex lg:hidden">
                   {artWork ? (
                     <AiOutlineClose size={25} />
@@ -214,32 +222,26 @@ export default function Navbar() {
                   }  absolute top-[-110px] bottom-0 left-[100px] right-0 flex justify-center items-center w-full h-screen z-10`}
                 >
                   <Link href="/artwork/obsession" onClick={handleSmallerNav}>
-                    <li className="text-sm sm:text-md my-3">
-                      Obbsession Collection
-                    </li>
+                    <li className="text-sm sm:text-md my-3">Obbsession</li>
                   </Link>
                   <Link href="/artwork/movement" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">
-                      Movement Collection
-                    </li>
+                    <li className="my-3 text-sm sm:text-md">Movement</li>
                   </Link>
 
                   <Link href="/artwork/asinjapan" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">
-                      As In Japan Collection
-                    </li>
+                    <li className="my-3 text-sm sm:text-md">As In Japan</li>
                   </Link>
                   <Link href="/artwork/mini" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">Mini Collection</li>
+                    <li className="my-3 text-sm sm:text-md">Mini</li>
                   </Link>
                   <Link href="/artwork/itsamark" onClick={handleSmallerNav}>
                     <li className="my-3 text-sm sm:text-md">
-                      It&apos;s a mark Collection
+                      It&apos;s a mark
                     </li>
                   </Link>
                   <Link href="/artwork/walkingline" onClick={handleSmallerNav}>
                     <li className="my-3 text-sm sm:text-md">
-                      walking through the line Collection
+                      walking through the line
                     </li>
                   </Link>
                 </div>
