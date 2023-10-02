@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Carusel from "./Carusel";
-
 export default function Homepage() {
   return (
     <>
@@ -8,8 +6,8 @@ export default function Homepage() {
         <div className="flex flex-col justify-center">
           <div className="flex justify-center items-center">
             <Image
-              src="/homepage.jpg"
-              className="w-[600px] mb-[200px] md:mb-[300px] md:w-[1000px]"
+              src="/background2.jpg"
+              className="w-[600px] mb-[200px] md:mb-[250px] md:w-[1000px]"
               alt="homepage painting"
               width={800}
               height={800}
