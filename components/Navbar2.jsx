@@ -251,7 +251,7 @@ export default function Navbar({ font }) {
                 onClick={dailyCaptureHandle}
                 className="flex items-center py-4 ml-2 w-1/2  cursor-pointer"
               >
-                <li onClick={handleSmallerNav} className="py-4  cursor-pointer">
+                <li className="py-4  cursor-pointer">
                   <li>Daily Capture</li>
                 </li>
                 <li onClick={dailyCaptureHandle} className="flex lg:hidden">
