@@ -1,4 +1,5 @@
 "use client";
+import Carusel from "./Carusel";
 import ImageClickHover from "./ImageClickHover";
 import InquirePrints from "./InquirePrints";
 
@@ -100,6 +101,14 @@ export default function Obsesion() {
           text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
         />
         <ImageClickHover source="/walkingline/IMG-7333.png" />
+        <div className="lg:flex w-[500px]">
+          <div className="hidden lg:flex">
+            <Carusel arrows={true} />
+          </div>
+          <div className="flex lg:hidden">
+            <Carusel arrows={false} />
+          </div>
+        </div>
         <h1 className="uppercase text-center text-3xl my-3">
           prints available
         </h1>

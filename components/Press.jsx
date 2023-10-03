@@ -102,14 +102,6 @@ export default function Press() {
         height={350}
         className="my-10 md:mr-10"
       />
-      <div className="lg:flex w-[500px]">
-        <div className="hidden lg:flex">
-          <Carusel arrows={true} />
-        </div>
-        <div className="flex lg:hidden">
-          <Carusel arrows={false} />
-        </div>
-      </div>
     </section>
   );
 }
