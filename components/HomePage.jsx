@@ -1,18 +1,11 @@
 import Image from "next/image";
+import HomeImages from "./HomeImages";
 export default function Homepage() {
   return (
     <>
       <div className="flex flex-col lg:flex-row">
         <div className="flex flex-col justify-center">
-          <div className="flex justify-center items-center">
-            <Image
-              src="/background2.jpg"
-              className="w-[600px] mb-[200px] md:mb-[250px] md:w-[1000px]"
-              alt="homepage painting"
-              width={800}
-              height={800}
-            />
-          </div>
+          <HomeImages />
           <p className="text-xl text-white font-light mx-10 leading-10 mt-10">
             Color is the essence of beauty and energy that permeates our world.
             It has the remarkable ability to evoke emotions and stir deep
