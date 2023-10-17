@@ -11,19 +11,19 @@ export default function Contact() {
           Got a question about us? Are you interested in partnering with us?
           Have some suggestions or just want to say Hi? Just contact us.
         </p>
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <FaPhone className="text-3xl mx-3" color="white" fill="white" />
           <p className="underline cursor-pointer text-white">
             +1 (917) 3028958
           </p>
-        </div>
+        </div> */}
         <div className="flex justify-center mt-5">
           <FaEnvelope className="text-3xl mx-3" color="white" fill="white" />
           <p className="underline cursor-pointer text-white">
             albionvu.art@gmail.com
           </p>
         </div>
-        <div className="flex justify-center mt-5 text-white">
+        <div className="flex justify-center mt-5 text-white mb-5">
           <Link
             href="https://www.instagram.com/vualbion/"
             target="_blank"
