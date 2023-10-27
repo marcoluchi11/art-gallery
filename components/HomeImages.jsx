@@ -27,6 +27,13 @@ export default function HomeImages() {
       />
       <Image
         src="/homepageimg.jpg"
+        className="w-[600px] mb-10 md:w-[1000px]"
+        alt="homepage painting"
+        width={800}
+        height={800}
+      />
+      <Image
+        src="/homeimage4.jpg"
         className="w-[600px] mb-[200px] md:mb-[250px] md:w-[1000px]"
         alt="homepage painting"
         width={800}
