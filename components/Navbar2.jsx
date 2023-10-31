@@ -2,7 +2,7 @@
 import { ArtContext } from "@/context/context";
 import Image from "next/image";
 import Link from "next/link";
-import { useContext, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import {
   AiOutlineClose,
   AiOutlineMenu,
@@ -14,6 +14,21 @@ export default function Navbar({ font }) {
   const [menuIcon, setIcon] = useState(false);
   const [artWork, setArtWork] = useState(false);
   const [dailyCapture, setDailyCapture] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const handleScroll = () => {
+    if (window.scrollY > 150) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   const handleSmallerNav = () => {
     setIcon(!menuIcon);
   };
@@ -27,9 +42,7 @@ export default function Navbar({ font }) {
   };
   return (
     <header
-      className={` text-[CEFF00] w-full ease-in duration-100 ${
-        showModal ? "static" : "fixed"
-      } top-0 left-0 z-10 md:static bg-black lg:bg-transparent`}
+      className={` text-[CEFF00] w-full ease-in duration-100 top-0 left-0 z-10`}
     >
       <nav
         className={`max-w-[1366px] mx-auto h-[100] flex justify-between items-center p-4`}
@@ -74,7 +87,7 @@ export default function Navbar({ font }) {
               <div
                 className={` ${
                   artWork ? "flex" : "hidden"
-                } absolute top-[-135px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
+                } absolute top-[-180px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
               >
                 <Link href="/artwork/obsession">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
@@ -135,31 +148,28 @@ export default function Navbar({ font }) {
               <div
                 className={`${
                   dailyCapture ? "flex" : "hidden"
-                } absolute top-[-155px] left-[60px] right-0 bottom-0 flex flex-col justify-center items-center w-full h-screen`}
+                } absolute top-[-200px] left[-55px] right-0 bottom-0 flex flex-col justify-center items-center  h-screen w-full`}
               >
                 <Link href="/dailycapture/beach" className="w-20">
-                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md uppercase">
+                  <li className="flex w-28 flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md uppercase">
                     <p className="text-black">Beach</p>
                     <p className="text-black">Days</p>
                   </li>
                 </Link>
                 <Link href="/dailycapture/building" className="w-20">
-                  <li
-                    className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase"
-                    w-50
-                  >
+                  <li className="flex w-28 flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
                     <p className="text-black">Daily</p>
                     <p className="text-black">Walk</p>
                   </li>
                 </Link>
                 <Link href="/dailycapture/b&w" className="w-20">
-                  <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
+                  <li className="flex w-28 flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
                     <p className="text-black">b&w</p>
                     <p className="text-black">Capture</p>
                   </li>
                 </Link>
                 <Link href="/dailycapture/mountain" className="w-20">
-                  <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
+                  <li className="flex w-28 flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
                     <p className="text-black">Mountain</p>
                     <p className="text-black">Pics</p>
                   </li>
