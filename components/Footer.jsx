@@ -1,9 +1,9 @@
-import Image from "next/image";
 import SocialMedia from "./SocialMedia";
+import { QRCodeSVG } from "qrcode.react";
 
 export default function Footer() {
   return (
-    <footer className="border-solid border-t-2 border-gray-300  md:h-10 h-50 flex flex-col md:flex-row justify-evenly md:items-center">
+    <footer className="border-solid border-t-2 border-gray-300   flex flex-col md:flex-row justify-evenly md:items-center">
       <section className="mb-5 md:w-1/2 flex">
         <SocialMedia />
       </section>
@@ -12,13 +12,9 @@ export default function Footer() {
           Copyright &copy; Albion Vu - All rights reserved - All the work shown
           on the website is the originals
         </p>
-        <Image
-          className="mt-5 mb-3 md:mt-0 md:mb-0"
-          src="/frame.png"
-          alt="qrcode"
-          width={35}
-          height={25}
-        />
+        <div className="my-3 md:my-0">
+          <QRCodeSVG value="https://reactjs.org/" size={45} />
+        </div>
       </section>
     </footer>
   );
