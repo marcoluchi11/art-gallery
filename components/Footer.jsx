@@ -1,5 +1,5 @@
+import QRCode from "./QRCode";
 import SocialMedia from "./SocialMedia";
-import { QRCodeSVG } from "qrcode.react";
 
 export default function Footer() {
   return (
@@ -12,9 +12,7 @@ export default function Footer() {
           Copyright &copy; Albion Vu - All rights reserved - All the work shown
           on the website is the originals
         </p>
-        <div className="my-3 md:my-0">
-          <QRCodeSVG value="https://reactjs.org/" size={45} />
-        </div>
+        <QRCode />
       </section>
     </footer>
   );
