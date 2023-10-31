@@ -4,6 +4,7 @@ import "./globals.css";
 import { Roboto } from "next/font/google";
 import Footer from "@/components/Footer";
 import { ArtProvider } from "@/context/context";
+import BackToTop from "@/components/BackToTop";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
         <ArtProvider>
           <Navbar2 />
           {children}
+          <BackToTop />
           <Footer />
         </ArtProvider>
       </body>
