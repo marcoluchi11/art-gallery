@@ -9,6 +9,7 @@ export default function HomeImages() {
         alt="homepage painting"
         width={800}
         height={800}
+        priority
       />
       <Image
         src="/homeimage2copy.jpg"
@@ -16,12 +17,14 @@ export default function HomeImages() {
         alt="homepage painting"
         width={800}
         height={800}
+        priority
       />
 
       <Image
         src="/homeimage3copy.jpg"
         className="w-[600px] mb-10 md:w-[1000px]"
         alt="homepage painting"
+        priority
         width={800}
         height={800}
       />
@@ -30,6 +33,7 @@ export default function HomeImages() {
         className="w-[600px] mb-10 md:w-[1000px]"
         alt="homepage painting"
         width={800}
+        priority
         height={800}
       />
       <Image
@@ -38,6 +42,7 @@ export default function HomeImages() {
         alt="homepage painting"
         width={800}
         height={800}
+        priority
       />
     </div>
   );

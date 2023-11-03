@@ -9,6 +9,7 @@ export default function Landscape({ source, alt }) {
         width={1500}
         height={500}
         className="mt-10"
+        priority
       />
     </div>
   );
