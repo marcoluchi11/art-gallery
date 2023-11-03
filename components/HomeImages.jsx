@@ -4,14 +4,14 @@ export default function HomeImages() {
   return (
     <div className="flex flex-col justify-center items-center">
       <Image
-        src="/background2.jpg"
+        src="/homeimage1copy.jpg"
         className="w-[600px] mb-10 md:w-[1000px]"
         alt="homepage painting"
         width={800}
         height={800}
       />
       <Image
-        src="/background4.jpg"
+        src="/homeimage2copy.jpg"
         className="w-[600px] mb-10   md:w-[1000px]"
         alt="homepage painting"
         width={800}
@@ -19,21 +19,21 @@ export default function HomeImages() {
       />
 
       <Image
-        src="/background3.jpg"
+        src="/homeimage3copy.jpg"
         className="w-[600px] mb-10 md:w-[1000px]"
         alt="homepage painting"
         width={800}
         height={800}
       />
       <Image
-        src="/homepageimg.jpg"
+        src="/homeimage5copy.jpg"
         className="w-[600px] mb-10 md:w-[1000px]"
         alt="homepage painting"
         width={800}
         height={800}
       />
       <Image
-        src="/homeimage4.jpg"
+        src="/homeimage4copy.jpg"
         className="w-[600px] mb-[200px] md:mb-[250px] md:w-[1000px]"
         alt="homepage painting"
         width={800}
