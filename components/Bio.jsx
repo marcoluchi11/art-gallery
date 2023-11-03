@@ -13,6 +13,22 @@ export default function Bio() {
           height={600}
           priority
         />
+        <Image
+          className="rounded-md mt-3"
+          src="/about1.jpg"
+          alt="paintingimage"
+          width={400}
+          height={600}
+          priority
+        />
+        <Image
+          className="rounded-md mt-3 mb-3"
+          src="/about2.jpg"
+          alt="paintingimage"
+          width={400}
+          height={600}
+          priority
+        />
       </div>
       <div className="md:w-1/2 text-center md:text-justify">
         <p className="font-light border-solid border-t-2 border-gray-300 text-white ">
@@ -101,14 +117,3 @@ export default function Bio() {
     </article>
   );
 }
-/* 
-ARTISTS STATEMENT:
-
-Color is the essence of beauty and energy that permeates our world. It has the remarkable ability to evoke emotions and stir deep feelings within us. I have always been captivated by the interplay of color and shape. When these two elements converge, the possibilities for creating art become boundless. For me personally, however, painting transcends the mere combination of color and shape. It is a process that begins with an emotion or feeling, which then spills out onto the canvas.
-I connect with different cultures, different people and give them a piece of me from who they are as a reflection of admiration for something different. For a difference. 
-
-Some of my paintings emerge from spontaneous impulses, where my inner emotions take control and guide my paintbrush. They become raw expressions of my inner self. Other artworks are journeys of exploration, even surprising me with their unfolding pathways. Through my paintings, I strive to convey my own perspective of the world and create an emotional connection with the viewer. I aspire to capture fleeting moments and freeze them in time on the canvas, inviting others to share in the experience.
-
-Painting allows me to communicate beyond words, to communicate in the language of colors, shapes, and emotions. It is a profound and intimate means of expression, enabling me to convey the depth of my perception and invite others to join me on this artistic journey. It’s a form of meditation for me and it has been so for over +15 years now. It simply takes over me.
-“It takes me to start painting so I can stop everything around me move.”
- */
