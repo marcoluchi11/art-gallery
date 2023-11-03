@@ -74,21 +74,6 @@ export default function Beach() {
           sizeW={400}
         />
         <ImageHoverOff
-          source="/dailycapture/beach/IMG-1011.jpg"
-          sizeH={400}
-          sizeW={400}
-        />
-        <ImageHoverOff
-          source="/dailycapture/beach/IMG-1012.jpg"
-          sizeH={400}
-          sizeW={400}
-        />
-        <ImageHoverOff
-          source="/dailycapture/beach/IMG-1013.jpg"
-          sizeH={400}
-          sizeW={400}
-        />
-        <ImageHoverOff
           source="/dailycapture/beach/IMG-1382.jpg"
           sizeH={400}
           sizeW={400}
