@@ -1,10 +1,15 @@
 import ImageHoverOff from "./ImageHoverOff";
 import InquirePrints from "./InquirePrints";
+import Landscape from "./Landscape";
 
 export default function Mountain() {
   return (
     <>
       <InquirePrints />
+      <Landscape
+        source="/dailycapture/mountain/collage-mountain-landscape.png"
+        alt="collage mountain"
+      />
       <div
         className={`flex flex-col md:flex-row flex-wrap justify-center items-center  mt-[80px] 
         }  `}

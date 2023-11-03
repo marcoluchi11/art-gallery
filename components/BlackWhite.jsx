@@ -1,10 +1,16 @@
+import Image from "next/image";
 import ImageHoverOff from "./ImageHoverOff";
 import InquirePrints from "./InquirePrints";
+import Landscape from "./Landscape";
 
 export default function BlackWhite() {
   return (
     <>
       <InquirePrints />
+      <Landscape
+        source="/dailycapture/b&w/collage-byw-landscape.png"
+        alt="collage b&w"
+      />
       <div
         className={`flex flex-col md:flex-row flex-wrap justify-center items-center  mt-[80px] 
         }  `}

@@ -1,10 +1,15 @@
 import ImageHoverOff from "./ImageHoverOff";
 import InquirePrints from "./InquirePrints";
+import Landscape from "./Landscape";
 
 export default function Building() {
   return (
     <>
       <InquirePrints />
+      <Landscape
+        source="/dailycapture/building/collage-building-landscape.png"
+        alt="collage Building"
+      />
       <div
         className={`flex flex-col md:flex-row flex-wrap justify-center items-center  mt-[80px] 
         }  `}
