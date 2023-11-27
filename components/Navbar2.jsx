@@ -129,6 +129,12 @@ export default function Navbar({ font }) {
                     {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
+                <Link href="/artwork/patches">
+                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                    <p className="text-black w-28 text-center">PATCHES</p>
+                    {/* <p className="text-black">COLLECTION</p> */}
+                  </li>
+                </Link>
               </div>
             </div>
 
@@ -253,6 +259,9 @@ export default function Navbar({ font }) {
                     <li className="my-3 text-sm sm:text-md">
                       walking through the line
                     </li>
+                  </Link>
+                  <Link href="/artwork/patches" onClick={handleSmallerNav}>
+                    <li className="my-3 text-sm sm:text-md">patches</li>
                   </Link>
                 </div>
               </div>
