@@ -3,7 +3,6 @@ import Image from "next/image";
 import Inquire from "./Inquire";
 import { useContext, useState } from "react";
 import { ArtContext } from "@/context/context";
-
 export default function ImageClickHover({
   text = "",
   source,
@@ -27,15 +26,14 @@ export default function ImageClickHover({
         onMouseLeave={() => setHovered(false)}
         className={`] ${margin ? "mr-3" : ""} ${
           hovered
-            ? "transition-opacity opacity-40"
-            : " transition-opacity bg-opacity-100"
+            ? "transition-all duration-500 ease-in-out opacity-40"
+            : "transition-all duration-500 ease-in-out opacity-100"
         } ${sold ? "" : "md:mb-[200px]"}  ${gap ? "mr-3" : ""}`}
         src={source}
         alt="painting"
         width={sizeW || 700}
         height={sizeH || 500}
       />
-
       <p
         className={`flex md:hidden font-light ${
           sold ? "" : "mb-[200px]"
