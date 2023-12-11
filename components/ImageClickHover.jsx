@@ -14,9 +14,6 @@ export default function ImageClickHover({
 }) {
   const { setShowModal, showModal } = useContext(ArtContext);
   const [hovered, setHovered] = useState(false);
-  const handleClick = () => {
-    setShowModal(!showModal);
-  };
   return (
     <div className="relative cursor-pointer flex flex-col mx-auto">
       <Image
