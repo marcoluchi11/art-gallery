@@ -1,4 +1,5 @@
 "use client";
+import Artwork from "@/app/artwork/page";
 import { ArtContext } from "@/context/context";
 import Image from "next/image";
 import Link from "next/link";
@@ -69,14 +70,13 @@ export default function Navbar({ font }) {
               <li className="text-xl text-white">home</li>
             </Link>
             <div
-              // href="/artwork"
               // BIG SCREEN
-              onClick={artWorkHandle}
-              className="flex items-center uppercase mr-4 lg:mr-8  cursor-pointer z-50 relative"
+              // onClick={artWorkHandle}
+              onMouseEnter={() => setArtWork(true)}
+              onMouseLeave={() => setArtWork(false)}
+              className={`flex items-center uppercase mr-4 lg:mr-8  cursor-pointer z-50 relative `}
             >
-              <li className="text-xl text-white">
-                art {artWork ? "Collection" : ""}
-              </li>
+              <li className="text-xl text-white">art collection</li>
               <div>
                 {artWork ? (
                   <AiOutlineClose size={25} color="white" fill="white" />
@@ -85,9 +85,11 @@ export default function Navbar({ font }) {
                 )}
               </div>
               <div
-                className={` ${
-                  artWork ? "flex" : "hidden"
-                } absolute top-[-180px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
+                className={`
+                transition-opacity duration-500 ease-in-out ${
+                  artWork ? "opacity-100" : "opacity-0 pointer-events-none"
+                }
+                 absolute top-[-180px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
               >
                 <Link href="/artwork/obsession">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
@@ -140,7 +142,8 @@ export default function Navbar({ font }) {
 
             <li
               className="uppercase mr-4 lg:mr-8 flex flex-row  text-white relative cursor-pointer "
-              onClick={dailyCaptureHandle}
+              onMouseEnter={() => setDailyCapture(true)}
+              onMouseLeave={() => setDailyCapture(false)}
             >
               <li className="text-xl text-white">daily capture</li>
 
@@ -152,8 +155,8 @@ export default function Navbar({ font }) {
                 )}
               </div>
               <div
-                className={`${
-                  dailyCapture ? "flex" : "hidden"
+                className={` transition-opacity duration-500 ease-in-out ${
+                  dailyCapture ? "opacity-100" : "opacity-0 pointer-events-none"
                 } absolute top-[-200px] left[-55px] right-0 bottom-0 flex flex-col justify-center items-center  h-screen w-full`}
               >
                 <Link href="/dailycapture/beach" className="w-20">
