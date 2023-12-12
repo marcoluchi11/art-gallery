@@ -6,26 +6,32 @@ export default function WalkingLine() {
     <>
       <InquirePrints />
       <div
-        className={`flex flex-row flex-wrap justify-center md:flex-col md:items-center md:flex-wrap mt-[80px] 
+        className={`flex flex-wrap mt-[80px] 
         }  `}
       >
-        <ImageClickHover source="/walkingline/185121.jpg" />
-        <ImageClickHover source="/walkingline/185144.jpg" sold={true} />
-        <ImageClickHover source="/walkingline/185212.jpg" />
-        <ImageClickHover source="/walkingline/185232.jpg" />
-        <ImageClickHover source="/walkingline/185308.jpg" />
-        <ImageClickHover source="/walkingline/185410.jpg" />
-        <ImageClickHover source="/walkingline/185504.jpg" />
-        <ImageClickHover source="/walkingline/185736.jpg" />
-        <ImageClickHover source="/walkingline/185308.jpg" />
-        <ImageClickHover source="/walkingline/IMG-6244.png" sold={true} />
-        <ImageClickHover source="/walkingline/IMG-6256.png" sold={true} />
+        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+          <ImageClickHover source="/walkingline/185121.jpg" />
+          <ImageClickHover source="/walkingline/185144.jpg" sold={true} />
+          <ImageClickHover source="/walkingline/185212.jpg" />
+          <ImageClickHover source="/walkingline/185232.jpg" />
+          <ImageClickHover source="/walkingline/185308.jpg" />
+          <ImageClickHover source="/walkingline/185410.jpg" />
+        </div>
+        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+          <ImageClickHover source="/walkingline/185504.jpg" />
+          <ImageClickHover source="/walkingline/185736.jpg" />
+          <ImageClickHover source="/walkingline/185308.jpg" />
+          <ImageClickHover source="/walkingline/IMG-6244.png" sold={true} />
+          <ImageClickHover source="/walkingline/IMG-6256.png" sold={true} />
+          <ImageClickHover source="/walkingline/IMG-7036.png" />
+        </div>
+        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+          <ImageClickHover source="/walkingline/IMG-7038.png" />
+          <ImageClickHover source="/walkingline/IMG-7246.png" />
+          <ImageClickHover source="/walkingline/IMG-7326.png" />
+        </div>
 
-        <ImageClickHover source="/walkingline/IMG-7036.png" />
-        <ImageClickHover source="/walkingline/IMG-7038.png" />
-        <ImageClickHover source="/walkingline/IMG-7246.png" />
-        <ImageClickHover source="/walkingline/IMG-7326.png" />
-        <div className="flex flex-row">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10 mb-10">
           <ImageClickHover
             source="/walkingline/IMG-7331.png"
             sizeH={500}
@@ -38,10 +44,6 @@ export default function WalkingLine() {
             sizeW={500}
           />
         </div>
-
-        <h1 className="uppercase text-center text-3xl my-3">
-          prints available
-        </h1>
       </div>
     </>
   );

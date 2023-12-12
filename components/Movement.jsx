@@ -5,8 +5,8 @@ export default function Movement() {
   return (
     <>
       <InquirePrints />
-      <div className="flex flex-row flex-wrap justify-center md:flex-row md:flex-wrap mt-[80px] ">
-        <div className="flex">
+      <div className="flex flex-wrap mt-[80px] ">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
           {/* 3 JUNTAS */}
           <ImageClickHover
             sizeH="400"
@@ -28,7 +28,7 @@ export default function Movement() {
           />
         </div>
         {/* 3 individuales seguidas */}
-        <div className="flex flex-col">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
           <ImageClickHover
             sizeH="600"
             sizeW="400"
@@ -50,7 +50,7 @@ export default function Movement() {
           />
         </div>
         {/* SEGUNDA DE 3 JUNTAS */}
-        <div className="flex">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10 mb-10">
           <ImageClickHover
             margin="3"
             sizeH="600"
@@ -76,9 +76,6 @@ export default function Movement() {
             sold={true}
           />
         </div>
-        <h1 className="uppercase text-center text-3xl my-3">
-          prints available
-        </h1>
       </div>
     </>
   );

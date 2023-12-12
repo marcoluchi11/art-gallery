@@ -5,32 +5,14 @@ export default function Patches() {
   return (
     <>
       <InquirePrints />
-      <div className="flex flex-col flex-wrap justify-center md:flex-col items-center md:flex-wrap mt-[80px] ">
-        <ImageClickHover
-          source="/patches/patches1.jpg"
-          sizeW={800}
-          sizeH={800}
-        />
-        <ImageClickHover
-          source="/patches/patches2.jpg"
-          sizeW={800}
-          sizeH={800}
-        />
-        <ImageClickHover
-          source="/patches/patches3.jpg"
-          sizeW={800}
-          sizeH={800}
-        />
-        <ImageClickHover
-          source="/patches/patches4.jpg"
-          sizeW={800}
-          sizeH={800}
-        />
-        <ImageClickHover
-          source="/patches/patches5.jpg"
-          sizeW={800}
-          sizeH={800}
-        />
+      <div className="flex flex-wrap mt-[80px] ">
+        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10 mb-10">
+          <ImageClickHover source="/patches/patches1.jpg" />
+          <ImageClickHover source="/patches/patches2.jpg" />
+          <ImageClickHover source="/patches/patches3.jpg" />
+          <ImageClickHover source="/patches/patches4.jpg" />
+          <ImageClickHover source="/patches/patches5.jpg" />
+        </div>
       </div>
     </>
   );
