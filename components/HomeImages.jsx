@@ -1,32 +1,16 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
+import ImageClickHover from "./ImageClickHover";
 
 export default function HomeImages() {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <Image
-        src="/homeimage1.jpg"
-        className=" mb-10 "
-        alt="homepage painting"
-        priority
-        width={850}
-        height={800}
-      />
-      <Image
-        src="/homeimage2.jpg"
-        className=" mb-10 "
-        alt="homepage painting"
-        width={850}
-        priority
-        height={800}
-      />
-      <Image
-        src="/homeimage3.jpg"
-        className=" mb-[200px] md:mb-[250px] "
-        alt="homepage painting"
-        width={850}
-        height={800}
-        priority
-      />
+    <div className="flex flex-wrap mt-[80px] ">
+      <div className="flex flex-col md:flex-row mb-20 items-center gap-10 md:gap-0 w-full mt-10">
+        <ImageClickHover source="/homeimage1.jpg" sizeW={200} />
+        <ImageClickHover source="/homeimage2.jpg" sizeW={200} />
+        <ImageClickHover source="/homeimage3.jpg" sizeW={200} />
+      </div>
     </div>
   );
 }
