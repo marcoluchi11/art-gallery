@@ -13,6 +13,9 @@ export default function InquirePrints() {
       >
         Click here to inquire about available work and pricing.
       </Link>
+      <small className="flex justify-center mt-10 uppercase text-xs">
+        Click over images to make them bigger{" "}
+      </small>
     </>
   );
 }
