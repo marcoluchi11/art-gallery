@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function ImageClickHover({
   text = "",
   source,
-  sizeW,
+  sizeW = 100,
   sizeH,
   margin,
   sold = false,
@@ -15,7 +15,6 @@ export default function ImageClickHover({
   const toggleEnlarged = () => {
     setIsEnlarged(!isEnlarged);
   };
-  const [hovered, setHovered] = useState(false);
   return (
     <div className="relative cursor-pointer flex flex-col mx-auto">
       <Image
@@ -29,7 +28,7 @@ export default function ImageClickHover({
          mr-3 `}
         src={source}
         alt="painting"
-        width={isEnlarged ? 700 : 100}
+        width={isEnlarged ? 700 : sizeW}
         height={sizeH || 500}
       />
       {/* <p

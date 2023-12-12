@@ -32,17 +32,8 @@ export default function WalkingLine() {
         </div>
 
         <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10 mb-10">
-          <ImageClickHover
-            source="/walkingline/IMG-7331.png"
-            sizeH={500}
-            sizeW={500}
-            gap={true}
-          />
-          <ImageClickHover
-            source="/walkingline/IMG-7332.png"
-            sizeH={500}
-            sizeW={500}
-          />
+          <ImageClickHover source="/walkingline/IMG-7331.png" gap={true} />
+          <ImageClickHover source="/walkingline/IMG-7332.png" />
         </div>
       </div>
     </>
