@@ -6,7 +6,7 @@ export default function Patches() {
     <>
       <InquirePrints />
       <div className="flex flex-wrap mt-[80px] ">
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10 mb-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover source="/patches/patches1.jpg" />
           <ImageClickHover source="/patches/patches2.jpg" />
           <ImageClickHover source="/patches/patches3.jpg" />

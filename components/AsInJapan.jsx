@@ -7,7 +7,7 @@ export default function AsInJapan() {
       <InquirePrints />
 
       <div className="flex flex-wrap mt-[80px] ">
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
             source="/asinjapan/124824.png"
@@ -35,7 +35,7 @@ export default function AsInJapan() {
           />
         </div>
 
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
             source="/asinjapan/125322.png"
@@ -62,7 +62,7 @@ export default function AsInJapan() {
           />
         </div>
 
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
             source="/asinjapan/130748.png"
@@ -88,7 +88,7 @@ export default function AsInJapan() {
             source="/asinjapan/131217.png"
           />
         </div>
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
             source="/asinjapan/131253.png"
@@ -114,7 +114,7 @@ export default function AsInJapan() {
             source="/asinjapan/IMG-7287.png"
           />
         </div>
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10 mb-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover
             text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
             source="/asinjapan/IMG-7288.png"

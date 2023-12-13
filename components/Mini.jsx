@@ -10,7 +10,7 @@ export default function Mini() {
         className={`flex flex-wrap mt-[80px] 
         }  `}
       >
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="ATHENES 11x15
 Acrylics on paper"
@@ -42,7 +42,7 @@ Acrylics on paper"
             source="/mini/141327.jpg"
           />
         </div>
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="ATHENES 11x15
 Acrylics on paper"
@@ -74,7 +74,7 @@ Acrylics on paper"
             source="/mini/141604.jpg"
           />
         </div>
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="ATHENES 11x15
 Acrylics on paper"
@@ -111,7 +111,7 @@ Acrylics on paper"
             source="/mini/141839.jpg"
           />
         </div>
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10 mb-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover
             text="ATHENES 11x15
 Acrylics on paper"

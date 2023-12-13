@@ -6,7 +6,7 @@ export default function Movement() {
     <>
       <InquirePrints />
       <div className="flex flex-wrap mt-[80px] ">
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           {/* 3 JUNTAS */}
           <ImageClickHover
             text="MOVEMENT 2020:19X22’ ABSTRACT PAINTING ON ACRYLICS"
@@ -22,7 +22,7 @@ export default function Movement() {
           />
         </div>
         {/* 3 individuales seguidas */}
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="MOVEMENT 2020:19X22’ ABSTRACT PAINTING ON ACRYLICS"
             source="/movement/133557.png"
@@ -38,7 +38,7 @@ export default function Movement() {
           />
         </div>
         {/* SEGUNDA DE 3 JUNTAS */}
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10 mb-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover
             text="MOVEMENT 2020:19X22’ ABSTRACT PAINTING ON ACRYLICS"
             source="/movement/133801.png"

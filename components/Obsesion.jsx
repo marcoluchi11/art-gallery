@@ -1,5 +1,4 @@
 "use client";
-import Carusel from "./Carusel";
 import ImageClickHover from "./ImageClickHover";
 import InquirePrints from "./InquirePrints";
 
@@ -12,7 +11,7 @@ export default function Obsesion() {
         className={`flex flex-wrap  mt-[80px] 
         }  `}
       >
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7254.jpg"
@@ -38,7 +37,7 @@ export default function Obsesion() {
             source="/obsession/IMG-7259.jpg"
           />
         </div>
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5 md:gap-0 w-full mt-10">
           <ImageClickHover
             text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7260.jpg"
@@ -71,7 +70,7 @@ export default function Obsesion() {
           />
         </div>
         <div
-          className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10
+          className="flex flex-wrap md:flex-row gap-5   w-full mt-10
         "
         >
           <ImageClickHover
@@ -103,7 +102,7 @@ export default function Obsesion() {
           />
         </div>
 
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0  mt-10 w-full mb-10">
+        <div className="flex  flex-wrap md:flex-row gap-5  mt-10 w-full mb-10">
           <ImageClickHover
             text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7279.jpg"

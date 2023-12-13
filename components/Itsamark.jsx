@@ -1,4 +1,3 @@
-import Link from "next/link";
 import ImageClickHover from "./ImageClickHover";
 import InquirePrints from "./InquirePrints";
 
@@ -10,7 +9,7 @@ export default function Itsamark() {
         className={`flex flex-wrap mt-[80px] 
         }  `}
       >
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="It’s a mark- 19x24 Acrylic on paper with gold"
             source="/itsamark/144241.jpg"
@@ -32,7 +31,7 @@ export default function Itsamark() {
             source="/itsamark/144518.jpg"
           />
         </div>
-        <div className="flex flex-col md:flex-row gap-5 md:gap-0 w-full mt-10 mb-10">
+        <div className="flex flex-wrap  md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover
             text="It’s a mark- 19x24 Acrylic on paper with gold"
             source="/itsamark/144601.jpg"
