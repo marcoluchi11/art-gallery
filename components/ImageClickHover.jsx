@@ -13,6 +13,7 @@ export default function ImageClickHover({
   const [isHover, setIsHover] = useState(false);
   const toggleEnlarged = () => {
     setIsEnlarged(!isEnlarged);
+    setIsHover(true);
   };
   return (
     <div className="relative cursor-pointer flex flex-col mx-auto">
@@ -22,15 +23,15 @@ export default function ImageClickHover({
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
         className={` ease-in-out transition-width duration-500 cursor-pointer rounded-sm ${
-          isHover ? "opacity-50" : "opacity-100"
+          isHover ? "md:opacity-50" : "opacity-100"
         } 
          mr-3 `}
         src={source}
         alt="painting"
         width={isEnlarged ? 700 : sizeW}
-        height={sizeH || 500}
+        height={sizeH || 700}
       />
-      {isEnlarged && isHover ? (
+      {isEnlarged && isHover && (
         <p
           onMouseEnter={() => setIsHover(true)}
           className={`hidden md:flex transition-all ease-in-out duration-1000 mensaje bg-gray-100 rounded-md absolute top-[50%] left-[50%] text-black font-light text-xl text-center opacity-100 flex-col`}
@@ -38,22 +39,17 @@ export default function ImageClickHover({
           {text}
           <Inquire />
         </p>
-      ) : (
+      )}
+      {isEnlarged && (
         <p
-          className={`${
-            isEnlarged
-              ? " md:hidden flex flex-col justify-center text-center uppercase  font-light mt-3 text-sm"
-              : "hidden"
-          }`}
+          className={`            
+md:hidden flex flex-col justify-center text-center uppercase  font-light mt-3 text-sm"
+          `}
         >
           {text}
           <Inquire />
         </p>
       )}
-      {/* {isEnlarged && isHover && (
-      
-      )} */}
-
       {sold && (
         <p className="text-center font-light text-red-500 text-xl">SOLD</p>
       )}
