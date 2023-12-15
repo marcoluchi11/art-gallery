@@ -4,7 +4,7 @@ export default function Inquire() {
   return (
     <Link
       target="_blank"
-      className="hover:underline"
+      className="hover:underline px-3 py-1"
       href="mailto:albionvu.art@gmail.com"
     >
       CLICK TO INQUIRE
