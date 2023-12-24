@@ -12,6 +12,9 @@ export default function Patches() {
           <ImageClickHover source="/patches/patches3.jpg" />
           <ImageClickHover source="/patches/patches4.jpg" />
           <ImageClickHover source="/patches/patches5.jpg" />
+          <ImageClickHover source="/patches/patches6.jpg" />
+          <ImageClickHover source="/patches/patches7.jpg" />
+          <ImageClickHover source="/patches/patches8.jpg" />
         </div>
       </div>
     </>
