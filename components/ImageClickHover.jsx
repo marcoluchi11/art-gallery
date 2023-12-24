@@ -8,6 +8,7 @@ export default function ImageClickHover({
   sizeW = 100,
   sizeH,
   sold = false,
+  padding = 0,
 }) {
   const [isEnlarged, setIsEnlarged] = useState(false);
   const [isHover, setIsHover] = useState(false);
@@ -22,7 +23,9 @@ export default function ImageClickHover({
         onClick={toggleEnlarged}
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
-        className={` ease-in-out transition-width duration-500 cursor-pointer rounded-sm ${
+        className={` ${
+          padding ? "p-3" : "p-0"
+        } ease-in-out transition-width duration-500 cursor-pointer rounded-sm ${
           isHover ? "md:opacity-50" : "opacity-100"
         } 
          mr-3 `}
