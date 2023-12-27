@@ -122,7 +122,7 @@ export default function AsInJapan() {
           />
           <ImageClickHover
             // missing
-            text="OBBESSION 2020:58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="Mixed Media 2020:18X24’ ABSTRACT PAINTING ON ACRYLICS"
             source="/asinjapan/IMG-7291.png"
             sold={true}
           />
