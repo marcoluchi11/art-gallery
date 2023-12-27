@@ -13,7 +13,7 @@ export default function Obsesion() {
       >
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7254.jpg"
           />
           <ImageClickHover
@@ -33,18 +33,18 @@ export default function Obsesion() {
             source="/obsession/IMG-7258.jpg"
           />
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7259.jpg"
           />
         </div>
         <div className="flex flex-wrap md:flex-row gap-5 md:gap-0 w-full mt-10">
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7260.jpg"
           />
 
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7263.jpg"
             sold={true}
           />
@@ -55,17 +55,17 @@ export default function Obsesion() {
             sold={true}
           />
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7265.jpg"
             sold={true}
           />
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7266.jpg"
             sold={true}
           />
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7267.jpg"
           />
         </div>
@@ -74,42 +74,42 @@ export default function Obsesion() {
         "
         >
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7269.jpg"
           />
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7270.jpg"
           />
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7271.jpg"
             sold={true}
           />
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7272.jpg"
             sold={true}
           />
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7274.jpg"
             sold={true}
           />
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7278.jpg"
           />
         </div>
 
         <div className="flex  flex-wrap md:flex-row gap-5  mt-10 w-full mb-10">
           <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7279.jpg"
           />
           <ImageClickHover
-            source="/walkingline/IMG-6400.png"
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            source="/obsession/IMG-6400.png"
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
           />
         </div>
       </div>
