@@ -28,7 +28,7 @@ export default function ImageClickHover({
         } ease-in-out transition-width duration-500 cursor-pointer rounded-sm ${
           isHover ? "md:opacity-50" : "opacity-100"
         } 
-         mr-3 `}
+          `}
         src={source}
         alt="painting"
         width={isEnlarged ? 700 : sizeW}
