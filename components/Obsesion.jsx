@@ -76,6 +76,7 @@ export default function Obsesion() {
           <ImageClickHover
             text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7269.jpg"
+            sold={true}
           />
           <ImageClickHover
             text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
