@@ -89,11 +89,23 @@ export default function Navbar({ font }) {
                 transition-opacity duration-500 ease-in-out ${
                   artWork ? "opacity-100" : "opacity-0 pointer-events-none"
                 }
-                 absolute top-[-180px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
+                 absolute top-[-140px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
               >
+                <Link href="/artwork/linepath">
+                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                    <p className="text-black w-28 text-center">LINE PATH</p>
+                    {/* <p className="text-black">COLLECTION</p> */}
+                  </li>
+                </Link>
+                <Link href="/artwork/patches">
+                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                    <p className="text-black w-28 text-center">PATCHES</p>
+                    {/* <p className="text-black">COLLECTION</p> */}
+                  </li>
+                </Link>
                 <Link href="/artwork/obsession">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">OBBSESSION</p>
+                    <p className="text-black w-28 text-center">OBSESSION</p>
                     {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
@@ -128,12 +140,6 @@ export default function Navbar({ font }) {
                     <p className="text-black w-28 text-center">
                       WALKING THROUGH THE LINE
                     </p>
-                    {/* <p className="text-black">COLLECTION</p> */}
-                  </li>
-                </Link>
-                <Link href="/artwork/patches">
-                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">PATCHES</p>
                     {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
@@ -240,8 +246,14 @@ export default function Navbar({ font }) {
                     artWork ? "flex flex-col" : "hidden"
                   }  absolute top-[-110px] bottom-0 left-[100px] right-0 flex justify-center items-center w-full h-screen z-10`}
                 >
+                  <Link href="/artwork/linepath" onClick={handleSmallerNav}>
+                    <li className="text-sm sm:text-md my-3">Line path</li>
+                  </Link>
+                  <Link href="/artwork/patches" onClick={handleSmallerNav}>
+                    <li className="my-3 text-sm sm:text-md">patches</li>
+                  </Link>
                   <Link href="/artwork/obsession" onClick={handleSmallerNav}>
-                    <li className="text-sm sm:text-md my-3">Obbsession</li>
+                    <li className="text-sm sm:text-md my-3">Obsession</li>
                   </Link>
                   <Link href="/artwork/movement" onClick={handleSmallerNav}>
                     <li className="my-3 text-sm sm:text-md">Movement</li>
@@ -262,9 +274,6 @@ export default function Navbar({ font }) {
                     <li className="my-3 text-sm sm:text-md">
                       walking through the line
                     </li>
-                  </Link>
-                  <Link href="/artwork/patches" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">patches</li>
                   </Link>
                 </div>
               </div>
