@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Carusel from "./Carusel";
+import PressArticle from "./PressArticle";
 
 export default function Press() {
   return (
-    <section className="flex justify-center items-center mt-[250px] md:mt-0 flex-col md:flex-row my-10 flex-wrap">
+    <section className="flex justify-center items-center mt-[100px] md:mt-0 flex-col md:flex-row my-10 flex-wrap">
       <Image
         src="/press/IMG-7427.jpg"
         alt="Press"
