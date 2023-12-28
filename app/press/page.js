@@ -5,7 +5,7 @@ export default function PressInfo() {
   return (
     <main className="flex-col md:px-24 pt-5 ">
       <PressArticle />
-      <Press />
+      <Press />s
     </main>
   );
 }
