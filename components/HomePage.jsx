@@ -38,12 +38,12 @@ export default function Homepage() {
           </h1>
         </div>
       </div>
-      <div className="flex my-4 justify-center">
+      <div className="flex flex-col items-center md:flex-row my-4 justify-evenly">
         <Image
           className="hidden md:flex"
           src="/posterexhibiton.jpeg"
           alt="poster exhibition"
-          width={600}
+          width={400}
           height={800}
         />
         <Image
@@ -53,6 +53,16 @@ export default function Homepage() {
           width={300}
           height={500}
         />
+        <video
+          className="mt-5 md:mt-0"
+          width={300}
+          height={500}
+          controls
+          autoplay
+          loop
+        >
+          <source src="/reels1.mp4" type="video/mp4" />
+        </video>
       </div>
       <h1 className="uppercase text-center text-white text-3xl my-3">
         prints available
