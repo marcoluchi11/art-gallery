@@ -33,6 +33,10 @@ export default function Obsesion() {
             source="/obsession/IMG-7258.jpg"
           />
           <ImageClickHover
+            text="Composition 20*93 D\ 60x55’ Large Abstract Art over acrylics"
+            source="/obsession/131038.png"
+          />
+          <ImageClickHover
             text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7259.jpg"
           />

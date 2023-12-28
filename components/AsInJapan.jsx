@@ -80,10 +80,6 @@ export default function AsInJapan() {
             source="/asinjapan/130924.png"
           />
           <ImageClickHover
-            text="Composition 20*93 D\ 60x55’ Large Abstract Art over acrylics"
-            source="/asinjapan/131038.png"
-          />
-          <ImageClickHover
             text="Composition 20*20 D\ 19x24’ Abstract Art over acrylics on paper"
             source="/asinjapan/131217.png"
           />
