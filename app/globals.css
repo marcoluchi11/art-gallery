@@ -8,8 +8,8 @@
 body {
   background: linear-gradient(
       to bottom,
-      rgba(92, 77, 66, 0.8) 0%,
-      rgba(92, 77, 66, 0.8) 100%
+      rgba(92, 77, 66, 0.95) 0%,
+      rgba(92, 77, 66, 0.95) 100%
     ),
     url(/background.png) no-repeat center center fixed;
   -webkit-background-size: cover;
