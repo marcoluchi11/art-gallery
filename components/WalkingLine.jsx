@@ -10,17 +10,41 @@ export default function WalkingLine() {
         }  `}
       >
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
-          <ImageClickHover source="/walkingline/185121.jpg" />
-          <ImageClickHover source="/walkingline/185144.jpg" sold={true} />
-          <ImageClickHover source="/walkingline/185212.jpg" />
-          <ImageClickHover source="/walkingline/185232.jpg" />
-          <ImageClickHover source="/walkingline/185308.jpg" />
-          <ImageClickHover source="/walkingline/185410.jpg" />
+          <ImageClickHover
+            source="/walkingline/185121.jpg"
+            text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
+          />
+          <ImageClickHover
+            source="/walkingline/185144.jpg"
+            sold={true}
+            text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
+          />
+          <ImageClickHover
+            source="/walkingline/185212.jpg"
+            text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
+          />
+          <ImageClickHover
+            source="/walkingline/185232.jpg"
+            text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
+          />
+          <ImageClickHover
+            source="/walkingline/185410.jpg"
+            text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
+          />
         </div>
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
-          <ImageClickHover source="/walkingline/185504.jpg" />
-          <ImageClickHover source="/walkingline/185736.jpg" />
-          <ImageClickHover source="/walkingline/185308.jpg" />
+          <ImageClickHover
+            source="/walkingline/185504.jpg"
+            text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
+          />
+          <ImageClickHover
+            source="/walkingline/185736.jpg"
+            text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
+          />
+          <ImageClickHover
+            source="/walkingline/185308.jpg"
+            text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
+          />
           <ImageClickHover source="/walkingline/IMG-6244.png" sold={true} />
           <ImageClickHover source="/walkingline/IMG-6256.png" sold={true} />
           <ImageClickHover source="/walkingline/IMG-7036.png" />
