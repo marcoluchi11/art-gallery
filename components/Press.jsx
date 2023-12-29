@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Carusel from "./Carusel";
-import PressArticle from "./PressArticle";
 
 export default function Press() {
   return (
