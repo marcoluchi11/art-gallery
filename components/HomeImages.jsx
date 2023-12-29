@@ -12,10 +12,14 @@ export default function HomeImages() {
         <ImageClickHover padding={true} source="/homepage2.jpg" sizeW={220} />
         <ImageClickHover padding={true} source="/homepage3.jpg" sizeW={220} />
       </div>
-      <div className="flex flex-wrap ">
+      <div className="flex flex-wrap mb-20">
         <ImageClickHover padding={true} source="/homepage4.jpg" sizeW={220} />
         <ImageClickHover padding={true} source="/homepage5.jpg" sizeW={220} />
         <ImageClickHover padding={true} source="/homepage6.jpg" sizeW={220} />
+      </div>
+      <div className="flex flex-wrap ">
+        <ImageClickHover padding={true} source="/homepage7.jpg" sizeW={220} />
+        <ImageClickHover padding={true} source="/homepage8.jpg" sizeW={220} />
       </div>
     </>
   );
