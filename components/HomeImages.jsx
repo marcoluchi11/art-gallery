@@ -8,18 +8,50 @@ export default function HomeImages() {
         CLICK THE IMAGES TO SEE THE ART PIECES ON A LARGER FORMAT
       </small>
       <div className="flex flex-wrap mt-[80px] mb-20">
-        <ImageClickHover padding={true} source="/homepage1.jpg" sizeW={220} />
-        <ImageClickHover padding={true} source="/homepage2.jpg" sizeW={220} />
-        <ImageClickHover padding={true} source="/homepage3.jpg" sizeW={220} />
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath1.jpg"
+          sizeW={220}
+        />
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath2.jpg"
+          sizeW={220}
+        />
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath3.jpg"
+          sizeW={220}
+        />
       </div>
       <div className="flex flex-wrap mb-20">
-        <ImageClickHover padding={true} source="/homepage4.jpg" sizeW={220} />
-        <ImageClickHover padding={true} source="/homepage5.jpg" sizeW={220} />
-        <ImageClickHover padding={true} source="/homepage6.jpg" sizeW={220} />
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath4.jpg"
+          sizeW={220}
+        />
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath5.jpg"
+          sizeW={220}
+        />
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath6.jpg"
+          sizeW={220}
+        />
       </div>
       <div className="flex flex-wrap ">
-        <ImageClickHover padding={true} source="/homepage7.jpg" sizeW={220} />
-        <ImageClickHover padding={true} source="/homepage8.jpg" sizeW={220} />
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath7.jpg"
+          sizeW={220}
+        />
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath8.jpg"
+          sizeW={220}
+        />
       </div>
     </>
   );
