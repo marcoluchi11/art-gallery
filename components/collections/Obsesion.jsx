@@ -110,6 +110,14 @@ export default function Obsesion() {
         <div className="flex  flex-wrap md:flex-row gap-5  mt-10 w-full mb-10">
           <ImageClickHover
             text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            source="/obsession/obsession1.jpg"
+          />
+          <ImageClickHover
+            text="OBSESSION 54X54’ ABSTRACT ACRYLIC AND OIL OVER CANVAS"
+            source="/obsession/IMG-7279.jpg"
+          />
+          <ImageClickHover
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7279.jpg"
           />
           <ImageClickHover
