@@ -244,7 +244,7 @@ export default function Navbar({ font }) {
                 <div
                   className={`lg:hidden ${
                     artWork ? "flex flex-col" : "hidden"
-                  }  absolute top-[-110px] bottom-0 left-[100px] right-0 flex justify-center items-center w-full h-screen z-10`}
+                  }  absolute top-[-110px] bottom-0 left-[190px] right-0 flex justify-center items-center  h-screen z-10`}
                 >
                   <Link href="/artwork/linepath" onClick={handleSmallerNav}>
                     <li className="text-sm sm:text-md my-3">Line path</li>
@@ -296,7 +296,7 @@ export default function Navbar({ font }) {
                 <div
                   className={`lg:hidden ${
                     dailyCapture ? "flex flex-col" : "hidden"
-                  }  absolute top-[-49px] bottom-0 left-[100px] right-0 flex justify-center items-center w-full h-screen`}
+                  }  absolute top-[-49px] bottom-0 left-[190px] right-0 flex justify-center items-center h-screen`}
                 >
                   <Link href="/dailycapture/beach" onClick={handleSmallerNav}>
                     <li className="text-sm sm:text-md my-3">Beach Days</li>
