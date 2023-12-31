@@ -1,4 +1,4 @@
-import BlackWhite from "@/components/BlackWhite";
+import BlackWhite from "@/components/photography/BlackWhite";
 
 export default function Photography() {
   return (

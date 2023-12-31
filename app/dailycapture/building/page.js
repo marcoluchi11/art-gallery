@@ -1,4 +1,4 @@
-import Building from "@/components/Building";
+import Building from "@/components/photography/Building";
 
 export default function Photography() {
   return (

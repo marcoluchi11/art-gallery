@@ -1,4 +1,4 @@
-import Mountain from "@/components/Mountain";
+import Mountain from "@/components/photography/Mountain";
 
 export default function Photography() {
   return (

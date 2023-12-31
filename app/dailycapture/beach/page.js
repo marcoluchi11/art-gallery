@@ -1,4 +1,4 @@
-import Beach from "@/components/Beach";
+import Beach from "@/components/photography/Beach";
 
 export default function Photography() {
   return (
