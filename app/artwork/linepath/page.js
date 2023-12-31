@@ -1,4 +1,4 @@
-import LinePath from "@/components/LinePath";
+import LinePath from "@/components/collections/LinePath";
 
 export default function Info() {
   return (

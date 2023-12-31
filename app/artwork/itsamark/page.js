@@ -1,4 +1,4 @@
-import Itsamark from "@/components/Itsamark";
+import Itsamark from "@/components/collections/Itsamark";
 
 export default function Info() {
   return (

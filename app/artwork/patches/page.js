@@ -1,4 +1,4 @@
-import Patches from "@/components/Patches";
+import Patches from "@/components/collections/Patches";
 
 export default function Info() {
   return (

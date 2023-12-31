@@ -1,4 +1,4 @@
-import Obsesion from "@/components/Obsesion";
+import Obsesion from "@/components/collections/Obsesion";
 
 export default function Obsession() {
   return (

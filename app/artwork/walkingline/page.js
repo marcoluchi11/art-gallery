@@ -1,4 +1,4 @@
-import WalkingLine from "@/components/WalkingLine";
+import WalkingLine from "@/components/collections/WalkingLine";
 
 export default function Info() {
   return (

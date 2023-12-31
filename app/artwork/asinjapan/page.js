@@ -1,4 +1,4 @@
-import AsInJapan from "@/components/AsInJapan";
+import AsInJapan from "@/components/collections/AsInJapan";
 
 export default function Info() {
   return (
