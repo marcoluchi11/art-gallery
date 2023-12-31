@@ -11,46 +11,46 @@ export default function HomeImages() {
         <ImageClickHover
           padding={true}
           source="/linepath/linepath1.jpg"
-          sizeW={220}
+          sizeW={180}
         />
         <ImageClickHover
           padding={true}
           source="/linepath/linepath2.jpg"
-          sizeW={220}
+          sizeW={180}
         />
         <ImageClickHover
           padding={true}
           source="/linepath/linepath3.jpg"
-          sizeW={220}
+          sizeW={180}
         />
       </div>
       <div className="flex flex-wrap mb-20">
         <ImageClickHover
           padding={true}
           source="/linepath/linepath4.jpg"
-          sizeW={220}
+          sizeW={180}
         />
         <ImageClickHover
           padding={true}
           source="/linepath/linepath5.jpg"
-          sizeW={220}
+          sizeW={180}
         />
         <ImageClickHover
           padding={true}
           source="/linepath/linepath6.jpg"
-          sizeW={220}
+          sizeW={180}
         />
       </div>
       <div className="flex flex-wrap ">
         <ImageClickHover
           padding={true}
           source="/linepath/linepath7.jpg"
-          sizeW={220}
+          sizeW={180}
         />
         <ImageClickHover
           padding={true}
           source="/linepath/linepath8.jpg"
-          sizeW={220}
+          sizeW={180}
         />
       </div>
     </>
