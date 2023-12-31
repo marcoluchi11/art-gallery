@@ -7,7 +7,7 @@ export default function Bio() {
       <div className="md:w-1/2 flex flex-col justify-center items-center mt-[200px] md:mt-0">
         <Image
           className="rounded-md"
-          src="/IMG_7248.jpg"
+          src="/about/IMG_7248.jpg"
           alt="portraitImage"
           width={400}
           height={600}
@@ -15,7 +15,7 @@ export default function Bio() {
         />
         <Image
           className="rounded-md mt-3"
-          src="/about1.jpg"
+          src="/about/about1.jpg"
           alt="paintingimage"
           width={400}
           height={600}
@@ -23,7 +23,7 @@ export default function Bio() {
         />
         <Image
           className="rounded-md mt-3 mb-3"
-          src="/about2.jpg"
+          src="/about/about2.jpg"
           alt="paintingimage"
           width={400}
           height={600}
