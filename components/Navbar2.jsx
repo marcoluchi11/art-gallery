@@ -89,7 +89,7 @@ export default function Navbar({ font }) {
                 transition-opacity duration-500 ease-in-out ${
                   artWork ? "opacity-100" : "opacity-0 pointer-events-none"
                 }
-                 absolute top-[-140px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
+                 absolute top-[-115px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
               >
                 <Link href="/artwork/linepath">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
@@ -100,6 +100,14 @@ export default function Navbar({ font }) {
                 <Link href="/artwork/patches">
                   <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">PATCHES</p>
+                    {/* <p className="text-black">COLLECTION</p> */}
+                  </li>
+                </Link>
+                <Link href="/artwork/directionsearth">
+                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                    <p className="text-black w-28 text-center">
+                      Directions to earth
+                    </p>
                     {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
@@ -251,6 +259,14 @@ export default function Navbar({ font }) {
                   </Link>
                   <Link href="/artwork/patches" onClick={handleSmallerNav}>
                     <li className="my-3 text-sm sm:text-md">patches</li>
+                  </Link>
+                  <Link
+                    href="/artwork/directionsearth"
+                    onClick={handleSmallerNav}
+                  >
+                    <li className="my-3 text-sm sm:text-md">
+                      directions to earth
+                    </li>
                   </Link>
                   <Link href="/artwork/obsession" onClick={handleSmallerNav}>
                     <li className="text-sm sm:text-md my-3">Obsession</li>
