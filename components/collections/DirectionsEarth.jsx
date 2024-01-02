@@ -13,6 +13,10 @@ export default function DirectionsEarth() {
             sold={true}
           />
           <ImageClickHover source="/directionstoearth/directions3.jpg" />
+          <ImageClickHover
+            text="Composition 20*93 D\ 52x52’ Large Abstract Art over acrylics"
+            source="/directionstoearth/directions4.jpg"
+          />
         </div>
       </div>
     </>
