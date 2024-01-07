@@ -59,6 +59,26 @@ export default function HomeImages() {
           sizeW={180}
           text="LINE PATH 55X34’ ACRYLICS AND OIL PASTEL OVER CANVAS"
         />
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath9.jpg"
+          sizeW={180}
+          text="LINE PATH 56X44’ ACRYLICS AND OIL PASTEL OVER CANVAS"
+        />
+      </div>
+      <div className="flex flex-wrap mt-10 ">
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath10.jpg"
+          sizeW={180}
+          text="LINE PATH 58X58’ ACRYLICS AND OIL PASTEL OVER CANVAS"
+        />
+        <ImageClickHover
+          padding={true}
+          source="/linepath/linepath11.jpg"
+          sizeW={180}
+          text="LINE PATH 43X54’ ACRYLICS AND OIL PASTEL OVER CANVAS"
+        />
       </div>
     </>
   );
