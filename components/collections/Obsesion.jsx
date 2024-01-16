@@ -14,16 +14,12 @@ export default function Obsesion() {
         create a lively choreography, and sharp lines carve out bold narratives.
         The palette is a vivid spectrum of hues, each shade contributing to a
         visual feast that unfolds with breathtaking intensity.
-        <br />
-        <br />
         In this vast collection, depth and texture become protagonists, inviting
         the observer to not only witness but also to feel the layers of artistic
         exploration. Every stroke, whether it's a sweeping arch or a
         precise line, contributes to the narrative of this visual odyssey. The
         bold colors command attention, establishing a magnetic presence that
         draws the viewer into a world where artistic innovation knows no bounds.
-        <br />
-        <br />
         Experience the sheer magnitude of this collection, where the
         amalgamation of different techniques creates a tapestry of creativity
         that leaves an indelible mark on the observer's perception of art.

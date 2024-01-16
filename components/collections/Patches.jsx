@@ -13,14 +13,12 @@ export default function Patches() {
         contemporary creativity. The common thread among these masterpieces is
         the fearless use of bold brush strokes, each stroke a declaration of
         artistic intent.
-
         The colorful palette, rich and diverse, creates a symphony of
         hues that captivates the eye and sparks the imagination. These artworks
         transcend traditional boundaries, embracing a modern theme that
         resonates with the dynamic energy of the present. With every stroke, the
         canvas comes alive, a testament to the artist's direct engagement
         with the medium.
-        
         In this collection, the marriage of vivid colors and bold brushwork
         invites the observer to witness the unapologetic celebration of modern
         artistic expression. These large-scale pieces are not merely
