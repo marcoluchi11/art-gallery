@@ -3,6 +3,25 @@ import InquirePrints from "../InquirePrints";
 export default function LinePath() {
   return (
     <>
+      <p className="text-xl  font-light mx-10 leading-10 mt-10">
+        Embark on a mesmerizing exploration of a collection comprising 11
+        distinct pieces, each a testament to the captivating beauty of
+        repetition. The theme that unites them is the incorporation of short,
+        repetitive lines, creating a rhythmic dance across canvases of different
+        scales. A meticulous precision guides the artist&apos;s hand, as
+        achieving straight lines demands a focused and deliberate movement.
+        Within this ensemble, the observer is drawn into a symphony of
+        repetition, where the recurrence of short lines becomes a visual mantra.
+        The subtle nuances of scale add a layer of complexity, requiring the
+        artist to navigate varying dimensions with unwavering accuracy. Each
+        piece resonates with a unique rhythm, inviting the viewer to immerse
+        themselves in the deliberate cadence of these meticulously crafted
+        compositions. In this collection, repetition is not just a theme; it is
+        an art form that demands both concentration and finesse. Witness the
+        convergence of precision and creativity as these 11 pieces weave a
+        visual tapestry, where the beauty lies in the deliberate repetition of
+        short lines—a testament to the artist&apos;s mastery of form and rhythm
+      </p>
       <InquirePrints />
       <div className="flex flex-wrap mt-[80px] ">
         <div className="flex flex-wrap md:flex-row gap-5 md:gap-10  w-full mt-10 mb-10">

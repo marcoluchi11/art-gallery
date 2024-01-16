@@ -5,6 +5,30 @@ import InquirePrints from "../InquirePrints";
 export default function Obsesion() {
   return (
     <>
+      <p className="text-xl  font-light mx-10 leading-10 mt-10">
+        Step into the grandeur of the largest collection of artwork, a symphony
+        of artistic expression that transcends boundaries and captivates the
+        senses. This expansive ensemble boasts a diverse array of techniques,
+        where big arch shapes sweep across canvases, dynamic splashes of color
+        create a lively choreography, and sharp lines carve out bold narratives.
+        The palette is a vivid spectrum of hues, each shade contributing to a
+        visual feast that unfolds with breathtaking intensity.
+        <br />
+        <br />
+        In this vast collection, depth and texture become protagonists, inviting
+        the observer to not only witness but also to feel the layers of artistic
+        exploration. Every stroke, whether it&apos;s a sweeping arch or a
+        precise line, contributes to the narrative of this visual odyssey. The
+        bold colors command attention, establishing a magnetic presence that
+        draws the viewer into a world where artistic innovation knows no bounds.
+        <br />
+        <br />
+        Experience the sheer magnitude of this collection, where the
+        amalgamation of different techniques creates a tapestry of creativity
+        that leaves an indelible mark on the observer&apos;s perception of art.
+        It&apos;s not merely a collection; it&apos;s an immersive journey
+        through the boundless realms of artistic imagination and skill
+      </p>
       <InquirePrints />
 
       <div
@@ -110,10 +134,6 @@ export default function Obsesion() {
           />
           <ImageClickHover
             text="OBSESSION 54X54’ ABSTRACT ACRYLIC AND OIL OVER CANVAS"
-            source="/obsession/IMG-7279.jpg"
-          />
-          <ImageClickHover
-            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7279.jpg"
           />
           <ImageClickHover

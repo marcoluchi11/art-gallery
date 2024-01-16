@@ -4,6 +4,20 @@ import InquirePrints from "../InquirePrints";
 export default function WalkingLine() {
   return (
     <>
+      <p className="text-xl  font-light mx-10 leading-10 mt-10">
+        Explore a captivating collection of art pieces that captivate the senses
+        with their dynamic textures and vibrant hues. This diverse compilation
+        features works on both paper and canvas, each bearing a unique
+        expression of creativity. The artists draw inspiration from the
+        intricate patterns of crocodile skin, infusing the pieces with a bold
+        and daring energy. The textures, ranging from subtle to pronounced,
+        invite tactile exploration, creating a multisensory experience. Bold
+        colors leap from the surface, intertwining in a dance that commands
+        attention and sparks emotions. This collection is a celebration of the
+        fusion between the raw beauty of nature and the artists&apos; audacious
+        use of color and texture, resulting in a visual feast for art
+        enthusiasts seeking a bold and textured journey
+      </p>
       <InquirePrints />
       <div
         className={`flex flex-wrap mt-[80px] 
@@ -23,6 +37,8 @@ export default function WalkingLine() {
             source="/walkingline/185212.jpg"
             text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
           />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             source="/walkingline/185232.jpg"
             text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
@@ -31,12 +47,12 @@ export default function WalkingLine() {
             source="/walkingline/185410.jpg"
             text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
           />
-        </div>
-        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             source="/walkingline/185504.jpg"
             text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
           />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             source="/walkingline/185736.jpg"
             text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
@@ -46,18 +62,24 @@ export default function WalkingLine() {
             text="WALKING THROUGH THE LINE 19X24’ ACRYLICS OVER PAPER"
           />
           <ImageClickHover source="/walkingline/IMG-6244.png" sold={true} />
-          <ImageClickHover source="/walkingline/IMG-6256.png" sold={true} />
-          <ImageClickHover source="/walkingline/IMG-7036.png" />
+          <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+            <ImageClickHover source="/walkingline/IMG-6256.png" sold={true} />
+            <ImageClickHover source="/walkingline/IMG-7036.png" />
+            <ImageClickHover source="/walkingline/IMG-7038.png" />
+          </div>
         </div>
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
-          <ImageClickHover source="/walkingline/IMG-7038.png" />
           <ImageClickHover source="/walkingline/IMG-7246.png" />
           <ImageClickHover source="/walkingline/IMG-7326.png" />
+          <ImageClickHover
+            source="/walkingline/IMG-7331.png"
+            gap={true}
+            sold={true}
+          />
         </div>
 
-        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
-          <ImageClickHover source="/walkingline/IMG-7331.png" gap={true} />
-          <ImageClickHover source="/walkingline/IMG-7332.png" />
+        <div className="flex flex-wrap md:flex-row md:justify-start gap-5  w-full mt-10 mb-10">
+          <ImageClickHover source="/walkingline/IMG-7332.png" sold={true} />
         </div>
       </div>
     </>

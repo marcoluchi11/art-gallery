@@ -4,6 +4,30 @@ import InquirePrints from "../InquirePrints";
 export default function Patches() {
   return (
     <>
+      <p className="text-xl  font-light mx-10 leading-10 mt-10">
+        Step into a world of vibrant modernity with these large-scale art
+        pieces, where a riot of colors converges in a bold dance of brush
+        strokes. Each canvas becomes a testament to direct and daring
+        expression, as the artist&apos;s hand paints the very essence of
+        contemporary creativity. The common thread among these masterpieces is
+        the fearless use of bold brush strokes, each stroke a declaration of
+        artistic intent.
+        <br />
+        <br /> The colorful palette, rich and diverse, creates a symphony of
+        hues that captivates the eye and sparks the imagination. These artworks
+        transcend traditional boundaries, embracing a modern theme that
+        resonates with the dynamic energy of the present. With every stroke, the
+        canvas comes alive, a testament to the artist&apos;s direct engagement
+        with the medium.
+        <br />
+        <br />
+        In this collection, the marriage of vivid colors and bold brushwork
+        invites the observer to witness the unapologetic celebration of modern
+        artistic expression. These large-scale pieces are not merely
+        compositions; they are vibrant narratives that unfold with every stroke,
+        inviting the viewer to partake in the exhilarating journey of
+        contemporary creativity.
+      </p>
       <InquirePrints />
       <div className="flex flex-wrap mt-[80px] ">
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">

@@ -4,6 +4,18 @@ import InquirePrints from "../InquirePrints";
 export default function AsInJapan() {
   return (
     <>
+      <p className="text-xl  font-light mx-10 leading-10 mt-10">
+        Embark on a journey through the intricate world of Japanese art, where
+        every stroke tells a story, and every motif carries profound cultural
+        significance. These art pieces are a testament to the delicate balance
+        of nature, spirituality, and the ephemeral beauty of existence. From the
+        graceful movements to sharp lines that transport us to a realm where
+        simplicity meets profound depth. As in Japan, collection motives invite
+        us to appreciate the elegance in simplicity, to find harmony in
+        asymmetry, and to recognize the profound connection between art and the
+        human spirit. Each motif holds a key to unlocking a world of tradition,
+        symbolism, and a timeless appreciation for the beauty that surrounds us.
+      </p>
       <InquirePrints />
 
       <div className="flex flex-wrap mt-[80px] ">
