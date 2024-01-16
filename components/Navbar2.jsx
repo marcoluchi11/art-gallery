@@ -76,7 +76,7 @@ export default function Navbar({ font }) {
               onMouseLeave={() => setArtWork(false)}
               className={`flex items-center uppercase mr-4 lg:mr-8  cursor-pointer z-50 relative `}
             >
-              <li className="text-xl text-white">art collection</li>
+              <li className="text-xl text-white">paintings</li>
               <div>
                 {artWork ? (
                   <AiOutlineClose size={25} color="white" fill="white" />
@@ -89,22 +89,22 @@ export default function Navbar({ font }) {
                 transition-opacity duration-500 ease-in-out ${
                   artWork ? "opacity-100" : "opacity-0 pointer-events-none"
                 }
-                 absolute top-[-115px] left-[35px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
+                 absolute top-[-105px] left-[0px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
               >
                 <Link href="/artwork/linepath">
-                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                  <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">LINE PATH</p>
                     {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/patches">
-                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">PATCHES</p>
                     {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/directionsearth">
-                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">
                       Directions to earth
                     </p>
@@ -112,31 +112,31 @@ export default function Navbar({ font }) {
                   </li>
                 </Link>
                 <Link href="/artwork/obsession">
-                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">OBSESSION</p>
                     {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/asinjapan">
-                  <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">AS IN JAPAN</p>
                     {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/movement">
-                  <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">MOVEMENT</p>
                     {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/mini">
-                  <li className="flex flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">MINI</p>
                     {/* <p className="text-black">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/itsamark">
-                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">
                       IT&apos;S A MARK
                     </p>
@@ -144,7 +144,7 @@ export default function Navbar({ font }) {
                   </li>
                 </Link>
                 <Link href="/artwork/walkingline">
-                  <li className="flex flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">
                       WALKING THROUGH THE LINE
                     </p>
@@ -174,27 +174,27 @@ export default function Navbar({ font }) {
                 } absolute top-[-200px] left[-55px] right-0 bottom-0 flex flex-col justify-center items-center  h-screen w-full`}
               >
                 <Link href="/dailycapture/beach" className="w-20">
-                  <li className="flex w-28 flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md uppercase">
-                    <p className="text-black">Beach</p>
-                    <p className="text-black">Days</p>
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  w-28 flex-col items-center mb-2 text-sm text-white bg-gray-300 p-2 rounded-md uppercase">
+                    <p className="text-black">Aqua</p>
+                    {/* <p className="text-black">Days</p> */}
                   </li>
                 </Link>
                 <Link href="/dailycapture/building" className="w-20">
-                  <li className="flex w-28 flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  w-28 flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
                     <p className="text-black">Daily</p>
                     <p className="text-black">Walk</p>
                   </li>
                 </Link>
                 <Link href="/dailycapture/b&w" className="w-20">
-                  <li className="flex w-28 flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  w-28 flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
                     <p className="text-black">b&w</p>
-                    <p className="text-black">Capture</p>
+                    {/* <p className="text-black">Capture</p> */}
                   </li>
                 </Link>
                 <Link href="/dailycapture/mountain" className="w-20">
-                  <li className="flex w-28 flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
-                    <p className="text-black">Mountain</p>
-                    <p className="text-black">Pics</p>
+                  <li className="flex w-28 flex-col items-center hover:bg-gray-400 transition-all ease-in-out duration-200  mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
+                    <p className="text-black">2021</p>
+                    {/* <p className="text-black">Pics</p> */}
                   </li>
                 </Link>
               </div>
@@ -231,7 +231,7 @@ export default function Navbar({ font }) {
           <div className="w-full">
             <ul className="uppercase font-light text-2xl">
               <li
-                // onClick={handleSmallerNav}
+                onClick={handleSmallerNav}
                 className="py-4 ml-2  cursor-pointer"
               >
                 <Link href="/">Home</Link>
@@ -240,7 +240,7 @@ export default function Navbar({ font }) {
                 onClick={artWorkHandle}
                 className="flex items-center py-4 ml-2 w-1/2  cursor-pointer"
               >
-                <p className=" p-0 mr-3">Art {artWork ? "Collection" : ""}</p>
+                <p className=" p-0 mr-3">Paintings</p>
                 <li onClick={artWorkHandle} className="flex lg:hidden">
                   {artWork ? (
                     <AiOutlineClose size={25} />
@@ -315,7 +315,7 @@ export default function Navbar({ font }) {
                   }  absolute top-[-49px] bottom-0 left-[190px] right-0 flex justify-center items-center h-screen`}
                 >
                   <Link href="/dailycapture/beach" onClick={handleSmallerNav}>
-                    <li className="text-sm sm:text-md my-3">Beach Days</li>
+                    <li className="text-sm sm:text-md my-3">Aqua</li>
                   </Link>
                   <Link
                     href="/dailycapture/building"
@@ -325,13 +325,13 @@ export default function Navbar({ font }) {
                   </Link>
 
                   <Link href="/dailycapture/b&w" onClick={handleSmallerNav}>
-                    <li className="text-sm sm:text-md my-3">B&W Capture</li>
+                    <li className="text-sm sm:text-md my-3">B&W</li>
                   </Link>
                   <Link
                     href="/dailycapture/mountain"
                     onClick={handleSmallerNav}
                   >
-                    <li className="text-sm sm:text-md my-3">Mountain Pics</li>
+                    <li className="text-sm sm:text-md my-3">2021</li>
                   </Link>
                 </div>
               </div>
