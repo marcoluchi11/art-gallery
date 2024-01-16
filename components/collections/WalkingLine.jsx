@@ -1,11 +1,12 @@
+import Description from "../Description";
 import ImageClickHover from "../ImageClickHover";
 import InquirePrints from "../InquirePrints";
 
 export default function WalkingLine() {
   return (
     <>
-      <p className="text-xl  font-light mx-10 leading-10 mt-10">
-        Explore a captivating collection of art pieces that captivate the senses
+      <Description
+        text="Explore a captivating collection of art pieces that captivate the senses
         with their dynamic textures and vibrant hues. This diverse compilation
         features works on both paper and canvas, each bearing a unique
         expression of creativity. The artists draw inspiration from the
@@ -14,10 +15,10 @@ export default function WalkingLine() {
         invite tactile exploration, creating a multisensory experience. Bold
         colors leap from the surface, intertwining in a dance that commands
         attention and sparks emotions. This collection is a celebration of the
-        fusion between the raw beauty of nature and the artists&apos; audacious
+        fusion between the raw beauty of nature and the artists' audacious
         use of color and texture, resulting in a visual feast for art
-        enthusiasts seeking a bold and textured journey
-      </p>
+        enthusiasts seeking a bold and textured journey"
+      />
       <InquirePrints />
       <div
         className={`flex flex-wrap mt-[80px] 

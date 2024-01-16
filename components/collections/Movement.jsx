@@ -1,11 +1,12 @@
+import Description from "../Description";
 import ImageClickHover from "../ImageClickHover";
 import InquirePrints from "../InquirePrints";
 
 export default function Movement() {
   return (
     <>
-      <p className="text-xl  font-light mx-10 leading-10 mt-10">
-        Dive into a realm of artistic fluidity with this captivating set of
+      <Description
+        text="Dive into a realm of artistic fluidity with this captivating set of
         pieces, where soft colors blend seamlessly across the paper, forming a
         mesmerizing dance of hues. Crafted using a delicate sponge technique on
         paper, each artwork in this ensemble exudes a graceful harmony of form
@@ -15,9 +16,9 @@ export default function Movement() {
         unified atmosphere, bringing a touch of gentle sophistication to any
         space. Immerse yourself in the soothing allure of these creations, where
         the union of fluid shapes and soft colors transcends traditional
-        boundaries, leaving an indelible impression on the observer&apos;s
-        senses.
-      </p>
+        boundaries, leaving an indelible impression on the observer's
+        senses."
+      />
       <InquirePrints />
       <div className="flex flex-wrap mt-[80px] ">
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">

@@ -1,20 +1,21 @@
 import Link from "next/link";
 import ImageClickHover from "../ImageClickHover";
 import InquirePrints from "../InquirePrints";
+import Description from "../Description";
 
 export default function Mini() {
   return (
     <>
-      <p className="text-xl  font-light mx-10 leading-10 mt-10">
-        Embark on a journey of art adorned with exquisite gold details, where
+      <Description
+        text=" Embark on a journey of art adorned with exquisite gold details, where
         the intricate interplay of light and shadow accentuates the finer
         elements of the masterpiece. Each stroke is carefully crafted gilded
         embellishment adds a touch of opulence, transforming the artwork into a
         captivating symphony of organic and fluid shapes. This fusion of
-        artistic skill and precious tones elevates the viewer&apos;s perception,
+        artistic skill and precious tones elevates the viewer's perception,
         inviting them to delve into a world where creativity and refinement
-        converge in a dazzling display of visual splendor.
-      </p>
+        converge in a dazzling display of visual splendor."
+      />
       <InquirePrints />
       <div
         className={`flex flex-wrap mt-[80px] 
