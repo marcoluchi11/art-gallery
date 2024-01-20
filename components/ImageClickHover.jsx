@@ -5,7 +5,7 @@ import Inquire from "./Inquire";
 export default function ImageClickHover({
   text = "",
   source,
-  sizeW = 100,
+  sizeW = 200,
   sizeH,
   sold = false,
   padding = 0,
