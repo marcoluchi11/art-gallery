@@ -42,6 +42,8 @@ Acrylics on paper"
 Acrylics on paper"
             source="/mini/141231.jpg"
           />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="ATHENES 11x15
 Acrylics on paper"
@@ -52,8 +54,6 @@ Acrylics on paper"
 Acrylics on paper"
             source="/mini/141327.jpg"
           />
-        </div>
-        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="ATHENES 11x15
 Acrylics on paper"
@@ -64,6 +64,8 @@ Acrylics on paper"
 Acrylics on paper"
             source="/mini/141419.jpg"
           />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="ATHENES 11x15
 Acrylics on paper"
@@ -109,6 +111,8 @@ Acrylics on paper"
 Acrylics on paper"
             source="/mini/141738.jpg"
           />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover
             gap={true}
             text="ATHENES 11x15
@@ -121,8 +125,6 @@ Acrylics on paper"
 Acrylics on paper"
             source="/mini/141839.jpg"
           />
-        </div>
-        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover
             text="ATHENES 11x15
 Acrylics on paper"
@@ -133,6 +135,8 @@ Acrylics on paper"
 Acrylics on paper"
             source="/mini/141904.jpg"
           />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover
             text="ATHENES 11x15
 Acrylics on paper"
@@ -150,18 +154,20 @@ Acrylics on paper"
 Acrylics on paper"
             source="/mini/142319.jpg"
           />
-          <ImageClickHover
-            gap={true}
-            text="ATHENES 11x15
+          <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
+            <ImageClickHover
+              gap={true}
+              text="ATHENES 11x15
 Acrylics on paper"
-            source="/mini/142335.jpg"
-          />
-          <ImageClickHover
-            gap={true}
-            text="ATHENES 11x15
+              source="/mini/142335.jpg"
+            />
+            <ImageClickHover
+              gap={true}
+              text="ATHENES 11x15
 Acrylics on paper"
-            source="/mini/142357.jpg"
-          />
+              source="/mini/142357.jpg"
+            />
+          </div>
         </div>
       </div>
     </>
