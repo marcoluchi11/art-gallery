@@ -38,46 +38,8 @@ export default function Obsesion() {
             source="/obsession/IMG-7254.jpg"
           />
           <ImageClickHover
-            text="Composition 20*93 D\ 55x50’ Large Abstract Art over acrylics"
-            source="/obsession/IMG-7255.jpg"
-          />
-          <ImageClickHover
-            text="Composition 20*93 D\ 56x53’ Large Abstract Art over acrylics"
-            source="/obsession/IMG-7257.jpg"
-          />
-          <ImageClickHover
-            text="Composition 20*93 D\ 55x53’ Large Abstract Art over acrylics"
-            source="/obsession/IMG-7258.jpg"
-          />
-          <ImageClickHover
-            text="Composition 20*93 D\ 60x55’ Large Abstract Art over acrylics"
-            source="/obsession/131038.png"
-          />
-          <ImageClickHover
             text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
-            source="/obsession/IMG-7259.jpg"
-          />
-        </div>
-        <div className="flex flex-wrap md:flex-row gap-5 md:gap-0 w-full mt-10">
-          <ImageClickHover
-            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
-            source="/obsession/IMG-7260.jpg"
-          />
-
-          <ImageClickHover
-            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
-            source="/obsession/IMG-7263.jpg"
-            sold={true}
-          />
-
-          <ImageClickHover
-            text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
-            source="/obsession/IMG-7264.jpg"
-            sold={true}
-          />
-          <ImageClickHover
-            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
-            source="/obsession/IMG-7265.jpg"
+            source="/obsession/IMG-7274.jpg"
             sold={true}
           />
           <ImageClickHover
@@ -86,9 +48,45 @@ export default function Obsesion() {
             sold={true}
           />
           <ImageClickHover
+            text="Composition 20*93 D\ 56x53’ Large Abstract Art over acrylics"
+            source="/obsession/IMG-7257.jpg"
+          />
+        </div>
+
+        <div className="flex flex-wrap md:flex-row gap-5 md:gap-0 w-full mt-10">
+          <ImageClickHover
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            source="/obsession/IMG-7260.jpg"
+          />
+          <ImageClickHover
+            text="Composition 20*93 D\ 55x53’ Large Abstract Art over acrylics"
+            source="/obsession/IMG-7258.jpg"
+          />
+          <ImageClickHover
+            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+            source="/obsession/IMG-7259.jpg"
+          />
+          <ImageClickHover
             text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
             source="/obsession/IMG-7267.jpg"
           />
+          <div className="flex flex-wrap md:flex-row gap-5 md:gap-0 w-full mt-10">
+            <ImageClickHover
+              text="OBBESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+              source="/obsession/IMG-7264.jpg"
+              sold={true}
+            />
+
+            <ImageClickHover
+              text="Composition 20*93 D\ 60x55’ Large Abstract Art over acrylics"
+              source="/obsession/131038.png"
+            />
+            <ImageClickHover
+              text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+              source="/obsession/IMG-7263.jpg"
+              sold={true}
+            />
+          </div>
         </div>
         <div
           className="flex flex-wrap md:flex-row gap-5   w-full mt-10
@@ -113,25 +111,32 @@ export default function Obsesion() {
             source="/obsession/IMG-7272.jpg"
             sold={true}
           />
-          <ImageClickHover
-            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
-            source="/obsession/IMG-7274.jpg"
-            sold={true}
-          />
-          <ImageClickHover
-            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
-            source="/obsession/IMG-7278.jpg"
-          />
+          <div className="flex flex-wrap md:flex-row gap-5 md:gap-0 w-full mt-10">
+            <ImageClickHover
+              text="OBSESSION 54X54’ ABSTRACT ACRYLIC AND OIL OVER CANVAS"
+              source="/obsession/IMG-7279.jpg"
+            />
+
+            <ImageClickHover
+              text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+              source="/obsession/IMG-7278.jpg"
+            />
+            <ImageClickHover
+              text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+              source="/obsession/IMG-7265.jpg"
+              sold={true}
+            />
+            <ImageClickHover
+              text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
+              source="/obsession/obsession1.jpg"
+            />
+          </div>
         </div>
 
         <div className="flex  flex-wrap md:flex-row gap-5  mt-10 w-full mb-10">
           <ImageClickHover
-            text="OBSESSION 58X45’ ABSTRACT PAINTING ON ACRYLICS"
-            source="/obsession/obsession1.jpg"
-          />
-          <ImageClickHover
-            text="OBSESSION 54X54’ ABSTRACT ACRYLIC AND OIL OVER CANVAS"
-            source="/obsession/IMG-7279.jpg"
+            text="Composition 20*93 D\ 55x50’ Large Abstract Art over acrylics"
+            source="/obsession/IMG-7255.jpg"
           />
           <ImageClickHover
             source="/obsession/IMG-6400.png"
