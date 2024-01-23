@@ -29,7 +29,7 @@ const SocialMedia = () => {
       >
         <Image
           className="mr-3"
-          src="/saatchiartlogo.png"
+          src="/saatchiartLogo.png"
           alt="saatchiart logo"
           width={24}
           height={25}

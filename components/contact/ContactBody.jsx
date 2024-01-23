@@ -50,7 +50,7 @@ export default function ContactBody() {
         >
           <Image
             className="ml-3 mr-1"
-            src="/saatchiartlogo.png"
+            src="/saatchiartLogo.png"
             alt="saatchiart logo"
             width={24}
             height={25}
