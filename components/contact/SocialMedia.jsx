@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram, FaRegEnvelope, FaPinterest } from "react-icons/fa6";
+
 const SocialMedia = () => {
   return (
     <section className="flex justify-evenly pt-5 md:pt-0 w-full md:mt-5">
@@ -19,6 +21,20 @@ const SocialMedia = () => {
         target="_blank"
       >
         <FaPinterest className=" text-2xl" color="white" fill="white" />
+      </Link>
+      <Link
+        href="https://www.saatchiart.com/albionvu"
+        target="_blank"
+        className="flex text-white tracking-wider	"
+      >
+        <Image
+          className="mr-3"
+          src="/saatchiartlogo.png"
+          alt="saatchiart logo"
+          width={24}
+          height={25}
+        />
+        SAATCHI ART
       </Link>
     </section>
   );

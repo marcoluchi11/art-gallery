@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { FaEnvelope, FaInstagram, FaPinterest } from "react-icons/fa6";
+
 export default function ContactBody() {
   return (
     <div className="flex flex-col  text-center mt-[150px]">
@@ -41,8 +43,22 @@ export default function ContactBody() {
           />
           ALBION VU Original artwork
         </Link>
+        <Link
+          href="https://www.saatchiart.com/albionvu"
+          target="_blank"
+          className="flex justify-center text-white tracking-wider	underline mt-5 md:mt-0"
+        >
+          <Image
+            className="ml-3 mr-1"
+            src="/saatchiartlogo.png"
+            alt="saatchiart logo"
+            width={24}
+            height={25}
+          />
+          SAATCHI ART
+        </Link>
       </div>
-      <div className="flex justify-center mt-5">
+      <div className="flex justify-center mt-5 mb-10 md:mb-0">
         <p className="text-white">
           MEMBER AT THE CREATIVES REBUILD NEW YORK AND A GRANT WINNER TOP 100
           ARTIST OF THE YEAR

@@ -1,9 +1,8 @@
 "use client";
-import Artwork from "@/app/artwork/page";
-import { ArtContext } from "@/context/context";
+
 import Image from "next/image";
 import Link from "next/link";
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import {
   AiOutlineClose,
   AiOutlineMenu,
@@ -11,7 +10,6 @@ import {
   AiFillCaretDown,
 } from "react-icons/ai";
 export default function Navbar({ font }) {
-  const { showModal } = useContext(ArtContext);
   const [menuIcon, setIcon] = useState(false);
   const [artWork, setArtWork] = useState(false);
   const [dailyCapture, setDailyCapture] = useState(false);
@@ -199,6 +197,13 @@ export default function Navbar({ font }) {
                 </Link>
               </div>
             </li>
+            <Link
+              href="https://www.saatchiart.com/albionvu"
+              target="_blank"
+              className="uppercase mr-4 lg:mr-8"
+            >
+              <li className="text-xl text-white">shop</li>
+            </Link>
             <Link href="/about" className="uppercase mr-4 lg:mr-8  text-white">
               <li className="text-xl text-white">about</li>
             </Link>
@@ -335,7 +340,18 @@ export default function Navbar({ font }) {
                   </Link>
                 </div>
               </div>
-
+              <Link
+                href="https://www.saatchiart.com/albionvu"
+                target="_blank"
+                className="uppercase mr-4 lg:mr-8"
+              >
+                <li
+                  onClick={handleSmallerNav}
+                  className="pt-4 ml-2  cursor-pointer"
+                >
+                  shop
+                </li>
+              </Link>
               <li
                 onClick={handleSmallerNav}
                 className="py-4 ml-2  cursor-pointer"
