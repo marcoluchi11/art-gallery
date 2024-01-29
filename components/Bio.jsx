@@ -31,8 +31,8 @@ export default function Bio() {
         />
       </div>
       <div className="md:w-1/2 text-center md:text-justify">
-        <p className="font-light border-solid border-t-2 border-gray-300 text-white ">
-          <span className="font-bold text-white">Albion Vu</span> is an
+        <p className="font-light border-solid border-t-2 border-gray-300 text-black ">
+          <span className="font-bold text-black">Albion Vu</span> is an
           architect, fashion designer and an abstract painter sharing his life
           between NYC and Martha&apos;s Vineyard. Born and raised in Eastern
           Europe. Moved to the USA right after he graduated in Architecture and
@@ -41,7 +41,7 @@ export default function Bio() {
           artistic life.
         </p>
 
-        <p className="font-light mt-5 text-white">
+        <p className="font-light mt-5 text-black">
           Speaking of that, some of the main sources of his inspiration to make
           art but not only that followed the artist since he started to paint
           from 2013 are COLOR, SHAPES, SILUETES, STRUCTURE, TEXTURE, DEPTH,
@@ -53,7 +53,7 @@ export default function Bio() {
           with the art he makes.
         </p>
 
-        <p className="font-light mt-5 text-white ">
+        <p className="font-light mt-5 text-black ">
           His painting is abstract, expressive, gestural with some figurative
           resurgences ready to hide or be dissolved. He is inspired by the
           humans, the silhouettes, the crowds, the look, the face, the shadow,
@@ -65,17 +65,17 @@ export default function Bio() {
           numerous pieces on the smaller scale as well
         </p>
 
-        <p className="font-light mt-5 border-solid border-b-2 border-gray-700 text-white">
+        <p className="font-light mt-5 border-solid border-b-2 border-gray-700 text-black">
           His work is held in private collections in the US and Europe. Part of
           the galleries and beautifully curated homes all around. Currently
           sharing his life between NYC and Martha&apos;s Vineyard where he
           operates as an artist.
         </p>
-        <p className="font-light italic mt-5 text-white">
+        <p className="font-light italic mt-5 text-black">
           ARTISTS STATEMENT
           <br />
           <br />
-          <p className="font-light text-white">
+          <p className="font-light text-black">
             Color is the essence of beauty and energy that permeates our world.
             It has the remarkable ability to evoke emotions and stir deep
             feelings within us. I have always been captivated by the interplay
@@ -88,7 +88,7 @@ export default function Bio() {
             reflection of admiration for something different. For a difference.
           </p>
         </p>
-        <p className="font-light mt-5 text-white">
+        <p className="font-light mt-5 text-black">
           Some of my paintings emerge from spontaneous impulses, where my inner
           emotions take control and guide my paintbrush. They become raw
           expressions of my inner self. Other artworks are journeys of
@@ -98,7 +98,7 @@ export default function Bio() {
           fleeting moments and freeze them in time on the canvas, inviting
           others to share in the experience.
         </p>
-        <p className="font-light mt-5 mb-5 text-white">
+        <p className="font-light mt-5 mb-5 text-black">
           Painting allows me to communicate beyond words, to communicate in the
           language of colors, shapes, and emotions. It is a profound and
           intimate means of expression, enabling me to convey the depth of my
@@ -108,7 +108,7 @@ export default function Bio() {
           <br />
           <br />
           <br />
-          <span className="font-light text-white ">
+          <span className="font-light text-black ">
             “It takes me to start painting so I can stop everything around me
             move.”
           </span>
