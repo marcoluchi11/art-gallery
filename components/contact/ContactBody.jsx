@@ -5,29 +5,29 @@ import { FaEnvelope, FaInstagram, FaPinterest } from "react-icons/fa6";
 export default function ContactBody() {
   return (
     <div className="flex flex-col  text-center mt-[150px]">
-      <h1 className=" text-3xl mt-10 md:text-5xl font-thin tracking-tight text-white">
+      <h1 className=" text-3xl mt-10 md:text-5xl font-thin tracking-tight text-black">
         GET IN TOUCH WITH ME
       </h1>
-      <p className="my-10 font-light md:w-full md:mx-0 mx-3	 text-white">
+      <p className="my-10 font-light md:w-full md:mx-0 mx-3	 text-black">
         Got a question about us? Are you interested in partnering with us? Have
         some suggestions or just want to say Hi? Just contact us.
       </p>
       <div className="flex justify-center mt-5">
-        <FaEnvelope className="text-3xl mx-3" color="white" fill="white" />
-        <p className="underline cursor-pointer text-white">
+        <FaEnvelope className="text-3xl mx-3" color="black" fill="black" />
+        <p className="underline cursor-pointer text-black">
           albionvu.art@gmail.com
         </p>
       </div>
-      <div className="flex flex-col md:flex-row justify-center mt-5 text-white mb-5">
+      <div className="flex flex-col md:flex-row justify-center mt-5 text-black mb-5">
         <Link
           href="https://www.instagram.com/vualbion/"
           target="_blank"
           className="flex justify-center underline"
         >
           <FaInstagram
-            className="text-2xl text-white mx-3"
-            color="white"
-            fill="white"
+            className="text-2xl text-black mx-3"
+            color="black"
+            fill="black"
           />
           vualbion
         </Link>
@@ -37,16 +37,16 @@ export default function ContactBody() {
           className="flex justify-center underline mt-5 md:mt-0"
         >
           <FaPinterest
-            className="text-2xl text-white mx-3"
-            color="white"
-            fill="white"
+            className="text-2xl text-black mx-3"
+            color="black"
+            fill="black"
           />
           ALBION VU Original artwork
         </Link>
         <Link
           href="https://www.saatchiart.com/albionvu"
           target="_blank"
-          className="flex justify-center text-white tracking-wider	underline mt-5 md:mt-0"
+          className="flex justify-center text-black tracking-wider	underline mt-5 md:mt-0"
         >
           <Image
             className="ml-3 mr-1"
@@ -59,7 +59,7 @@ export default function ContactBody() {
         </Link>
       </div>
       <div className="flex justify-center mt-5 mb-10 md:mb-0">
-        <p className="text-white">
+        <p className="text-black">
           MEMBER AT THE CREATIVES REBUILD NEW YORK AND A GRANT WINNER TOP 100
           ARTIST OF THE YEAR
           <br />

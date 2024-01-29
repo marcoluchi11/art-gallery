@@ -7,25 +7,25 @@ const SocialMedia = () => {
     <section className="flex justify-evenly pt-5 md:pt-0 w-full md:mt-5">
       <Link href="https://www.instagram.com/vualbion/" target="_blank">
         <FaInstagram
-          className="text-2xl text-white"
-          color="white"
-          fill="white"
+          className="text-2xl text-black"
+          color="black"
+          fill="black"
         />
       </Link>
       <Link href="mailto:albionvu.art@gmail.com" target="_blank">
-        <FaRegEnvelope className=" text-2xl" color="white" fill="white" />
+        <FaRegEnvelope className=" text-2xl" color="black" fill="black" />
       </Link>
       <Link
         href="https://www.pinterest.com/albionv2/albion-vu-original-artwork/
 "
         target="_blank"
       >
-        <FaPinterest className=" text-2xl" color="white" fill="white" />
+        <FaPinterest className=" text-2xl" color="black" fill="black" />
       </Link>
       <Link
         href="https://www.saatchiart.com/albionvu"
         target="_blank"
-        className="flex text-white tracking-wider	"
+        className="flex text-black tracking-wider	"
       >
         <Image
           className="mr-3"
