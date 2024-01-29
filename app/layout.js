@@ -1,4 +1,4 @@
-import Navbar2 from "@/components/Navbar2";
+import Navbar2 from "@/components/home/Navbar2";
 import "./globals.css";
 import { Roboto } from "next/font/google";
 import Footer from "@/components/contact/Footer";

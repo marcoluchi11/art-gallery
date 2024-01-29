@@ -1,5 +1,5 @@
-import Press from "@/components/Press";
-import PressArticle from "@/components/PressArticle";
+import Press from "@/components/press/Press";
+import PressArticle from "@/components/press/PressArticle";
 
 export default function PressInfo() {
   return (
