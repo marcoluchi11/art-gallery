@@ -26,7 +26,7 @@ export default function BackToTop() {
   return (
     <div>
       <div
-        className={`fixed bottom-4 left-4 transition-opacity ${
+        className={`fixed bottom-[70px] left-4 transition-opacity ${
           isVisible ? "opacity-100" : "opacity-0"
         } bg-white text-black rounded-full p-2 hover:bg-gray-200 hover:scale-110 hover:shadow-md`}
         onClick={scrollToTop}
