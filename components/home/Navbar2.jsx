@@ -197,6 +197,9 @@ export default function Navbar({ font }) {
                 </Link>
               </div>
             </li>
+            <Link href="/gallery" className="uppercase mr-4 lg:mr-8">
+              <li className="text-xl text-black">gallery</li>
+            </Link>
             <Link
               href="https://www.saatchiart.com/albionvu"
               target="_blank"
@@ -340,6 +343,12 @@ export default function Navbar({ font }) {
                   </Link>
                 </div>
               </div>
+              <li
+                onClick={handleSmallerNav}
+                className="py-4 ml-2  cursor-pointer"
+              >
+                <Link href="/gallery">Gallery</Link>
+              </li>
               <Link
                 href="https://www.saatchiart.com/albionvu"
                 target="_blank"
