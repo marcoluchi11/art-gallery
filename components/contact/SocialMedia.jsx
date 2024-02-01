@@ -25,7 +25,7 @@ const SocialMedia = () => {
       <Link
         href="https://www.saatchiart.com/albionvu"
         target="_blank"
-        className="flex text-black tracking-wider	"
+        className="flex text-black tracking-wider	items-center"
       >
         <Image
           className="mr-3"
@@ -35,6 +35,15 @@ const SocialMedia = () => {
           height={25}
         />
         SAATCHI ART
+      </Link>
+      <Link href="https://www.turningart.com/artist/albion-vu" target="_blank">
+        <Image
+          className="mr-3"
+          src="/turningart.webp"
+          alt="turning art logo"
+          width={100}
+          height={25}
+        />
       </Link>
     </section>
   );

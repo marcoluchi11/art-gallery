@@ -46,7 +46,7 @@ export default function ContactBody() {
         <Link
           href="https://www.saatchiart.com/albionvu"
           target="_blank"
-          className="flex justify-center text-black tracking-wider	underline mt-5 md:mt-0"
+          className="flex justify-center items-center text-black tracking-wider	underline mt-5 md:mt-0"
         >
           <Image
             className="ml-3 mr-1"
@@ -56,6 +56,19 @@ export default function ContactBody() {
             height={25}
           />
           SAATCHI ART
+        </Link>
+        <Link
+          href="https://www.turningart.com/artist/albion-vu"
+          target="_blank"
+          className="flex justify-center items-center text-black tracking-wider	underline mt-5 md:mt-0"
+        >
+          <Image
+            className="mr-3 ml-3"
+            src="/turningart.webp"
+            alt="turning art logo"
+            width={100}
+            height={25}
+          />
         </Link>
       </div>
       <div className="flex justify-center mt-5 mb-10 md:mb-0">
