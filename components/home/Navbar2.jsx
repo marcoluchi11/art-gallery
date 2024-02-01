@@ -157,7 +157,7 @@ export default function Navbar({ font }) {
               onMouseEnter={() => setDailyCapture(true)}
               onMouseLeave={() => setDailyCapture(false)}
             >
-              <li className="text-xl text-black">daily capture</li>
+              <li className="text-xl text-black">photography</li>
 
               <div>
                 {dailyCapture ? (
@@ -307,7 +307,7 @@ export default function Navbar({ font }) {
                 className="flex items-center py-4 ml-2 w-1/2  cursor-pointer"
               >
                 <li className="py-4  cursor-pointer">
-                  <li>Daily Capture</li>
+                  <li>Photography</li>
                 </li>
                 <li onClick={dailyCaptureHandle} className="flex lg:hidden">
                   {dailyCapture ? (
