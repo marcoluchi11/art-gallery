@@ -153,7 +153,7 @@ export default function Navbar({ font }) {
             </div>
 
             <li
-              className="uppercase mr-4 lg:mr-8 flex flex-row  text-black relative cursor-pointer "
+              className="uppercase mr-4 lg:mr-8 flex flex-row  z-50 text-black relative cursor-pointer "
               onMouseEnter={() => setDailyCapture(true)}
               onMouseLeave={() => setDailyCapture(false)}
             >
