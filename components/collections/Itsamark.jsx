@@ -62,6 +62,17 @@ export default function Itsamark() {
             sold={true}
           />
         </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          {/* 3 JUNTAS */}
+          <ImageClickHover source="/itsamark/itsamark1.jpg" />
+          <ImageClickHover source="/itsamark/itsamark2.jpg" />
+          <ImageClickHover source="/itsamark/itsamark3.jpg" />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          {/* 3 JUNTAS */}
+          <ImageClickHover source="/itsamark/itsamark4.jpg" />
+          <ImageClickHover source="/itsamark/itsamark5.jpg" />
+        </div>
       </div>
     </>
   );
