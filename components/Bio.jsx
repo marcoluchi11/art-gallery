@@ -5,14 +5,14 @@ export default function Bio() {
   return (
     <article className="mt-[60px] w-full flex flex-col md:flex-row">
       <div className="md:w-1/2 flex flex-col justify-center items-center mt-[200px] md:mt-0">
-        <Image
+        {/* <Image
           className="rounded-md"
-          src="/about/IMG_7248.jpg"
+          src="/about/about3.jpg"
           alt="portraitImage"
           width={400}
           height={600}
           priority
-        />
+        /> */}
         <Image
           className="rounded-md mt-3"
           src="/about/about1.jpg"
@@ -29,9 +29,17 @@ export default function Bio() {
           height={600}
           priority
         />
+        <Image
+          className="rounded-md mt-3 mb-3"
+          src="/about/about4.jpg"
+          alt="paintingimage"
+          width={400}
+          height={600}
+          priority
+        />
       </div>
       <div className="md:w-1/2 text-center md:text-justify">
-        <p className="font-light border-solid border-t-2 border-gray-300 text-black ">
+        <p className="font-light border-solid border-t-2 border-gray-300 text-black mt-3 pt-3 md:mt-0  ">
           <span className="font-bold text-black">Albion Vu</span> is an
           architect, fashion designer and an abstract painter sharing his life
           between NYC and Martha&apos;s Vineyard. Born and raised in Eastern
@@ -65,13 +73,14 @@ export default function Bio() {
           numerous pieces on the smaller scale as well
         </p>
 
-        <p className="font-light mt-5 border-solid border-b-2 border-gray-700 text-black">
+        <p className="font-light mt-5 border-solid border-b-2 border-gray-700 text-black pb-3">
           His work is held in private collections in the US and Europe. Part of
           the galleries and beautifully curated homes all around. Currently
           sharing his life between NYC and Martha&apos;s Vineyard where he
           operates as an artist.
         </p>
-        <p className="font-light italic mt-5 text-black">
+
+        <p className="font-light italic mt-3 text-black">
           ARTISTS STATEMENT
           <br />
           <br />
