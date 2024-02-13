@@ -54,7 +54,7 @@ md:hidden flex flex-col justify-center text-center uppercase  font-light mt-3 te
         </p>
       )}
       {sold && (
-        <p className="text-center font-light text-red-500 text-xl">SOLD</p>
+        <p className="text-center mt-1 font-light text-red-700 text-xl">SOLD</p>
       )}
       {/* {hovered && (
         <p
