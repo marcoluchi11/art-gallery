@@ -17,7 +17,7 @@ export default function WalkingLine() {
         attention and sparks emotions. This collection is a celebration of the
         fusion between the raw beauty of nature and the artists' audacious
         use of color and texture, resulting in a visual feast for art
-        enthusiasts seeking a bold and textured journey"
+        enthusiasts seeking a bold and textured journey."
       />
       <InquirePrints />
       <div

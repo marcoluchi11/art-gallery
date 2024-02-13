@@ -21,7 +21,7 @@ export default function LinePath() {
         an art form that demands both concentration and finesse. Witness the
         convergence of precision and creativity as these 11 pieces weave a
         visual tapestry, where the beauty lies in the deliberate repetition of
-        short lines—a testament to the artist's mastery of form and rhythm"
+        short lines—a testament to the artist's mastery of form and rhythm."
       />
       <InquirePrints />
       <div className="flex flex-wrap mt-[80px] ">

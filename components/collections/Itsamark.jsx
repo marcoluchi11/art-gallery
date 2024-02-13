@@ -13,7 +13,7 @@ export default function Itsamark() {
         artwork into a captivating symphony of elegance and luxury. This fusion
         of artistic skill and precious metal elevates the viewer's
         perception, inviting them to delve into a world where creativity and
-        refinement converge in a dazzling display of visual splendor"
+        refinement converge in a dazzling display of visual splendor."
       />
       <InquirePrints />
       <div
