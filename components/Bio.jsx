@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Bio() {
   return (
     <article className="mt-[60px] w-full flex flex-col md:flex-row">
-      <div className="md:w-1/2 flex flex-col justify-center items-center mt-[200px] md:mt-0">
+      <div className="md:w-1/2 flex flex-col justify-start items-center mt-[200px] md:mt-0">
         {/* <Image
           className="rounded-md"
           src="/about/about3.jpg"
@@ -13,7 +13,7 @@ export default function Bio() {
           height={600}
           priority
         /> */}
-        <Image
+        {/* <Image
           className="rounded-md mt-3"
           src="/about/about1.jpg"
           alt="paintingimage"
@@ -28,7 +28,7 @@ export default function Bio() {
           width={400}
           height={600}
           priority
-        />
+        /> */}
         <Image
           className="rounded-md mt-3 mb-3"
           src="/about/about4.jpg"
