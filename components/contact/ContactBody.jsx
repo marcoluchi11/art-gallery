@@ -4,7 +4,7 @@ import { FaEnvelope, FaInstagram, FaPinterest } from "react-icons/fa6";
 
 export default function ContactBody() {
   return (
-    <div className="flex flex-col  text-center mt-[150px]">
+    <div className="flex flex-col  text-center mt-[100px] md:mt-[130px]">
       <h1 className=" text-3xl mt-10 md:text-5xl font-thin tracking-tight text-black">
         GET IN TOUCH WITH ME
       </h1>
@@ -12,13 +12,16 @@ export default function ContactBody() {
         Got a question about us? Are you interested in partnering with us? Have
         some suggestions or just want to say Hi? Just contact us.
       </p>
-      <div className="flex justify-center mt-5">
+      <div className="flex justify-center mt-5 items-center">
         <FaEnvelope className="text-3xl mx-3" color="black" fill="black" />
-        <p className="underline cursor-pointer text-black">
+        <Link
+          href="mailto:albionvu.art@gmail.com"
+          className="underline cursor-pointer text-black"
+        >
           albionvu.art@gmail.com
-        </p>
+        </Link>
       </div>
-      <div className="flex flex-col md:flex-row justify-center mt-5 text-black mb-5">
+      <div className="flex flex-col md:flex-row justify-center items-center mt-5 text-black mb-5">
         <Link
           href="https://www.instagram.com/vualbion/"
           target="_blank"
@@ -70,6 +73,19 @@ export default function ContactBody() {
             height={25}
           />
         </Link>
+        <Link
+          className="bg-[#0E3F54] p-1 rounded-sm mt-5 md:mt-0"
+          href="https://www.thecarpentryshopco.com/collections/art"
+          target="_blank"
+        >
+          <Image
+            className="mr-3"
+            src="/tcsc.webp"
+            alt="the carpentry logo"
+            width={100}
+            height={25}
+          />
+        </Link>
       </div>
       <div className="flex justify-center mt-5 mb-10 md:mb-0">
         <p className="text-black">
@@ -83,6 +99,10 @@ export default function ContactBody() {
           FINEARTAMERICA
           <br />
           SOCIETY6
+          <br />
+          TURNING ART
+          <br />
+          THE CARPENTRY SHOP CO
         </p>
       </div>
     </div>
