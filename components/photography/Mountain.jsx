@@ -1,4 +1,4 @@
-import ImageHoverOff from "../ImageHoverOff";
+import ImageClickHover from "../ImageClickHover";
 import InquirePrints from "../InquirePrints";
 import Landscape from "../Landscape";
 
@@ -14,55 +14,52 @@ export default function Mountain() {
         className={`flex flex-col md:flex-row flex-wrap justify-center items-center  mt-[80px] 
         }  `}
       >
-        <ImageHoverOff
-          source="/dailycapture/mountain/IMG-0966.jpg"
-          sizeH={500}
-          sizeW={500}
-          className="mx-auto"
-        />
-        <ImageHoverOff
-          source="/dailycapture/mountain/IMG-0998.jpg"
-          sizeH={400}
-          sizeW={400}
-          className="mx-auto"
-        />
-        <ImageHoverOff
-          source="/dailycapture/mountain/IMG-1011.jpg"
-          sizeH={400}
-          sizeW={400}
-          className="mx-auto"
-        />
-        <ImageHoverOff
-          source="/dailycapture/mountain/IMG-1012.jpg"
-          sizeH={400}
-          sizeW={400}
-          className="mx-auto"
-        />
-        <ImageHoverOff
-          source="/dailycapture/mountain/IMG-1013.jpg"
-          sizeH={400}
-          sizeW={400}
-        />
-        <ImageHoverOff
-          source="/dailycapture/mountain/IMG-5649.jpg"
-          sizeH={400}
-          sizeW={400}
-        />
-        <ImageHoverOff
-          source="/dailycapture/mountain/IMG-7572.jpg"
-          sizeH={400}
-          sizeW={400}
-        />
-        <ImageHoverOff
-          source="/dailycapture/mountain/IMG-7598.jpg"
-          sizeH={400}
-          sizeW={400}
-        />
-        <ImageHoverOff
-          source="/dailycapture/mountain/IMG-7600.jpg"
-          sizeH={400}
-          sizeW={400}
-        />
+        <div className="flex flex-wrap md:flex-row gap-5 items-center  w-full mt-10">
+          <ImageClickHover
+            source="/dailycapture/mountain/IMG-0966.jpg"
+            sizeW={180}
+            className="mx-auto"
+          />
+          <ImageClickHover
+            source="/dailycapture/mountain/IMG-0998.jpg"
+            sizeW={180}
+            className="mx-auto"
+          />
+          <ImageClickHover
+            source="/dailycapture/mountain/IMG-1011.jpg"
+            sizeW={180}
+            className="mx-auto"
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5 items-center  w-full mt-10">
+          <ImageClickHover
+            source="/dailycapture/mountain/IMG-1012.jpg"
+            sizeW={180}
+            className="mx-auto"
+          />
+          <ImageClickHover
+            source="/dailycapture/mountain/IMG-1013.jpg"
+            sizeW={180}
+          />
+          <ImageClickHover
+            source="/dailycapture/mountain/IMG-5649.jpg"
+            sizeW={180}
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5 items-center  w-full mt-10">
+          <ImageClickHover
+            source="/dailycapture/mountain/IMG-7572.jpg"
+            sizeW={180}
+          />
+          <ImageClickHover
+            source="/dailycapture/mountain/IMG-7598.jpg"
+            sizeW={180}
+          />
+          <ImageClickHover
+            source="/dailycapture/mountain/IMG-7600.jpg"
+            sizeW={180}
+          />
+        </div>
       </div>
     </>
   );
