@@ -31,7 +31,6 @@ export default function LinePath() {
               source="/linepath/linepath4.jpg"
               text="LINE PATH 80X60’ ACRYLICS AND OIL PASTEL OVER CANVAS"
             />
-
             <ImageClickHover
               source="/linepath/linepath6.jpg"
               text="LINE PATH 56X56’ ACRYLICS AND OIL PASTEL OVER CANVAS"
@@ -42,7 +41,10 @@ export default function LinePath() {
             />
           </div>
           <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
-            <ImageClickHover source="/linepath/linepath1.jpg" />
+            <ImageClickHover
+              source="/linepath/linepath1.jpg"
+              text="LINE PATH 46X56’ ACRYLICS AND OIL PASTEL OVER CANVAS"
+            />
             <ImageClickHover
               source="/linepath/linepath8.jpg"
               text="LINE PATH 55X34’ ACRYLICS AND OIL PASTEL OVER CANVAS"

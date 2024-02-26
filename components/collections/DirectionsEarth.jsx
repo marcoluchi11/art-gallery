@@ -26,14 +26,20 @@ export default function DirectionsEarth() {
       <InquirePrints />
       <div className="flex flex-wrap mt-[80px] ">
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
-          <ImageClickHover source="/directionstoearth/directions1.jpg" />
+          <ImageClickHover
+            source="/directionstoearth/directions1.jpg"
+            text="DIRECTIONS TO EARTH 49X54’ ACRYLICS OVER CANVAS"
+          />
           <ImageClickHover
             source="/directionstoearth/directions2.jpg"
             sold={true}
           />
-          <ImageClickHover source="/directionstoearth/directions3.jpg" />
           <ImageClickHover
-            text="Composition 20*93 D\ 52x52’ Large Abstract Art over acrylics"
+            source="/directionstoearth/directions3.jpg"
+            text="DIRECTIONS TO EARTH 54X54’ ACRYLICS OVER CANVAS"
+          />
+          <ImageClickHover
+            text="DIRECTIONS TO EARTH 52x52’ ACRYLICS OVER CANVAS"
             source="/directionstoearth/directions4.jpg"
           />
         </div>
