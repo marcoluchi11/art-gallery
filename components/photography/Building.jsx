@@ -151,6 +151,16 @@ export default function Building() {
             sizeW={180}
           />
         </div>
+        <div className="flex flex-wrap md:flex-row gap-5 items-center  w-full mt-10">
+          <ImageClickHover
+            source="/dailycapture/building/IMG_9969.jpg"
+            sizeW={180}
+          />
+          <ImageClickHover
+            source="/dailycapture/building/IMG_9959.jpg"
+            sizeW={180}
+          />
+        </div>
       </div>
     </>
   );

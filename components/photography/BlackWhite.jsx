@@ -167,6 +167,10 @@ export default function BlackWhite() {
             source="/dailycapture/b&w/IMG-3579.jpg"
             sizeW={180}
           />
+          <ImageClickHover
+            source="/dailycapture/b&w/IMG_9924.jpg"
+            sizeW={180}
+          />
         </div>
       </div>
     </>
