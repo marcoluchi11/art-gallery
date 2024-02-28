@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaEnvelope, FaInstagram, FaPinterest } from "react-icons/fa6";
+import DownloadButton from "../DownloadButton";
 
 export default function ContactBody() {
   return (
@@ -87,6 +88,7 @@ export default function ContactBody() {
           />
         </Link>
       </div>
+      <DownloadButton />
       <div className="flex justify-center mt-5 mb-10 md:mb-0">
         <p className="text-black">
           MEMBER AT THE CREATIVES REBUILD NEW YORK AND A GRANT WINNER TOP 100

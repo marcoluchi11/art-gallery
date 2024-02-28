@@ -1,3 +1,4 @@
+import DownloadButton from "../DownloadButton";
 import HomeCollage from "./HomeCollage";
 export default function Homepage() {
   return (
@@ -7,6 +8,8 @@ export default function Homepage() {
           {/* <HomeImages /> */}
           <HomeCollage />
         </div>
+
+        <DownloadButton />
       </div>
     </>
   );
