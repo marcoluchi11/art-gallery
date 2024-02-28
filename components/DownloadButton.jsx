@@ -3,7 +3,7 @@ import { IoMdDownload } from "react-icons/io";
 
 export default function DownloadButton() {
   return (
-    <div className="flex justify-center my-5 text-md underline md:no-underline md:text-xl">
+    <div className="flex justify-center my-5 text-md underline md:no-underline md:text-3xl">
       <Link
         href="https://online.flippingbook.com/view/122448442/?_gl=1*1gs6xv0*_gcl_au*NzIyODY0MDgzLjE3MDg1MzM5Mjk"
         className="flex items-center justify-center hover:underline"
