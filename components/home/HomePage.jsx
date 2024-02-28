@@ -6,6 +6,7 @@ export default function Homepage() {
       <div className="max-w-[1366px]">
         <div className="">
           {/* <HomeImages /> */}
+          <DownloadButton />
           <HomeCollage />
         </div>
 
