@@ -33,6 +33,8 @@ export default function Itsamark() {
             text="It’s a mark- 19x24 Acrylic on paper with gold"
             source="/itsamark/144419.jpg"
           />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
             text="It’s a mark- 19x24 Acrylic on paper with gold"
             source="/itsamark/144450.jpg"
@@ -41,12 +43,12 @@ export default function Itsamark() {
             text="AIt’s a mark- 19x24 Acrylic on paper with gold"
             source="/itsamark/144518.jpg"
           />
-        </div>
-        <div className="flex flex-wrap  md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover
             text="It’s a mark- 19x24 Acrylic on paper with gold"
             source="/itsamark/144601.jpg"
           />
+        </div>
+        <div className="flex flex-wrap  md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover
             text="It’s a mark- 19x24 Acrylic on paper with gold"
             source="/itsamark/144633.jpg"
@@ -62,17 +64,17 @@ export default function Itsamark() {
             sold={true}
           />
         </div>
-        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
-          {/* 3 JUNTAS */}
-          <ImageClickHover source="/itsamark/itsamark1.jpg" />
+        {/* <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10"> */}
+
+        {/* <ImageClickHover source="/itsamark/itsamark1.jpg" />
           <ImageClickHover source="/itsamark/itsamark2.jpg" />
-          <ImageClickHover source="/itsamark/itsamark3.jpg" />
-        </div>
-        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
-          {/* 3 JUNTAS */}
+          <ImageClickHover source="/itsamark/itsamark3.jpg" /> */}
+        {/* </div> */}
+        {/* <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          
           <ImageClickHover source="/itsamark/itsamark4.jpg" />
           <ImageClickHover source="/itsamark/itsamark5.jpg" />
-        </div>
+        </div> */}
       </div>
     </>
   );
