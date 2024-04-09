@@ -7,79 +7,67 @@ export default function HomeImages() {
       <small className="flex justify-center text-center mt-10 uppercase text-xs text-black">
         CLICK THE IMAGES TO SEE THE ART PIECES ON A LARGER FORMAT
       </small>
-      <div className="flex flex-wrap mt-[80px] mb-10">
+      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
         <ImageClickHover
-          padding={true}
-          source="/linepath/linepath1.jpg"
-          sizeW={250}
+          source="/nextmove/nextmove1.png"
+          text="NEXT MOVE 1 52X62’ ACRYLICS OVER CANVAS"
         />
         <ImageClickHover
-          padding={true}
-          text="LINE PATH 56x38’ ACRYLICS AND OIL PASTEL OVER CANVAS"
-          source="/linepath/linepath2.jpg"
-          sizeW={250}
+          source="/nextmove/nextmove2.png"
+          text="NEXT MOVE 2 60X60’ ACRYLICS OVER CANVAS"
         />
         <ImageClickHover
-          padding={true}
-          source="/linepath/linepath3.jpg"
-          text="LINE PATH 58X43’ ACRYLICS AND OIL PASTEL OVER CANVAS"
-          sizeW={250}
+          source="/nextmove/nextmove3.png"
+          text="NEXT MOVE 3 52X62’ ACRYLICS OVER CANVAS"
         />
       </div>
-      <div className="flex flex-wrap mb-20">
+      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
         <ImageClickHover
-          padding={true}
-          source="/linepath/linepath4.jpg"
-          sizeW={250}
-          text="LINE PATH 80X60’ ACRYLICS AND OIL PASTEL OVER CANVAS"
+          source="/nextmove/nextmove4.png"
+          text="NEXT MOVE 4 62X66’ ACRYLICS OVER CANVAS"
         />
         <ImageClickHover
-          padding={true}
-          source="/linepath/linepath10.jpg"
-          sizeW={250}
-          text="LINE PATH 58X58’ ACRYLICS AND OIL PASTEL OVER CANVAS"
+          source="/nextmove/nextmove5.png"
+          text="NEXT MOVE 5 52X59’ ACRYLICS OVER CANVAS"
         />
         <ImageClickHover
-          padding={true}
-          source="/linepath/linepath6.jpg"
-          text="LINE PATH 56X56’ ACRYLICS AND OIL PASTEL OVER CANVAS"
-          sizeW={250}
+          source="/nextmove/nextmove6.png"
+          text="NEXT MOVE 6 57X57’ ACRYLICS OVER CANVAS"
+        />
+        <ImageClickHover
+          source="/nextmove/nextmove7.png"
+          text="NEXT MOVE 7 62X82’ ACRYLICS OVER CANVAS"
         />
       </div>
-      <div className="flex flex-wrap ">
+      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
         <ImageClickHover
-          padding={true}
-          source="/linepath/linepath7.jpg"
-          sizeW={250}
-          text="LINE PATH 54X38’ ACRYLICS AND OIL PASTEL OVER CANVAS"
+          source="/nextmove/nextmove8.png"
+          text="NEXT MOVE 8 45X45’ ACRYLICS OVER CANVAS"
         />
         <ImageClickHover
-          padding={true}
-          source="/linepath/linepath8.jpg"
-          sizeW={250}
-          text="LINE PATH 55X34’ ACRYLICS AND OIL PASTEL OVER CANVAS"
+          source="/nextmove/nextmove9.png"
+          text="NEXT MOVE 9 45X45’ ACRYLICS OVER CANVAS"
         />
 
         <ImageClickHover
-          padding={true}
-          source="/linepath/linepath5.jpg"
-          sizeW={250}
-          text="LINE PATH 42X57’ ACRYLICS AND OIL PASTEL OVER CANVAS"
+          source="/nextmove/nextmove10.png"
+          text="NEXT MOVE 10 45X45’ ACRYLICS OVER CANVAS"
         />
-      </div>
-      <div className="flex flex-wrap mt-10 ">
-        <ImageClickHover
-          padding={true}
-          source="/linepath/linepath9.jpg"
-          sizeW={250}
-          text="LINE PATH 56X44’ ACRYLICS AND OIL PASTEL OVER CANVAS"
-        />
-        <ImageClickHover
-          padding={true}
-          source="/linepath/linepath11.jpg"
-          sizeW={250}
-          text="LINE PATH 43X54’ ACRYLICS AND OIL PASTEL OVER CANVAS"
-        />
+
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          <ImageClickHover
+            source="/nextmove/nextmove11.png"
+            text="NEXT MOVE 11 62X82’ ACRYLICS OVER CANVAS"
+          />
+          <ImageClickHover
+            source="/nextmove/nextmove12.png"
+            text="NEXT MOVE 12 100X47’ ACRYLICS OVER CANVAS"
+          />
+          <ImageClickHover
+            source="/nextmove/nextmove13.png"
+            text="NEXT MOVE 13 112X62’ ACRYLICS OVER CANVAS"
+          />
+        </div>
       </div>
     </>
   );
