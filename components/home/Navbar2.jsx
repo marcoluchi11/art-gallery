@@ -87,8 +87,14 @@ export default function Navbar({ font }) {
                 transition-opacity duration-500 ease-in-out ${
                   artWork ? "opacity-100" : "opacity-0 pointer-events-none"
                 }
-                 absolute top-[-105px] left-[0px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
+                 absolute top-[-70px] left-0cle right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
               >
+                <Link href="/artwork/nextmove">
+                  <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-black bg-gray-300 p-2 rounded-md">
+                    <p className="text-black w-28 text-center">NEXT MOVE</p>
+                    {/* <p className="text-black">COLLECTION</p> */}
+                  </li>
+                </Link>
                 <Link href="/artwork/linepath">
                   <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-black bg-gray-300 p-2 rounded-md">
                     <p className="text-black w-28 text-center">LINE PATH</p>
@@ -262,6 +268,9 @@ export default function Navbar({ font }) {
                     artWork ? "flex flex-col" : "hidden"
                   }  absolute top-[-110px] bottom-0 left-[190px] right-0 flex justify-center items-center  h-screen z-10`}
                 >
+                  <Link href="/artwork/nextmove" onClick={handleSmallerNav}>
+                    <li className="text-sm sm:text-md my-3">next move</li>
+                  </Link>
                   <Link href="/artwork/linepath" onClick={handleSmallerNav}>
                     <li className="text-sm sm:text-md my-3">Line path</li>
                   </Link>
