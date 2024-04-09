@@ -1,6 +1,5 @@
 import Image from "next/image";
 import DownloadButton from "./DownloadButton";
-// import NewsletterForm from "./NewsletterForm";
 
 export default function Bio() {
   return (
@@ -32,6 +31,14 @@ export default function Bio() {
         /> */}
         <Image
           className="rounded-md mt-3 mb-3"
+          src="/about/about5.jpg"
+          alt="paintingimage"
+          width={400}
+          height={600}
+          priority
+        />
+        <Image
+          className="rounded-md mt-3 mb-3"
           src="/about/about4.jpg"
           alt="paintingimage"
           width={400}
@@ -40,7 +47,10 @@ export default function Bio() {
         />
       </div>
       <div className="md:w-1/2 text-center md:text-justify">
-        <DownloadButton />
+        <div className="text-center font-thin">
+          <DownloadButton />
+        </div>
+
         <p className="font-light border-solid border-t-2 border-gray-300 text-black mt-3 pt-3 md:mt-0  ">
           <span className="font-bold text-black">Albion Vu</span> is an
           architect, fashion designer and an abstract painter sharing his life
