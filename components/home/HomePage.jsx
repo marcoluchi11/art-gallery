@@ -1,13 +1,12 @@
 import DownloadButton from "../DownloadButton";
-import HomeCollage from "./HomeCollage";
+import HomeImages from "./HomeImages";
 export default function Homepage() {
   return (
     <>
       <div className="max-w-[1366px]">
-        <div className="">
-          {/* <HomeImages /> */}
+        <div className="mb-20">
           <DownloadButton />
-          <HomeCollage />
+          <HomeImages />
         </div>
 
         <DownloadButton />
