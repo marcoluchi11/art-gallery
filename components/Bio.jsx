@@ -46,7 +46,7 @@ export default function Bio() {
           priority
         /> */}
       </div>
-      <div className="md:w-1/2 text-center md:text-justify">
+      <div className="md:w-1/2 text-justify ml-3">
         <div className="text-center font-thin">
           <DownloadButton />
         </div>
