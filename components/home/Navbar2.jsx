@@ -216,9 +216,6 @@ export default function Navbar({ font }) {
             <Link href="/about" className="uppercase mr-4 lg:mr-8  text-black">
               <li className="text-xl text-black">about</li>
             </Link>
-            <Link href="/press" className="uppercase mr-4 lg:mr-8  text-black">
-              <li className="text-xl text-black">press</li>
-            </Link>
             <Link
               href="/contact"
               className=" uppercase mr-4 lg:mr-8 text-black "
@@ -375,12 +372,6 @@ export default function Navbar({ font }) {
                 className="py-4 ml-2  cursor-pointer"
               >
                 <Link href="/about">About</Link>
-              </li>
-              <li
-                onClick={handleSmallerNav}
-                className="py-4 ml-2  cursor-pointer"
-              >
-                <Link href="/press">Press</Link>
               </li>
               <li
                 onClick={handleSmallerNav}
