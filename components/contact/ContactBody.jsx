@@ -9,7 +9,7 @@ export default function ContactBody() {
       <h1 className=" text-3xl mt-10 md:text-5xl font-thin tracking-tight text-black">
         GET IN TOUCH WITH ME
       </h1>
-      <p className="my-10 font-light md:w-full md:mx-0 mx-3	 text-black">
+      <p className="my-10 font-light md:w-full md:mx-0 mx-3	 text-black uppercase">
         Got a question about us? Are you interested in partnering with us? Have
         some suggestions or just want to say Hi? Just contact us.
       </p>
@@ -17,7 +17,7 @@ export default function ContactBody() {
         <FaEnvelope className="text-3xl mx-3" color="black" fill="black" />
         <Link
           href="mailto:albionvu.art@gmail.com"
-          className="underline cursor-pointer text-black"
+          className="underline cursor-pointer text-black uppercase"
         >
           albionvu.art@gmail.com
         </Link>
