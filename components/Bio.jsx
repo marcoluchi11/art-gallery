@@ -46,11 +46,11 @@ export default function Bio() {
           priority
         /> */}
       </div>
-      <div className="md:w-1/2 text-center">
+      <div className="md:w-1/2 text-center md:text-justify">
         <div className="text-center font-thin">
           <DownloadButton />
         </div>
-        <div className="font-light border-solid border-t-2 border-gray-300 text-black mt-3 pt-3 md:mt-0  ">
+        <div className=" uppercase font-light border-solid border-t-2 border-gray-300 text-black mt-3 pt-3 md:mt-0  ">
           <p className="font-bold my-2">Multi Disciplinary Artist</p>
           <p>
             <span className="font-bold">Name:</span> Albion Vu
