@@ -4,7 +4,7 @@ import DownloadButton from "./DownloadButton";
 export default function Bio() {
   return (
     <article className="mt-[60px] w-full flex flex-col md:flex-row">
-      <div className="md:w-1/2 flex flex-col justify-start items-center mt-[200px] md:mt-0">
+      <div className="md:w-1/2 flex flex-col justify-start  items-center mt-[200px] md:mt-0">
         {/* <Image
           className="rounded-md"
           src="/about/about3.jpg"
@@ -37,21 +37,36 @@ export default function Bio() {
           height={600}
           priority
         />
-        <Image
+        {/* <Image
           className="rounded-md mt-3 mb-3"
           src="/about/about4.jpg"
           alt="paintingimage"
           width={400}
           height={600}
           priority
-        />
+        /> */}
       </div>
-      <div className="md:w-1/2 text-center md:text-justify">
+      <div className="md:w-1/2 text-center">
         <div className="text-center font-thin">
           <DownloadButton />
         </div>
-
-        <p className="font-light border-solid border-t-2 border-gray-300 text-black mt-3 pt-3 md:mt-0  ">
+        <div className="font-light border-solid border-t-2 border-gray-300 text-black mt-3 pt-3 md:mt-0  ">
+          <p className="font-bold my-2">Multi Disciplinary Artist</p>
+          <p>
+            <span className="font-bold">Name:</span> Albion Vu
+          </p>
+          <p className="my-2">
+            <span className="font-bold">Origin:</span> Eastern Europe
+          </p>
+          <p className="my-2">
+            <span className="font-bold">Graduated:</span> Architecture & Design
+          </p>
+          <p className="my-2">
+            <span className="font-bold">Living in</span> NYC, Martha&apos;s
+            Vineyard & Miami
+          </p>
+        </div>
+        {/* <p className="font-light border-solid border-t-2 border-gray-300 text-black mt-3 pt-3 md:mt-0  ">
           <span className="font-bold text-black">Albion Vu</span> is an
           architect, fashion designer and an abstract painter sharing his life
           between NYC and Martha&apos;s Vineyard. Born and raised in Eastern
@@ -133,7 +148,7 @@ export default function Bio() {
             “It takes me to start painting so I can stop everything around me
             move.”
           </span>
-        </p>
+        </p> */}
       </div>
     </article>
   );
