@@ -53,7 +53,7 @@ const SocialMedia = () => {
             />
           </Link>
           <Link
-            className="bg-[#0E3F54] p-1 rounded-sm"
+            className="bg-[#0E3F54] p-1 rounded-md"
             href="https://www.thecarpentryshopco.com/collections/art"
             target="_blank"
           >
