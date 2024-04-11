@@ -48,7 +48,7 @@ export default function Bio() {
       </div>
       <div className="md:w-1/2 text-justify ml-3">
         <div className="text-center font-thin">
-          <DownloadButton />
+          <DownloadButton text="text-2xl" />
         </div>
         <div className=" uppercase font-light border-solid border-t-2 border-gray-300 text-black mt-3 pt-3 md:mt-0  ">
           <p className="font-bold my-2">Multi Disciplinary Artist</p>
