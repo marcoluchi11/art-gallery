@@ -5,11 +5,11 @@ export default function Homepage() {
     <>
       <div className="max-w-[1366px]">
         <div className="mb-20">
-          <DownloadButton />
+          <DownloadButton text="text-3xl" />
           <HomeImages />
         </div>
 
-        <DownloadButton />
+        <DownloadButton text="text-3xl" />
       </div>
     </>
   );
