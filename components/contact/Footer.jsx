@@ -7,7 +7,7 @@ export default function Footer() {
       <section className="mb-5 md:w-1/2 flex uppercase">
         <SocialMedia />
       </section>
-      <section className="text-center flex flex-col md:flex-row items-center justify-around text-xs md:text-sm md:w-1/2 font-light">
+      <section className="text-center flex flex-col md:flex-row items-center justify-around text-xs md:text-xs md:w-1/2 font-light">
         <p className="text-black uppercase">
           Copyright &copy; Albion Vu - All rights reserved - All the work shown
           on the website is the originals
