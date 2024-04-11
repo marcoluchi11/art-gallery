@@ -8,6 +8,7 @@ export default function ImageClickHover({
   sizeW = 200,
   sizeH,
   sold = false,
+  finalsize = 1000,
   padding = 0,
 }) {
   const [isEnlarged, setIsEnlarged] = useState(false);
@@ -31,7 +32,7 @@ export default function ImageClickHover({
           `}
         src={source}
         alt="painting"
-        width={isEnlarged ? 700 : sizeW}
+        width={isEnlarged ? finalsize : sizeW}
         height={sizeH || 700}
       />
       {isEnlarged && isHover && (
