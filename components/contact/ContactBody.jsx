@@ -75,6 +75,19 @@ export default function ContactBody() {
           />
         </Link>
         <Link
+          href="https://web.nala.art/gallery-share/Albionvuart"
+          target="_blank"
+          className="flex justify-center items-center text-black tracking-wider	underline mt-5 md:mt-0"
+        >
+          <Image
+            className="mr-3 ml-3"
+            src="/nala.png"
+            alt="NALA logo"
+            width={100}
+            height={25}
+          />
+        </Link>
+        <Link
           className="bg-[#0E3F54] p-1 rounded-sm mt-5 md:mt-0"
           href="https://www.thecarpentryshopco.com/collections/art"
           target="_blank"

@@ -48,9 +48,16 @@ const SocialMedia = () => {
               className="mr-3"
               src="/turningart.webp"
               alt="turning art logo"
-              width={100}
+              width={80}
               height={25}
             />
+          </Link>
+          <Link
+            href="https://web.nala.art/gallery-share/Albionvuart"
+            target="_blank"
+            className="rounded-md mr-3"
+          >
+            <Image src="/nala.png" alt="NALA logo" width={80} height={25} />
           </Link>
           <Link
             className="bg-[#0E3F54] p-1 rounded-md"
@@ -61,7 +68,7 @@ const SocialMedia = () => {
               className="mr-3"
               src="/tcsc.webp"
               alt="the carpentry logo"
-              width={100}
+              width={80}
               height={25}
             />
           </Link>
