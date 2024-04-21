@@ -39,7 +39,7 @@ export default function Patches() {
           />
           <ImageClickHover
             source="/patches/patches3.jpg"
-            text="PATCHES 55X40’ ACRYLICS OVER CANVAS"
+            text="PATCHES 56X60’ ACRYLICS OVER CANVAS"
             sold={true}
           />
           <ImageClickHover
