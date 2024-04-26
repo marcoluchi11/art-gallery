@@ -88,6 +88,19 @@ export default function ContactBody() {
           />
         </Link>
         <Link
+          href="https://theartling.com/en/artist/albion-vu/"
+          target="_blank"
+          className="flex justify-center items-center text-black tracking-wider	underline mt-5 md:mt-0"
+        >
+          <Image
+            className="mr-3 ml-3"
+            src="/artling.png"
+            alt="Artling logo"
+            width={100}
+            height={25}
+          />
+        </Link>
+        <Link
           className="bg-[#0E3F54] p-1 rounded-sm mt-5 md:mt-0"
           href="https://www.thecarpentryshopco.com/collections/art"
           target="_blank"
@@ -102,8 +115,8 @@ export default function ContactBody() {
         </Link>
       </div>
       <DownloadButton />
-      <div className="flex justify-center mt-5 mb-10 md:mb-0">
-        <p className="text-black">
+      <div className="flex text-justify  mt-5 mb-10 md:mb-0">
+        <p className="text-black font-semibold mx-2 md:mx-0">
           MEMBER AT THE CREATIVES REBUILD NEW YORK AND A GRANT WINNER TOP 100
           ARTIST OF THE YEAR
           <br />

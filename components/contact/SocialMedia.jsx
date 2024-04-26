@@ -48,7 +48,7 @@ const SocialMedia = () => {
               className="mr-3"
               src="/turningart.webp"
               alt="turning art logo"
-              width={80}
+              width={75}
               height={25}
             />
           </Link>
@@ -57,7 +57,19 @@ const SocialMedia = () => {
             target="_blank"
             className="rounded-md mr-3"
           >
-            <Image src="/nala.png" alt="NALA logo" width={80} height={25} />
+            <Image src="/nala.png" alt="NALA logo" width={75} height={25} />
+          </Link>
+          <Link
+            href="https://theartling.com/en/artist/albion-vu/"
+            target="_blank"
+            className="rounded-md mr-3"
+          >
+            <Image
+              src="/artling.png"
+              alt="Artling logo"
+              width={75}
+              height={25}
+            />
           </Link>
           <Link
             className="bg-[#0E3F54] p-1 rounded-md"
