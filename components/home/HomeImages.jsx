@@ -46,6 +46,20 @@ export default function HomeImages() {
       <ClickLargerFormat />
       <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
         <ImageClickHover
+          source="/nextmove/nextmove5.png"
+          text="NEXT MOVE 5 52X59’ ACRYLICS OVER CANVAS"
+          sizeW={400}
+          finalsize={700}
+        />{" "}
+        <ImageClickHover
+          source="/nextmove/nextmove6.png"
+          text="NEXT MOVE 6 57X57’ ACRYLICS OVER CANVAS"
+          sizeW={400}
+          finalsize={700}
+        />
+      </div>
+      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+        <ImageClickHover
           source="/nextmove/nextmove8.png"
           text="NEXT MOVE 8 45X45’ ACRYLICS OVER CANVAS"
           sizeW={300}
