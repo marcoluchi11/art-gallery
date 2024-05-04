@@ -160,6 +160,44 @@ export default function Building() {
             source="/dailycapture/building/IMG_9959.jpg"
             sizeW={180}
           />
+          <ImageClickHover
+            source="/dailycapture/building/IMG_1305.jpg"
+            sizeW={180}
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5 items-center  w-full mt-10">
+          <ImageClickHover
+            source="/dailycapture/building/IMG_1314.jpg"
+            sizeW={180}
+          />
+          <ImageClickHover
+            source="/dailycapture/building/IMG_1316.jpg"
+            sizeW={180}
+          />
+          <ImageClickHover
+            source="/dailycapture/building/IMG_1319.jpg"
+            sizeW={180}
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5 items-center  w-full mt-10">
+          <ImageClickHover
+            source="/dailycapture/building/IMG_1320.jpg"
+            sizeW={180}
+          />
+          <ImageClickHover
+            source="/dailycapture/building/IMG_1321.jpg"
+            sizeW={180}
+          />
+          <ImageClickHover
+            source="/dailycapture/building/IMG_1322.jpg"
+            sizeW={180}
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5 items-center  w-full mt-10">
+          <ImageClickHover
+            source="/dailycapture/building/IMG_1324.jpg"
+            sizeW={180}
+          />
         </div>
       </div>
     </>
