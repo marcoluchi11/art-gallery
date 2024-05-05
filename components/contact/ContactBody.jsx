@@ -88,6 +88,30 @@ export default function ContactBody() {
           />
         </Link>
         <Link
+          href="https://parrotart.io/profile/1714740988246x324151164498905900"
+          target="_blank"
+          className="rounded-md mr-3"
+        >
+          <Image
+            src="/parrotlogo.png"
+            alt="Parrot logo"
+            width={50}
+            height={25}
+          />
+        </Link>
+        <Link
+          href="https://artrepreneur.com/p/QHtSwMHCikegBGt7W"
+          target="_blank"
+          className="rounded-md mr-3"
+        >
+          <Image
+            src="/artepreneur.png"
+            alt="Artepreneur logo"
+            width={100}
+            height={25}
+          />
+        </Link>
+        <Link
           href="https://theartling.com/en/artist/albion-vu/"
           target="_blank"
           className="flex justify-center items-center text-black tracking-wider	underline mt-5 md:mt-0"
