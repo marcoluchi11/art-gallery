@@ -21,6 +21,7 @@ export default function ImageClickHover({
     <div className="relative cursor-pointer flex flex-col mx-auto">
       <Image
         quality={100}
+        onContextMenu={(e) => e.preventDefault()}
         onClick={toggleEnlarged}
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
