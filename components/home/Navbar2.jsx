@@ -10,10 +10,16 @@ import {
   AiFillCaretDown,
 } from "react-icons/ai";
 export default function Navbar({ font }) {
+  const images = [
+    "bg-[url('/nextmove/nextmove11.png')]",
+    "bg-[url('/nextmove/nextmove12.png')]",
+    "bg-[url('/nextmove/nextmove13.png')]",
+  ];
   const [menuIcon, setIcon] = useState(false);
   const [artWork, setArtWork] = useState(false);
   const [dailyCapture, setDailyCapture] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const handleScroll = () => {
     if (window.scrollY > 150) {
       setScrolled(true);
@@ -21,6 +27,17 @@ export default function Navbar({ font }) {
       setScrolled(false);
     }
   };
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      const newIndex = (currentIndex + 1) % images.length;
+      setCurrentIndex(newIndex);
+    }, 5000); // Change image every 5 seconds
+
+    return () => clearInterval(intervalId); // Cleanup function to stop interval on unmount
+  }, [currentIndex, images.length]); // Dependencies for useEffect
+
+  const currentImage = images[currentIndex];
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -41,12 +58,12 @@ export default function Navbar({ font }) {
   };
   return (
     <header
-      className={` text-[CEFF00] w-full ease-in duration-100 top-0 left-0 z-10`}
+      className={` text-[CEFF00] w-full ease-in duration-100 top-0 left-0 z-10 bg-cover bg-no-repeat h-screen  ${currentImage} transition-bg duration-1000 ease-in-out`}
     >
       <nav
         className={`max-w-[1366px] mx-auto h-[100] flex justify-between items-center p-4`}
       >
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center ">
           <Link href="/" onClick={handleSmallerNav}>
             <Image
               src="/logo.jpg"
@@ -56,30 +73,30 @@ export default function Navbar({ font }) {
               className="rounded-full"
             />
           </Link>
-          <h1 className="text-3xl md:text-2xl xl:text-3xl uppercase text-center font-thin	w-full text-black   ">
+          <h1 className=" bg-gray-900 text-3xl md:text-2xl xl:text-3xl uppercase text-center font-thin	w-full text-white py-1 px-2 mt-1  rounded-md ">
             albion vu
           </h1>
         </div>
         <div>
           <ul
-            className={`hidden lg:flex uppercase font-light text-1xl lg:text-[20px] text-slate-800`}
+            className={`hidden lg:flex uppercase font-light text-1xl lg:text-[20px] text-white bg-gray-900 py-2 rounded-md`}
           >
-            <Link href="/" className="uppercase mr-4 lg:mr-8 ">
-              <li className="text-xl text-black">home</li>
+            <Link href="/" className="uppercase mx-4 lg:mr-8 ">
+              <li className="text-xl text-white">home</li>
             </Link>
             <div
               // BIG SCREEN
               // onClick={artWorkHandle}
               onMouseEnter={() => setArtWork(true)}
               onMouseLeave={() => setArtWork(false)}
-              className={`flex items-center uppercase mr-4 lg:mr-8  cursor-pointer z-50 relative `}
+              className={`flex items-center uppercase mx-4 lg:mr-8  cursor-pointer z-50 relative `}
             >
-              <li className="text-xl text-black">paintings</li>
+              <li className="text-xl text-white">paintings</li>
               <div>
                 {artWork ? (
-                  <AiOutlineClose size={25} color="black" fill="black" />
+                  <AiOutlineClose size={25} color="white" fill="white" />
                 ) : (
-                  <AiFillCaretDown size={25} color="black" fill="black" />
+                  <AiFillCaretDown size={25} color="white" fill="white" />
                 )}
               </div>
               <div
@@ -90,86 +107,86 @@ export default function Navbar({ font }) {
                  absolute top-[-70px] left-[-30px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
               >
                 <Link href="/artwork/nextmove">
-                  <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-black bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">NEXT MOVE</p>
-                    {/* <p className="text-black">COLLECTION</p> */}
+                  <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">NEXT MOVE</p>
+                    {/* <p className="text-white">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/linepath">
-                  <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-black bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">LINE PATH</p>
-                    {/* <p className="text-black">COLLECTION</p> */}
+                  <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">LINE PATH</p>
+                    {/* <p className="text-white">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/patches">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-black bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">PATCHES</p>
-                    {/* <p className="text-black">COLLECTION</p> */}
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">PATCHES</p>
+                    {/* <p className="text-white">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/directionsearth">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-black bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">
                       Directions to earth
                     </p>
-                    {/* <p className="text-black">COLLECTION</p> */}
+                    {/* <p className="text-white">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/obsession">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-black bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">OBSESSION</p>
-                    {/* <p className="text-black">COLLECTION</p> */}
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">OBSESSION</p>
+                    {/* <p className="text-white">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/asinjapan">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">AS IN JAPAN</p>
-                    {/* <p className="text-black">COLLECTION</p> */}
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm  bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">AS IN JAPAN</p>
+                    {/* <p className="text-white">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/movement">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">MOVEMENT</p>
-                    {/* <p className="text-black">COLLECTION</p> */}
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm  bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">MOVEMENT</p>
+                    {/* <p className="text-white">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/mini">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">MINI</p>
-                    {/* <p className="text-black">COLLECTION</p> */}
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm  bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">MINI</p>
+                    {/* <p className="text-white">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/itsamark">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-black bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">
                       IT&apos;S A MARK
                     </p>
-                    {/* <p className="text-black">COLLECTION</p> */}
+                    {/* <p className="text-white">COLLECTION</p> */}
                   </li>
                 </Link>
                 <Link href="/artwork/walkingline">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-black bg-gray-300 p-2 rounded-md">
-                    <p className="text-black w-28 text-center">
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  flex-col items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">
                       WALKING THROUGH THE LINE
                     </p>
-                    {/* <p className="text-black">COLLECTION</p> */}
+                    {/* <p className="text-white">COLLECTION</p> */}
                   </li>
                 </Link>
               </div>
             </div>
 
             <li
-              className="uppercase mr-4 lg:mr-8 flex flex-row  z-50 text-black relative cursor-pointer "
+              className="uppercase mr-4 lg:mr-8 flex flex-row  z-50 text-white relative cursor-pointer "
               onMouseEnter={() => setDailyCapture(true)}
               onMouseLeave={() => setDailyCapture(false)}
             >
-              <li className="text-xl text-black">photography</li>
+              <li className="text-xl text-white">photography</li>
 
               <div>
                 {dailyCapture ? (
-                  <AiOutlineClose size={25} color="black" fill="black" />
+                  <AiOutlineClose size={25} color="white" fill="white" />
                 ) : (
-                  <AiFillCaretDown size={25} color="black" fill="black" />
+                  <AiFillCaretDown size={25} color="white" fill="white" />
                 )}
               </div>
               <div
@@ -178,65 +195,68 @@ export default function Navbar({ font }) {
                 } absolute top-[-200px] left[-55px] right-0 bottom-0 flex flex-col justify-center items-center  h-screen w-full`}
               >
                 <Link href="/dailycapture/beach" className="w-20">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  w-28 flex-col items-center mb-2 text-sm text-black bg-gray-300 p-2 rounded-md uppercase">
-                    <p className="text-black">Aqua</p>
-                    {/* <p className="text-black">Days</p> */}
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  w-28 flex-col items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md uppercase">
+                    <p className="text-white">Aqua</p>
+                    {/* <p className="text-white">Days</p> */}
                   </li>
                 </Link>
                 <Link href="/dailycapture/building" className="w-20">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  w-28 flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
-                    <p className="text-black">Daily</p>
-                    <p className="text-black">Walk</p>
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  w-28 flex-col items-center mb-2 text-sm  bg-gray-900 p-2 rounded-md uppercase">
+                    <p className="text-white">Daily</p>
+                    <p className="text-white">Walk</p>
                   </li>
                 </Link>
                 <Link href="/dailycapture/b&w" className="w-20">
-                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  w-28 flex-col items-center mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
-                    <p className="text-black">b&w</p>
-                    {/* <p className="text-black">Capture</p> */}
+                  <li className="flex hover:bg-gray-400 transition-all ease-in-out duration-200  w-28 flex-col items-center mb-2 text-sm  bg-gray-900 p-2 rounded-md uppercase">
+                    <p className="text-white">b&w</p>
+                    {/* <p className="text-white">Capture</p> */}
                   </li>
                 </Link>
                 <Link href="/dailycapture/mountain" className="w-20">
-                  <li className="flex w-28 flex-col items-center hover:bg-gray-400 transition-all ease-in-out duration-200  mb-2 text-sm  bg-gray-300 p-2 rounded-md uppercase">
-                    <p className="text-black">2021</p>
-                    {/* <p className="text-black">Pics</p> */}
+                  <li className="flex w-28 flex-col items-center hover:bg-gray-400 transition-all ease-in-out duration-200  mb-2 text-sm  bg-gray-900 p-2 rounded-md uppercase">
+                    <p className="text-white">2021</p>
+                    {/* <p className="text-white">Pics</p> */}
                   </li>
                 </Link>
               </div>
             </li>
             <Link href="/gallery" className="uppercase mr-4 lg:mr-8">
-              <li className="text-xl text-black">gallery</li>
+              <li className="text-xl text-white">gallery</li>
             </Link>
             {/* <Link
               href="https://www.saatchiart.com/albionvu"
               target="_blank"
               className="uppercase mr-4 lg:mr-8"
             >
-              <li className="text-xl text-black">shop</li>
+              <li className="text-xl text-white">shop</li>
             </Link> */}
-            <Link href="/about" className="uppercase mr-4 lg:mr-8  text-black">
-              <li className="text-xl text-black">about</li>
+            <Link href="/about" className="uppercase mr-4 lg:mr-8  text-white">
+              <li className="text-xl text-white">about</li>
             </Link>
             <Link
               href="/contact"
-              className=" uppercase mr-4 lg:mr-8 text-black "
+              className=" uppercase mr-4 lg:mr-8 text-white "
             >
-              <li className="text-xl text-black">contact</li>
+              <li className="text-xl text-white">contact</li>
             </Link>
           </ul>
         </div>
         {/* ACA CAMBIE LO DEL MENU */}
-        <div onClick={handleSmallerNav} className="flex lg:hidden">
+        <div
+          onClick={handleSmallerNav}
+          className="flex lg:hidden bg-gray-900 p-3 rounded-3xl cursor-pointer hover:bg-gray-700 duration-300 ease-in-out"
+        >
           {menuIcon ? (
-            <AiOutlineClose size={25} color="black" fill="black" />
+            <AiOutlineClose size={25} color="white" fill="white" />
           ) : (
-            <AiOutlineMenu size={25} color="black" fill="black" />
+            <AiOutlineMenu size={25} color="white" fill="white" />
           )}
         </div>
         <div
           className={
             menuIcon
-              ? "lg:hidden absolute top-[100px] bottom-0 left-0 right-0 flex justify-center items-center w-full h-screen bg-slate-200 text-black ease-in duration-300 z-10"
-              : "lg:hidden absolute top-[100px] bottom-0 left-[-100%] right-0 flex justify-center items-center w-1/2 h-screen bg-slate-200 text-black text-center ease-in duration-300 z-10"
+              ? "lg:hidden absolute top-[100px] bottom-0 left-0 right-0 flex justify-center items-center w-full h-screen bg-slate-200 text-white ease-in duration-300 z-10"
+              : "lg:hidden absolute top-[100px] bottom-0 left-[-100%] right-0 flex justify-center items-center w-1/2 h-screen bg-slate-200 text-white text-center ease-in duration-300 z-10"
           }
         >
           <div className="w-full">
