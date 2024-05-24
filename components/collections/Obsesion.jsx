@@ -36,6 +36,7 @@ export default function Obsesion() {
           <ImageClickHover
             text="OBSESSION 58X45’ ACRYLICS OVER CANVAS"
             source="/obsession/IMG-7254.jpg"
+            sold={true}
           />
           <ImageClickHover
             text="OBSESSION 58X45’ ACRYLICS OVER CANVAS"
@@ -50,6 +51,7 @@ export default function Obsesion() {
           <ImageClickHover
             text="Composition 20*93 D\ 56x53’ ACRYLICS OVER CANVAS"
             source="/obsession/IMG-7257.jpg"
+            sold={true}
           />
         </div>
 
@@ -81,6 +83,7 @@ export default function Obsesion() {
             <ImageClickHover
               text="Composition 20*93 D\ 60x55’ ACRYLICS OVER CANVAS"
               source="/obsession/131038.png"
+              sold={true}
             />
             <ImageClickHover
               text="OBSESSION 58X45’ ACRYLICS OVER CANVAS"
