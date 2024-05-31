@@ -52,6 +52,7 @@ export default function Itsamark() {
           <ImageClickHover
             text="It’s a mark- 19x24 Acrylic on paper with gold"
             source="/itsamark/144633.jpg"
+            sold={true}
           />
           <ImageClickHover
             text="Composition 20*93 D\ 19x24’ Abstract Art over acrylics"
