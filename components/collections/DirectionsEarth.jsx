@@ -42,6 +42,10 @@ export default function DirectionsEarth() {
             text="DIRECTIONS TO EARTH 52x52’ ACRYLICS OVER CANVAS"
             source="/directionstoearth/directions4.jpg"
           />
+          <ImageClickHover
+            text="DIRECTIONS TO EARTH 56x56’ ACRYLICS OVER CANVAS"
+            source="/directionstoearth/directions5.jpg"
+          />
         </div>
       </div>
     </>
