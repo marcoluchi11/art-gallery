@@ -85,11 +85,6 @@ export default function Obsesion() {
               source="/obsession/131038.png"
               sold={true}
             />
-            <ImageClickHover
-              text="OBSESSION 58X45’ ACRYLICS OVER CANVAS"
-              source="/obsession/IMG-7263.jpg"
-              sold={true}
-            />
           </div>
         </div>
         <div
@@ -145,6 +140,10 @@ export default function Obsesion() {
           <ImageClickHover
             source="/obsession/IMG-6400.png"
             text="OBSESSION 58X45’ ACRYLICS OVER CANVAS"
+          />
+          <ImageClickHover
+            source="/obsession/oakbluffs.png"
+            text="OBSESSION 52X57’ ACRYLICS OVER CANVAS"
           />
         </div>
       </div>
