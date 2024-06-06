@@ -220,16 +220,17 @@ export default function Navbar({ font }) {
                 </Link>
               </div>
             </li>
-            <Link href="/gallery" className="uppercase mr-4 lg:mr-8">
-              <li className="text-xl text-white">gallery</li>
-            </Link>
-            {/* <Link
-              href="https://www.saatchiart.com/albionvu"
+            <Link
+              href="https://shop.albionvu.art"
               target="_blank"
               className="uppercase mr-4 lg:mr-8"
             >
-              <li className="text-xl text-white">shop</li>
-            </Link> */}
+              <li className="text-xl text-white">shop prints</li>
+            </Link>
+            <Link href="/gallery" className="uppercase mr-4 lg:mr-8">
+              <li className="text-xl text-white">gallery</li>
+            </Link>
+
             <Link href="/about" className="uppercase mr-4 lg:mr-8  text-white">
               <li className="text-xl text-white">about</li>
             </Link>
@@ -369,6 +370,13 @@ export default function Navbar({ font }) {
                   </Link>
                 </div>
               </div>
+              <li
+                href="https://shop.albionvu.art"
+                target="_blank"
+                className="uppercase mr-4 lg:mr-8"
+              >
+                <li className="py-4 ml-2 text-black">shop prints</li>
+              </li>
               <li
                 onClick={handleSmallerNav}
                 className="py-4 ml-2  cursor-pointer"
