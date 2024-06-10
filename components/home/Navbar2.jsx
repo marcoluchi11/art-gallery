@@ -221,7 +221,7 @@ export default function Navbar({ font }) {
               </div>
             </li>
             <Link
-              href="https://shop.albionvu.art"
+              href="https://shop.albionvuart.com/shop-art"
               target="_blank"
               className="uppercase mr-4 lg:mr-8"
             >
@@ -371,7 +371,7 @@ export default function Navbar({ font }) {
                 </div>
               </div>
               <li
-                href="https://shop.albionvu.art"
+                href="https://shop.albionvuart.com/shop-art"
                 target="_blank"
                 className="uppercase mr-4 lg:mr-8"
               >
