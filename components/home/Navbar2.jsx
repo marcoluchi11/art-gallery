@@ -371,11 +371,18 @@ export default function Navbar({ font }) {
                 </div>
               </div>
               <li
+                onClick={handleSmallerNav}
                 href="https://shop.albionvuart.com/shop-art"
                 target="_blank"
                 className="uppercase mr-4 lg:mr-8"
               >
-                <li className="py-4 ml-2 text-black">shop prints</li>
+                <Link
+                  className="py-4 ml-2 text-black"
+                  href="https://shop.albionvuart.com/shop-art"
+                  target="_blank"
+                >
+                  shop prints
+                </Link>
               </li>
               <li
                 onClick={handleSmallerNav}
