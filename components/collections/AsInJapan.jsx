@@ -28,6 +28,7 @@ export default function AsInJapan() {
           <ImageClickHover
             text="Composition 20*20 D\ 19x24’ ACRYLICS ON PAPER"
             source="/asinjapan/130748.png"
+            sold={true}
           />
           <ImageClickHover
             text="Composition 20*93 D\ 19x24’ ACRYLICS ON PAPER"
@@ -90,6 +91,7 @@ export default function AsInJapan() {
           <ImageClickHover
             text="Composition 20*20 D\ 19x24’ ACRYLICS ON PAPER"
             source="/asinjapan/131328.png"
+            sold={true}
           />
           <ImageClickHover
             text="Composition 20*20 D\ 19x24’ ACRYLICS ON PAPER"
@@ -98,6 +100,7 @@ export default function AsInJapan() {
           <ImageClickHover
             text="Composition 20*20 D\ 19x24’ ACRYLICS ON PAPER"
             source="/asinjapan/131217.png"
+            sold={true}
           />
         </div>
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
