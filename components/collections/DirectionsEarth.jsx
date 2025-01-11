@@ -29,22 +29,36 @@ export default function DirectionsEarth() {
           <ImageClickHover
             source="/directionstoearth/directions1.jpg"
             text="DIRECTIONS TO EARTH 49X54’ ACRYLICS OVER CANVAS"
-          />
-          <ImageClickHover
-            source="/directionstoearth/directions2.jpg"
-            sold={true}
+            sizeW={500}
           />
           <ImageClickHover
             source="/directionstoearth/directions3.jpg"
             text="DIRECTIONS TO EARTH 54X54’ ACRYLICS OVER CANVAS"
+            sizeW={500}
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
+          <ImageClickHover
+            source="/directionstoearth/directions2.jpg"
+            sold={true}
+            sizeW={500}
           />
           <ImageClickHover
             text="DIRECTIONS TO EARTH 52x52’ ACRYLICS OVER CANVAS"
             source="/directionstoearth/directions4.jpg"
+            sizeW={500}
           />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10 mb-10">
           <ImageClickHover
             text="DIRECTIONS TO EARTH 56x56’ ACRYLICS OVER CANVAS"
             source="/directionstoearth/directions5.jpg"
+            sizeW={500}
+          />
+          <ImageClickHover
+            text="DIRECTIONS TO EARTH 24 52x54’ ACRYLICS OVER CANVAS"
+            source="/directionstoearth/directions24.png"
+            sizeW={600}
           />
         </div>
       </div>
