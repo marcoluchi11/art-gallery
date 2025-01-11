@@ -6,101 +6,102 @@ export default function HomeImages() {
   return (
     <>
       <ClickLargerFormat />
+      {/* <div className="flex justify-center my-20">
+        <video
+          width="1080"
+          height="240"
+          autoPlay
+          controls
+          loop
+          muted
+          className="flex justify-center"
+        >
+          <source src="/zencaos.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div> */}
+      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          <ImageClickHover
+            source="/zencaos/zencaos1.png"
+            text="ZEN CAOS 1 72X72’ ACRYLICS OVER CANVAS"
+            sizeW={800}
+            finalsize={1000}
+          />
+        </div>
+
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          <ImageClickHover
+            source="/zencaos/zencaos6.png"
+            text="ZEN CAOS 6 75X70’ ACRYLICS OVER CANVAS"
+            sizeW={800}
+            finalsize={1000}
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          <ImageClickHover
+            source="/zencaos/zencaos11.png"
+            text="ZEN CAOS 11 75X63’ ACRYLICS OVER CANVAS"
+            sizeW={800}
+            finalsize={1000}
+          />
+        </div>
+
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          <ImageClickHover
+            source="/zencaos/zencaos3.png"
+            text="ZEN CAOS 3 115X75’ ACRYLICS OVER CANVAS"
+            sizeW={1100}
+            finalsize={1500}
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          <ImageClickHover
+            source="/zencaos/zencaos5.png"
+            text="ZEN CAOS 5 95X75’ ACRYLICS OVER CANVAS"
+            sizeW={1100}
+            finalsize={1500}
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          <ImageClickHover
+            source="/zencaos/zencaos9.png"
+            text="ZEN CAOS 9 50X112’ ACRYLICS OVER CANVAS"
+            sizeW={1100}
+            finalsize={1500}
+          />
+        </div>
+      </div>
       <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
         <ImageClickHover
-          source="/nextmove/nextmove1.png"
-          text="NEXT MOVE 1 52X62’ ACRYLICS OVER CANVAS"
-          sizeW={400}
-          finalsize={700}
-        />
-        <ImageClickHover
-          source="/nextmove/nextmove3.png"
-          text="NEXT MOVE 3 52X62’ ACRYLICS OVER CANVAS"
-          sizeW={400}
-          finalsize={700}
+          source="/zencaos/zencaos2.png"
+          text="ZEN CAOS 2 72X72’ ACRYLICS OVER CANVAS"
+          sizeW={800}
+          finalsize={900}
         />
       </div>
       <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
         <ImageClickHover
-          source="/nextmove/nextmove2.png"
-          text="NEXT MOVE 2 60X60’ ACRYLICS OVER CANVAS"
-          sizeW={550}
-          finalsize={700}
+          source="/zencaos/zencaos8.png"
+          text="ZEN CAOS 8 60X60’ ACRYLICS OVER CANVAS"
+          sizeW={800}
+          finalsize={900}
         />
       </div>
-      <ClickLargerFormat />
-      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+      <div className="flex flex-wrap md:flex-row gap-5   w-full mt-20">
         <ImageClickHover
-          source="/nextmove/nextmove4.png"
-          text="NEXT MOVE 4 62X66’ ACRYLICS OVER CANVAS"
-          sizeW={400}
-          finalsize={700}
-        />
-        <ImageClickHover
-          source="/nextmove/nextmove7.png"
-          text="NEXT MOVE 7 62X82’ ACRYLICS OVER CANVAS"
-          sizeW={400}
-          finalsize={700}
+          source="/zencaos/zencaos4.png"
+          text="ZEN CAOS 4 68X63’ ACRYLICS OVER CANVAS ON GOLD LEAF DETAIL"
+          sizeW={800}
+          finalsize={900}
         />
       </div>
-      <ClickLargerFormat />
-      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+      <div className="flex flex-wrap md:flex-row gap-5   w-full mt-20">
         <ImageClickHover
-          source="/nextmove/nextmove5.png"
-          text="NEXT MOVE 5 52X59’ ACRYLICS OVER CANVAS"
-          sizeW={400}
-          finalsize={700}
-        />{" "}
-        <ImageClickHover
-          source="/nextmove/nextmove6.png"
-          text="NEXT MOVE 6 57X57’ ACRYLICS OVER CANVAS"
-          sizeW={400}
-          finalsize={700}
-        />
-      </div>
-      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
-        <ImageClickHover
-          source="/nextmove/nextmove8.png"
-          text="NEXT MOVE 8 45X45’ ACRYLICS OVER CANVAS"
-          sizeW={300}
-          finalsize={600}
-        />
-        <ImageClickHover
-          source="/nextmove/nextmove9.png"
-          text="NEXT MOVE 9 45X45’ ACRYLICS OVER CANVAS"
-          sizeW={300}
-          finalsize={600}
-        />
-        <ImageClickHover
-          source="/nextmove/nextmove10.png"
-          text="NEXT MOVE 10 45X45’ ACRYLICS OVER CANVAS"
-          sizeW={300}
-          finalsize={600}
-        />
-      </div>
-      <ClickLargerFormat />
-      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
-        <ImageClickHover
-          source="/nextmove/nextmove11.png"
-          text="NEXT MOVE 11 62X82’ ACRYLICS OVER CANVAS"
-          sizeW={700}
-          finalsize={1000}
-        />
-      </div>
-      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
-        <ImageClickHover
-          source="/nextmove/nextmove12.png"
-          text="NEXT MOVE 12 100X47’ ACRYLICS OVER CANVAS"
-          sizeW={700}
-          finalsize={1000}
-        />
-      </div>
-      <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
-        <ImageClickHover
-          source="/nextmove/nextmove13.png"
-          text="NEXT MOVE 13 112X62’ ACRYLICS OVER CANVAS"
-          sizeW={700}
-          finalsize={1000}
+          source="/zencaos/zencaos10.png"
+          text="ZEN CAOS 10 76X70’ ACRYLICS OVER CANVAS"
+          sizeW={800}
+          finalsize={900}
         />
       </div>
     </>
