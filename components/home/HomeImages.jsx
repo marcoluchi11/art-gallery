@@ -32,6 +32,14 @@ export default function HomeImages() {
 
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
           <ImageClickHover
+            source="/zencaos/zencaos7.png"
+            text="ZEN CAOS 7 75X70’ ACRYLICS OVER CANVAS"
+            sizeW={800}
+            finalsize={1000}
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          <ImageClickHover
             source="/zencaos/zencaos6.png"
             text="ZEN CAOS 6 75X70’ ACRYLICS OVER CANVAS"
             sizeW={800}
