@@ -2,6 +2,7 @@ import Link from "next/link";
 import ImageClickHover from "../ImageClickHover";
 import InquirePrints from "../InquirePrints";
 import Description from "../Description";
+import NuancesDepth from "./NuancesDepth";
 
 export default function Mini() {
   return (
@@ -17,11 +18,13 @@ export default function Mini() {
         converge in a dazzling display of visual splendor."
       />
       <InquirePrints />
+
       <div
         className={`flex flex-wrap mt-[80px] 
         }  `}
       >
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          <NuancesDepth />
           <ImageClickHover
             text="ATHENES 11x15
 Acrylics on paper"
