@@ -11,9 +11,16 @@ import {
 } from "react-icons/ai";
 export default function Navbar({ font }) {
   const images = [
-    "bg-[url('/nextmove/nextmove11.png')]",
-    "bg-[url('/nextmove/nextmove12.png')]",
-    "bg-[url('/nextmove/nextmove13.png')]",
+    "bg-[url('/zencaos/zencaos1.png')]",
+    "bg-[url('/zencaos/zencaos6.png')]",
+    "bg-[url('/zencaos/zencaos7.png')]",
+    "bg-[url('/zencaos/zencaos2.png')]",
+    "bg-[url('/zencaos/zencaos3.png')]",
+    "bg-[url('/zencaos/zencaos4.png')]",
+    "bg-[url('/zencaos/zencaos5.png')]",
+    "bg-[url('/zencaos/zencaos8.png')]",
+    "bg-[url('/zencaos/zencaos9.png')]",
+    "bg-[url('/zencaos/zencaos10.png')]",
   ];
   const [menuIcon, setIcon] = useState(false);
   const [artWork, setArtWork] = useState(false);
@@ -57,9 +64,19 @@ export default function Navbar({ font }) {
     setDailyCapture(!dailyCapture);
   };
   return (
+    // ${currentImage }
     <header
-      className={` text-[CEFF00] w-full ease-in duration-100 top-0 left-0 z-10 bg-cover bg-no-repeat h-screen  ${currentImage} transition-bg duration-1000 ease-in-out`}
+      className={` text-[CEFF00] w-full ease-in duration-100 top-0 left-0 z-10 bg-cover bg-no-repeat h-screen ${currentImage} transition-bg duration-1000 ease-in-out`}
     >
+      {/* <video
+        autoplay
+        muted
+        loop
+        id="myVideo"
+        className="fixed inset-0 object-cover w-screen h-screen"
+      >
+        <source src="zencaos.mp4" type="video/mp4" />
+      </video> */}
       <nav
         className={`max-w-[1366px] mx-auto h-[100] flex justify-between items-center p-4`}
       >
@@ -104,8 +121,28 @@ export default function Navbar({ font }) {
                 transition-opacity duration-500 ease-in-out ${
                   artWork ? "opacity-100" : "opacity-0 pointer-events-none"
                 }
-                 absolute top-[-70px] left-[-30px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
+                 absolute top-[-30px] left-[-30px] right-0 bottom-0 flex flex-col justify-center items-center w-40  h-screen`}
               >
+                <Link href="/artwork/zencaos">
+                  <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">ZEN CAOS</p>
+                    {/* <p className="text-white">COLLECTION</p> */}
+                  </li>
+                </Link>
+                <Link href="/artwork/paths">
+                  <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">PATHS</p>
+                    {/* <p className="text-white">COLLECTION</p> */}
+                  </li>
+                </Link>
+                <Link href="/artwork/endofdecember">
+                  <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
+                    <p className="text-white w-28 text-center">
+                      END OF DECEMBER
+                    </p>
+                    {/* <p className="text-white">COLLECTION</p> */}
+                  </li>
+                </Link>
                 <Link href="/artwork/nextmove">
                   <li className="flex flex-col hover:bg-gray-400 transition-all ease-in-out duration-200 items-center mb-2 text-sm text-white bg-gray-900 p-2 rounded-md">
                     <p className="text-white w-28 text-center">NEXT MOVE</p>
@@ -284,45 +321,121 @@ export default function Navbar({ font }) {
                 <div
                   className={`lg:hidden ${
                     artWork ? "flex flex-col" : "hidden"
-                  }  absolute top-[-110px] bottom-0 left-[190px] right-0 flex justify-center items-center  h-screen z-10`}
+                  }  absolute top-[-50px] bottom-0 left-[190px] right-0 flex justify-center items-center  h-screen z-10`}
                 >
-                  <Link href="/artwork/nextmove" onClick={handleSmallerNav}>
-                    <li className="text-sm sm:text-md my-3">next move</li>
+                  <Link
+                    href="/artwork/zencaos"
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                    onClick={handleSmallerNav}
+                  >
+                    <li className="text-sm sm:text-md my-3 text-white">
+                      Zen caos
+                    </li>
                   </Link>
-                  <Link href="/artwork/linepath" onClick={handleSmallerNav}>
-                    <li className="text-sm sm:text-md my-3">Line path</li>
+                  <Link
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                    href="/artwork/endofdecember"
+                    onClick={handleSmallerNav}
+                  >
+                    <li className="text-sm sm:text-md my-3 text-white">
+                      end of december
+                    </li>
                   </Link>
-                  <Link href="/artwork/patches" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">patches</li>
+                  <Link
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                    href="/artwork/paths"
+                    onClick={handleSmallerNav}
+                  >
+                    <li className="text-sm sm:text-md my-3 text-white">
+                      pATHS
+                    </li>
+                  </Link>
+                  <Link
+                    href="/artwork/nextmove"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="text-sm sm:text-md my-3 text-white">
+                      next move
+                    </li>
+                  </Link>
+                  <Link
+                    href="/artwork/linepath"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="text-sm sm:text-md my-3 text-white">
+                      Line path
+                    </li>
+                  </Link>
+                  <Link
+                    href="/artwork/patches"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="my-3 text-sm sm:text-md text-white">
+                      patches
+                    </li>
                   </Link>
                   <Link
                     href="/artwork/directionsearth"
                     onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
                   >
-                    <li className="my-3 text-sm sm:text-md">
+                    <li className=" text-white my-3 text-sm sm:text-md">
                       directions to earth
                     </li>
                   </Link>
-                  <Link href="/artwork/obsession" onClick={handleSmallerNav}>
-                    <li className="text-sm sm:text-md my-3">Obsession</li>
+                  <Link
+                    href="/artwork/obsession"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="text-sm sm:text-md my-3 text-white">
+                      Obsession
+                    </li>
                   </Link>
-                  <Link href="/artwork/movement" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">Movement</li>
+                  <Link
+                    href="/artwork/movement"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="my-3 text-sm sm:text-md text-white">
+                      Movement
+                    </li>
                   </Link>
 
-                  <Link href="/artwork/asinjapan" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">As In Japan</li>
+                  <Link
+                    href="/artwork/asinjapan"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="my-3 text-sm sm:text-md text-white">
+                      As In Japan
+                    </li>
                   </Link>
-                  <Link href="/artwork/mini" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">Mini</li>
+                  <Link
+                    href="/artwork/mini"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="my-3 text-sm sm:text-md text-white">Mini</li>
                   </Link>
-                  <Link href="/artwork/itsamark" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">
+                  <Link
+                    href="/artwork/itsamark"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="my-3 text-sm sm:text-md text-white">
                       It&apos;s a mark
                     </li>
                   </Link>
-                  <Link href="/artwork/walkingline" onClick={handleSmallerNav}>
-                    <li className="my-3 text-sm sm:text-md">
+                  <Link
+                    href="/artwork/walkingline"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="my-3 text-sm sm:text-md text-white">
                       walking through the line
                     </li>
                   </Link>
@@ -349,24 +462,36 @@ export default function Navbar({ font }) {
                     dailyCapture ? "flex flex-col" : "hidden"
                   }  absolute top-[-49px] bottom-0 left-[190px] right-0 flex justify-center items-center h-screen`}
                 >
-                  <Link href="/dailycapture/beach" onClick={handleSmallerNav}>
-                    <li className="text-sm sm:text-md my-3">Aqua</li>
+                  <Link
+                    href="/dailycapture/beach"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="text-sm sm:text-md my-3 text-white">Aqua</li>
                   </Link>
                   <Link
                     href="/dailycapture/building"
                     onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
                   >
-                    <li className="text-sm sm:text-md my-3">Daily Walk</li>
+                    <li className="text-sm sm:text-md my-3 text-white">
+                      Daily Walk
+                    </li>
                   </Link>
 
-                  <Link href="/dailycapture/b&w" onClick={handleSmallerNav}>
-                    <li className="text-sm sm:text-md my-3">B&W</li>
+                  <Link
+                    href="/dailycapture/b&w"
+                    onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
+                  >
+                    <li className="text-sm sm:text-md my-3 text-white">B&W</li>
                   </Link>
                   <Link
                     href="/dailycapture/mountain"
                     onClick={handleSmallerNav}
+                    className="bg-gray-900 bg-opacity-50 rounded-lg px-2 mt-1"
                   >
-                    <li className="text-sm sm:text-md my-3">2021</li>
+                    <li className="text-sm sm:text-md my-3 text-white">2021</li>
                   </Link>
                 </div>
               </div>
