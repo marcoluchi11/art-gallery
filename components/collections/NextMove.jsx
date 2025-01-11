@@ -16,7 +16,7 @@ Experience the balance, the beauty, and the boundless creativity of our latest c
         className={`flex flex-wrap mt-[80px] 
         }  `}
       >
-        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+        <div className="flex flex-wrap md:flex-row w-full mt-10">
           <ImageClickHover
             source="/nextmove/nextmove1.png"
             text="NEXT MOVE 1 52X62’ ACRYLICS OVER CANVAS"
@@ -36,8 +36,8 @@ Experience the balance, the beauty, and the boundless creativity of our latest c
           <ImageClickHover
             source="/nextmove/nextmove2.png"
             text="NEXT MOVE 2 60X60’ ACRYLICS OVER CANVAS"
-            sizeW={550}
-            finalsize={700}
+            sizeW={800}
+            finalsize={1000}
           />
         </div>
         <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
@@ -94,6 +94,14 @@ Experience the balance, the beauty, and the boundless creativity of our latest c
           <ImageClickHover
             source="/nextmove/nextmove11.png"
             text="NEXT MOVE 11 62X82’ ACRYLICS OVER CANVAS"
+            sizeW={700}
+            finalsize={1000}
+          />
+        </div>
+        <div className="flex flex-wrap md:flex-row gap-5  w-full mt-10">
+          <ImageClickHover
+            source="/nextmove/nextmove14.png"
+            text="NEXT MOVE 14 90X55’ ACRYLICS OVER CANVAS"
             sizeW={700}
             finalsize={1000}
           />
