@@ -45,14 +45,14 @@ export default function Bio() {
           height={600}
           priority
         />
-        <Image
+        {/* <Image
           className="rounded-md mt-3 mb-3"
           src="/about/bio2.jpg"
           alt="paintingimage"
           width={400}
           height={600}
           priority
-        />
+        /> */}
         {/* <Image
           className="rounded-md mt-3 mb-3"
           src="/about/about4.jpg"
